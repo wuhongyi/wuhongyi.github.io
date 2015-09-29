@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  
+  <title>ROOT Histograms | Hongyi Wu(吴鸿毅)</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta name="description" content="一些基本说明ROOT 版本越高，其函数功能越多。随版本提升，不断修复以前版本的 bug，又增加了新功能。但是从 ROOT 6.03 开始，就要求 Python 版本大于 2.7（LLVM/Clang要求） ，但是在 Scientific Linux 6 下， 直接对系统的 Python 升级版本会造成桌面显示的问题，因为 Python 在版本提升中一些标准更改造成不兼容。一个好的方法就是在 /us">
+<meta property="og:type" content="article">
+<meta property="og:title" content="ROOT Histograms">
+<meta property="og:url" content="http://wuhongyi.github.io/2015/06/07/2015-06-07-ROOTHistograms/index.html">
+<meta property="og:site_name" content="Hongyi Wu(吴鸿毅)">
+<meta property="og:description" content="一些基本说明ROOT 版本越高，其函数功能越多。随版本提升，不断修复以前版本的 bug，又增加了新功能。但是从 ROOT 6.03 开始，就要求 Python 版本大于 2.7（LLVM/Clang要求） ，但是在 Scientific Linux 6 下， 直接对系统的 Python 升级版本会造成桌面显示的问题，因为 Python 在版本提升中一些标准更改造成不兼容。一个好的方法就是在 /us">
+<meta property="og:updated_time" content="2015-09-28T13:07:30.000Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="ROOT Histograms">
+<meta name="twitter:description" content="一些基本说明ROOT 版本越高，其函数功能越多。随版本提升，不断修复以前版本的 bug，又增加了新功能。但是从 ROOT 6.03 开始，就要求 Python 版本大于 2.7（LLVM/Clang要求） ，但是在 Scientific Linux 6 下， 直接对系统的 Python 升级版本会造成桌面显示的问题，因为 Python 在版本提升中一些标准更改造成不兼容。一个好的方法就是在 /us">
+  
+    <link rel="alternative" href="/atom.xml" title="Hongyi Wu(吴鸿毅)" type="application/atom+xml">
+  
+  
+    <link rel="icon" href="/favicon.png">
+  
+  <link rel="stylesheet" href="/css/style.css" type="text/css">
+</head>
+<body>
+  <div id="container">
+    <div class="left-col">
+    <div class="overlay"></div>
+<div class="intrude-less">
+	<header id="header" class="inner">
+		<a href="/" class="profilepic">
+			
+			<img lazy-src="null" class="js-avatar">
+			
+		</a>
+
+		<hgroup>
+		  <h1 class="header-author"><a href="/">Hongyi Wu(吴鸿毅)</a></h1>
+		</hgroup>
+
+		
+		<p class="header-subtitle">work hard or live hard.</p>
+		
+
+		
+			<div class="switch-btn">
+				<div class="icon">
+					<div class="icon-ctn">
+						<div class="icon-wrap icon-house" data-idx="0">
+							<div class="birdhouse"></div>
+							<div class="birdhouse_holes"></div>
+						</div>
+						<div class="icon-wrap icon-ribbon hide" data-idx="1">
+							<div class="ribbon"></div>
+						</div>
+						
+						<div class="icon-wrap icon-link hide" data-idx="2">
+							<div class="loopback_l"></div>
+							<div class="loopback_r"></div>
+						</div>
+						
+						
+						<div class="icon-wrap icon-me hide" data-idx="3">
+							<div class="user"></div>
+							<div class="shoulder"></div>
+						</div>
+						
+					</div>
+					
+				</div>
+				<div class="tips-box hide">
+					<div class="tips-arrow"></div>
+					<ul class="tips-inner">
+						<li>菜单</li>
+						<li>标签</li>
+						
+						<li>友情链接</li>
+						
+						
+						<li>关于我</li>
+						
+					</ul>
+				</div>
+			</div>
+		
+
+		<div class="switch-area">
+			<div class="switch-wrap">
+				<section class="switch-part switch-part1">
+					<nav class="header-menu">
+						<ul>
+						
+							<li><a href="/">Home</a></li>
+				        
+							<li><a href="/archives">Archives</a></li>
+				        
+							<li><a href="/">Geant4&amp;ROOT</a></li>
+				        
+							<li><a href="/">Linux</a></li>
+				        
+						</ul>
+					</nav>
+					<nav class="header-nav">
+						<div class="social">
+							
+								<a class="github" target="_blank" href="https://github.com/wuhongyi" title="github">github</a>
+					        
+								<a class="weibo" target="_blank" href="http://weibo.com/wuhongyi" title="weibo">weibo</a>
+					        
+								<a class="rss" target="_blank" href="/#" title="rss">rss</a>
+					        
+						</div>
+					</nav>
+				</section>
+				
+				
+				<section class="switch-part switch-part2">
+					<div class="widget tagcloud" id="js-tagcloud">
+						
+					</div>
+				</section>
+				
+				
+				
+				<section class="switch-part switch-part3">
+					<div id="js-friends">
+					
+			          <a target="_blank" class="main-nav-link switch-friends-link" href="http://localhost:4000/">奥巴马的博客</a>
+			        
+			          <a target="_blank" class="main-nav-link switch-friends-link" href="http://localhost:4000/">卡卡的美丽传说</a>
+			        
+			          <a target="_blank" class="main-nav-link switch-friends-link" href="http://localhost:4000/">本泽马的博客</a>
+			        
+			          <a target="_blank" class="main-nav-link switch-friends-link" href="http://localhost:4000/">吉格斯的博客</a>
+			        
+			          <a target="_blank" class="main-nav-link switch-friends-link" href="http://localhost:4000/">习大大大不同</a>
+			        
+			          <a target="_blank" class="main-nav-link switch-friends-link" href="http://localhost:4000/">托蒂的博客</a>
+			        
+			        </div>
+				</section>
+				
+
+				
+				
+				<section class="switch-part switch-part4">
+				
+					<div id="js-aboutme">我是谁，我从哪里来，我到哪里去？我就是我，是颜色不一样的吃货…</div>
+				</section>
+				
+			</div>
+		</div>
+	</header>				
+</div>
+    </div>
+    <div class="mid-col">
+      <nav id="mobile-nav">
+  	<div class="overlay">
+  		<div class="slider-trigger"></div>
+  		<h1 class="header-author js-mobile-header hide">Hongyi Wu(吴鸿毅)</h1>
+  	</div>
+	<div class="intrude-less">
+		<header id="header" class="inner">
+			<div class="profilepic">
+				<img lazy-src="null" class="js-avatar">
+			</div>
+			<hgroup>
+			  <h1 class="header-author">Hongyi Wu(吴鸿毅)</h1>
+			</hgroup>
+			
+			<p class="header-subtitle">work hard or live hard.</p>
+			
+			<nav class="header-menu">
+				<ul>
+				
+					<li><a href="/">Home</a></li>
+		        
+					<li><a href="/archives">Archives</a></li>
+		        
+					<li><a href="/">Geant4&amp;ROOT</a></li>
+		        
+					<li><a href="/">Linux</a></li>
+		        
+		        <div class="clearfix"></div>
+				</ul>
+			</nav>
+			<nav class="header-nav">
+				<div class="social">
+					
+						<a class="github" target="_blank" href="https://github.com/wuhongyi" title="github">github</a>
+			        
+						<a class="weibo" target="_blank" href="http://weibo.com/wuhongyi" title="weibo">weibo</a>
+			        
+						<a class="rss" target="_blank" href="/#" title="rss">rss</a>
+			        
+				</div>
+			</nav>
+		</header>				
+	</div>
+</nav>
+      <div class="body-wrap"><article id="post-2015-06-07-ROOTHistograms" class="article article-type-post" itemscope itemprop="blogPost">
+  
+    <div class="article-meta">
+      <a href="/2015/06/07/2015-06-07-ROOTHistograms/" class="article-date">
+  	<time datetime="2015-06-07T02:16:59.000Z" itemprop="datePublished">2015-06-07</time>
+</a>
+    </div>
+  
+  <div class="article-inner">
+    
+      <input type="hidden" class="isFancy" />
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 class="article-title" itemprop="name">
+      ROOT Histograms
+    </h1>
+  
+
+      </header>
+      
+      <div class="article-info article-info-post">
+        
+        
+	<div class="article-category tagcloud">
+	<a class="article-category-link" href="/categories/Software/">Software</a><a class="article-category-link" href="/categories/Software/ROOT/">ROOT</a><a class="article-category-link" href="/categories/Software/ROOT/TH1/">TH1</a>
+	</div>
+
+
+        <div class="clearfix"></div>
+      </div>
+      
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <h1 id="一些基本说明">一些基本说明</h1><p>ROOT 版本越高，其函数功能越多。随版本提升，不断修复以前版本的 bug，又增加了新功能。但是从 ROOT 6.03 开始，就要求 Python 版本大于 2.7（LLVM/Clang要求） ，但是在 Scientific Linux 6 下， 直接对系统的 Python 升级版本会造成桌面显示的问题，因为 Python 在版本提升中一些标准更改造成不兼容。一个好的方法就是在 /usr/local 下安装高版本的 Python，然后安装 ROOT 的时候给指定该 Python 的路径，还有一个偷懒的办法是直接更改 configure 文件中 Phyhon 版本的要求和 interpreter/llvm/src/configure 文件中 Python 版本的要求，这个会不会造成什么影响不清楚。<a id="more"></a></p>
+<p>ROOT6 要求 gcc 版本大于 4.7，经过一年多的使用验证 gcc4.9.2 版本是可靠的。gcc5的版本暂时不要使用。这里我就选择 6.02/10 为基准来介绍 ROOT 的一些使用。</p>
+<h1 id="Histograms">Histograms</h1><h2 id="TH1">TH1</h2><h3 id="TH1(const_char_name,const_char_title,Int_t_nbinsx,Double_t_xlow,Double_t_xup);">TH1(const char <em>name,const char </em>title,Int_t nbinsx,Double_t xlow,Double_t xup);</h3><p>这里 name 是该直方图的变量名字，这个名字命名最好符合 C/C++ 变量的规范，因为在将其保存成 ROOT 文件时候，该名字就是用来操作这个直方图的指针名，title 是用来描述该直方图的，nbinsx 是该直方图要分的分数，xlow 是该直方图的下限，xup 是该直方图的上限。</p>
+<figure class="highlight c"><figcaption><span>++</span></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">TH1D *h=<span class="keyword">new</span> TH1D(<span class="string">"h"</span>,<span class="string">"the title"</span>,<span class="number">100</span>,<span class="number">0.0</span>,<span class="number">10.0</span>);</span><br><span class="line">TH1D *hh=<span class="keyword">new</span> TH1D(<span class="string">"h1"</span>,<span class="string">""</span>,<span class="number">20</span>,-<span class="number">1.0</span>,<span class="number">1.0</span>);</span><br></pre></td></tr></table></figure>
+<h3 id="Bool_t_Add(const_TH1_*h1,_Double_t_c1=1);">Bool_t   Add(const TH1 *h1, Double_t c1=1);</h3><p>该函数是将h1直方图进行c1倍的放大或缩小后加到当前直方图中。</p>
+<figure class="highlight c"><figcaption><span>++</span></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line">TH1D *h=<span class="keyword">new</span> TH1D(<span class="string">"h"</span>,<span class="string">"the title"</span>,<span class="number">60</span>,-<span class="number">3.0</span>,<span class="number">3.0</span>);</span><br><span class="line">TH1D *h1=<span class="keyword">new</span> TH1D(<span class="string">"h1"</span>,<span class="string">""</span>,<span class="number">60</span>,-<span class="number">3.0</span>,<span class="number">3.0</span>);</span><br><span class="line">TRandom *r=<span class="keyword">new</span> TRandom();</span><br><span class="line"><span class="keyword">for</span> (<span class="keyword">int</span> i = <span class="number">0</span>; i&lt;<span class="number">1000</span>; ++i)</span><br><span class="line">&#123;</span><br><span class="line">  h-&gt;Fill(r-&gt;Uniform());</span><br><span class="line">  h1-&gt;Fill(r-&gt;Uniform(<span class="number">1.5</span>,<span class="number">2.5</span>)); </span><br><span class="line">&#125;</span><br><span class="line">h-&gt;Add(h1,<span class="number">2</span>);</span><br><span class="line">h-&gt;Draw();</span><br></pre></td></tr></table></figure>
+<h2 id=""><br></h2><p>&#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160;<strong>Last-Modified: 2015-09-27 23:12</strong></p>
+
+      
+    </div>
+    
+  </div>
+  
+    
+<nav id="article-nav">
+  
+    <a href="/2015/08/10/2015-08-10-wuhongyi/" id="article-nav-newer" class="article-nav-link-wrap">
+      <strong class="article-nav-caption"><</strong>
+      <div class="article-nav-title">
+        
+          博客测试页面
+        
+      </div>
+    </a>
+  
+  
+</nav>
+
+  
+</article>
+
+
+
+
+
+
+<section id="comments">
+  <div id="disqus_thread"></div>
+    <script type="text/javascript">
+    /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+    var disqus_shortname = 'wuhongyi'; // required: replace example with your forum shortname
+
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function() {
+      var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+      dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+      (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+  </script>
+  <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</section>
+
+</div>
+      <footer id="footer">
+  <div class="outer">
+    <div id="footer-info">
+    	<div class="footer-center">
+    		&copy; 2015 Hongyi Wu(吴鸿毅)
+    	</div>
+      	<!-- <div class="footer-right"> -->
+      	<!-- 	<a href="http://hexo.io/" target="_blank">Hexo</a>  Theme <a href="https://github.com/litten/hexo-theme-yilia" target="_blank">Yilia</a> by Litten -->
+      	<!-- </div> -->
+    </div>
+  </div>
+</footer>
+
+    </div>
+    
+  <link rel="stylesheet" href="/fancybox/jquery.fancybox.css" type="text/css">
+
+
+<script>
+	var yiliaConfig = {
+		fancybox: true,
+		mathjax: true,
+		animate: true,
+		isHome: false,
+		isPost: true,
+		isArchive: false,
+		isTag: false,
+		isCategory: false,
+		open_in_new: false
+	}
+</script>
+<script src="http://7.url.cn/edu/jslib/comb/require-2.1.6,jquery-1.9.1.min.js" type="text/javascript"></script>
+<script src="/js/main.js" type="text/javascript"></script>
+
+
+
+
+
+
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+    tex2jax: {
+        inlineMath: [ ['$','$'], ["\\(","\\)"]  ],
+        processEscapes: true,
+        skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
+    }
+});
+
+MathJax.Hub.Queue(function() {
+    var all = MathJax.Hub.getAllJax(), i;
+    for(i=0; i < all.length; i += 1) {
+        all[i].SourceElement().parentNode.className += ' has-jax';                 
+    }       
+});
+</script>
+
+<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
+
+
+  </div>
+</body>
+</html>
