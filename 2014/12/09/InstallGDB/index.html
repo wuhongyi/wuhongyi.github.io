@@ -3,17 +3,18 @@
 <head>
   <meta charset="utf-8">
   
-  <title>Tag: Linux | Hongyi Wu(吴鸿毅)</title>
+  <title>Scientific Linux 安装 GDB | Hongyi Wu(吴鸿毅)</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description">
-<meta property="og:type" content="website">
-<meta property="og:title" content="Hongyi Wu(吴鸿毅)">
-<meta property="og:url" content="http://wuhongyi.github.io/tags/Linux/index.html">
+  <meta name="description" content="&amp;#160; &amp;#160; &amp;#160; &amp;#160;GDB 的好处只有用过了才能体会，可以大大加快调试进度。系统自带的 GDB 版本当升级 GCC 到 4.8 后, 会发现 GDB 与 GCC 不兼容,一般会报 “符号表找不到”或”Missing separate debuginfos, use: debuginfo-install glib” 这样的错误,将 GDB 升级到 7.6 之后版本即">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Scientific Linux 安装 GDB">
+<meta property="og:url" content="http://wuhongyi.github.io/2014/12/09/InstallGDB/index.html">
 <meta property="og:site_name" content="Hongyi Wu(吴鸿毅)">
-<meta property="og:description">
+<meta property="og:description" content="&amp;#160; &amp;#160; &amp;#160; &amp;#160;GDB 的好处只有用过了才能体会，可以大大加快调试进度。系统自带的 GDB 版本当升级 GCC 到 4.8 后, 会发现 GDB 与 GCC 不兼容,一般会报 “符号表找不到”或”Missing separate debuginfos, use: debuginfo-install glib” 这样的错误,将 GDB 升级到 7.6 之后版本即">
+<meta property="og:updated_time" content="2015-09-30T09:01:24.000Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Hongyi Wu(吴鸿毅)">
-<meta name="twitter:description">
+<meta name="twitter:title" content="Scientific Linux 安装 GDB">
+<meta name="twitter:description" content="&amp;#160; &amp;#160; &amp;#160; &amp;#160;GDB 的好处只有用过了才能体会，可以大大加快调试进度。系统自带的 GDB 版本当升级 GCC 到 4.8 后, 会发现 GDB 与 GCC 不兼容,一般会报 “符号表找不到”或”Missing separate debuginfos, use: debuginfo-install glib” 这样的错误,将 GDB 升级到 7.6 之后版本即">
   
     <link rel="alternative" href="/atom.xml" title="Hongyi Wu(吴鸿毅)" type="application/atom+xml">
   
@@ -199,197 +200,103 @@
 		</header>				
 	</div>
 </nav>
-      <div class="body-wrap">
+      <div class="body-wrap"><article id="post-InstallGDB" class="article article-type-post" itemscope itemprop="blogPost">
   
-  
-    
-    
-      
-      
-      <section class="archives-wrap">
-        <div class="archive-year-wrap">
-          <a href="/archives/3000" class="archive-year">3000</a>
-        </div>
-        <div class="archives">
-    
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      	<div class="article-meta">
-	      	<a href="/3000/01/01/hello-world/" class="archive-article-date">
-  	<time datetime="2999-12-31T16:00:00.000Z" itemprop="datePublished">1月 1</time>
+    <div class="article-meta">
+      <a href="/2014/12/09/InstallGDB/" class="article-date">
+  	<time datetime="2014-12-09T02:30:58.000Z" itemprop="datePublished">2014-12-09</time>
 </a>
-        </div>
-    	 
+    </div>
   
-    <h1 itemprop="name">
-      <a class="archive-article-title" href="/3000/01/01/hello-world/">Hello ! Read Me.</a>
+  <div class="article-inner">
+    
+      <input type="hidden" class="isFancy" />
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 class="article-title" itemprop="name">
+      Scientific Linux 安装 GDB
     </h1>
   
 
-        <div class="article-info info-on-right">
-          
-	<div class="article-tag tagcloud">
-		<ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Geant4-ROOT/">Geant4-ROOT</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Linux/">Linux</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Nuclearphysics/">Nuclearphysics</a></li></ul>
-	</div>
-
-          
-
-        </div>
-        <div class="clearfix"></div>
-    </header>
-  </div>
-</article>
-  
-    
-    
+      </header>
       
-        </div></section>
-      
-      
-      <section class="archives-wrap">
-        <div class="archive-year-wrap">
-          <a href="/archives/2015" class="archive-year">2015</a>
-        </div>
-        <div class="archives">
-    
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      	<div class="article-meta">
-	      	<a href="/2015/08/18/InstallChrome/" class="archive-article-date">
-  	<time datetime="2015-08-18T06:07:05.000Z" itemprop="datePublished">8月 18</time>
-</a>
-        </div>
-    	 
-  
-    <h1 itemprop="name">
-      <a class="archive-article-title" href="/2015/08/18/InstallChrome/">Scientific Linux 自动安装谷歌浏览器 chrome</a>
-    </h1>
-  
-
-        <div class="article-info info-on-right">
-          
-	<div class="article-tag tagcloud">
-		<ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Chrome/">Chrome</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Linux/">Linux</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Software/">Software</a></li></ul>
-	</div>
-
-          
-
-        </div>
-        <div class="clearfix"></div>
-    </header>
-  </div>
-</article>
-  
-    
-    
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      	<div class="article-meta">
-	      	<a href="/2015/06/07/ROOTHistograms/" class="archive-article-date">
-  	<time datetime="2015-06-07T02:16:59.000Z" itemprop="datePublished">6月 7</time>
-</a>
-        </div>
-    	 
-  
-    <h1 itemprop="name">
-      <a class="archive-article-title" href="/2015/06/07/ROOTHistograms/">ROOT Histograms</a>
-    </h1>
-  
-
-        <div class="article-info info-on-right">
-          
-	<div class="article-tag tagcloud">
-		<ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Geant4-ROOT/">Geant4-ROOT</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Linux/">Linux</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Software/">Software</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/TH1/">TH1</a></li></ul>
-	</div>
-
-          
-
-        </div>
-        <div class="clearfix"></div>
-    </header>
-  </div>
-</article>
-  
-    
-    
-      
-        </div></section>
-      
-      
-      <section class="archives-wrap">
-        <div class="archive-year-wrap">
-          <a href="/archives/2014" class="archive-year">2014</a>
-        </div>
-        <div class="archives">
-    
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      	<div class="article-meta">
-	      	<a href="/2014/12/09/InstallGDB/" class="archive-article-date">
-  	<time datetime="2014-12-09T02:30:58.000Z" itemprop="datePublished">12月 9</time>
-</a>
-        </div>
-    	 
-  
-    <h1 itemprop="name">
-      <a class="archive-article-title" href="/2014/12/09/InstallGDB/">Scientific Linux 安装 GDB</a>
-    </h1>
-  
-
-        <div class="article-info info-on-right">
-          
+      <div class="article-info article-info-post">
+        
 	<div class="article-tag tagcloud">
 		<ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/GDB/">GDB</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Linux/">Linux</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Software/">Software</a></li></ul>
 	</div>
 
-          
+        
 
-        </div>
         <div class="clearfix"></div>
-    </header>
+      </div>
+      
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <p>&#160; &#160; &#160; &#160;GDB 的好处只有用过了才能体会，可以大大加快调试进度。系统自带的 GDB 版本当升级 GCC 到 4.8 后, 会发现 GDB 与 GCC 不兼容,一般会报 “符号表找不到”或”Missing separate debuginfos, use: debuginfo-install glib” 这样的错误,将 GDB 升级到 7.6 之后版本即可解决。<br><a id="more"></a></p>
+<h2 id="下载源码">下载源码</h2><p>可以通过网站 <a href="http://sourceware.org/gdb/" target="_blank" rel="external">http://sourceware.org/gdb/</a> 下载源码，或者点击<a href="http://share.weiyun.com/6a10cc74bfadf425273dd9b5583c7db2" target="_blank" rel="external">下载</a> 我网盘的 7.8 版本。</p>
+<h2 id="安装">安装</h2><p>解压缩下载的源码，在文件夹内打开终端，依次执行<br><figure class="highlight"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">./configure --prefix=/usr&#10;make -j4&#10;make install</span><br></pre></td></tr></table></figure></p>
+<p>&#160; &#160; &#160; &#160;其中，<br><figure class="highlight"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">make -j4</span><br></pre></td></tr></table></figure></p>
+<p>4为所用核数，当然调用的核越多速度就越快。改成你电脑相应核数即可。</p>
+<p>&#160; &#160; &#160; &#160;其中，<br><figure class="highlight"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">make install</span><br></pre></td></tr></table></figure></p>
+<p>需要 root 权限。</p>
+<p>以上是直接覆盖系统 GDB 版本的安装。当然，你也可以通过改变 <strong>--prefix=/usr</strong> 指定你想要的安装地点。</p>
+<hr>
+<p>&#160; &#160; &#160; &#160;在终端中如何使用 GDB 进行调试这里就不介绍了，百度一下完全能解决你的问题（其实在终端进行调试我几乎不会）。编译程序时务必加上 <strong>-g</strong> 参数。<br>&#160; &#160; &#160; &#160;个人建议在 emacs 下使用 GDB 调试效果更好。可以百度 “emacs+gdb” 参考其他人的配置。</p>
+<h2 id=""><br></h2><p>&#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160;<strong>Update: 2. Last-Modified: 2014-12-09 10:33</strong></p>
+
+      
+    </div>
+    
   </div>
+  
+    
+<nav id="article-nav">
+  
+    <a href="/2015/06/07/ROOTHistograms/" id="article-nav-newer" class="article-nav-link-wrap">
+      <strong class="article-nav-caption"><</strong>
+      <div class="article-nav-title">
+        
+          ROOT Histograms
+        
+      </div>
+    </a>
+  
+  
+    <a href="/2014/08/10/rarlinux/" id="article-nav-older" class="article-nav-link-wrap">
+      <div class="article-nav-title">Scientific Linux 安装 rarlinux 支持解压缩/压缩rar后缀压缩包</div>
+      <strong class="article-nav-caption">></strong>
+    </a>
+  
+</nav>
+
+  
 </article>
-  
-    
-    
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      	<div class="article-meta">
-	      	<a href="/2014/08/10/rarlinux/" class="archive-article-date">
-  	<time datetime="2014-08-10T02:20:00.000Z" itemprop="datePublished">8月 10</time>
-</a>
-        </div>
-    	 
-  
-    <h1 itemprop="name">
-      <a class="archive-article-title" href="/2014/08/10/rarlinux/">Scientific Linux 安装 rarlinux 支持解压缩/压缩rar后缀压缩包</a>
-    </h1>
-  
 
-        <div class="article-info info-on-right">
-          
-	<div class="article-tag tagcloud">
-		<ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Linux/">Linux</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Software/">Software</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/rar/">rar</a></li></ul>
-	</div>
 
-          
 
-        </div>
-        <div class="clearfix"></div>
-    </header>
-  </div>
-</article>
-  
-  
-    </div></section>
-  
 
-    
+
+
+<section id="comments">
+  <div id="disqus_thread"></div>
+    <script type="text/javascript">
+    /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+    var disqus_shortname = 'wuhongyi'; // required: replace example with your forum shortname
+
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function() {
+      var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+      dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+      (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+  </script>
+  <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</section>
 
 </div>
       <footer id="footer">
@@ -416,9 +323,9 @@
 		mathjax: true,
 		animate: true,
 		isHome: false,
-		isPost: false,
+		isPost: true,
 		isArchive: false,
-		isTag: true,
+		isTag: false,
 		isCategory: false,
 		open_in_new: false
 	}
