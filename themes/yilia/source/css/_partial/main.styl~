@@ -119,7 +119,7 @@
 	}
 	.header-subtitle{
 		text-align: center;
-		color: blue;
+		color: red;
 		font-size: 14px;
 		line-height: 25px;
 		overflow: hidden;

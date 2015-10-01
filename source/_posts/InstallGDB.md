@@ -14,9 +14,9 @@ tags: [Linux,Software,GDB]
 ## 安装
 解压缩下载的源码，在文件夹内打开终端，依次执行
 ~~~shell
-./configure --prefix=/usr
-make -j4
-make install
+$ ./configure --prefix=/usr
+$ make -j4
+# make install
 ~~~
 
 &#160; &#160; &#160; &#160;其中，

@@ -19,8 +19,8 @@ tags: [Linux,Software,rar]
 	- 在终端中输入 make 回车；
 终端命令：
 ~~~shell
-su
-make
+$ su
+# make
 ~~~
 ----
 &#160; &#160; &#160; &#160;
