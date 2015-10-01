@@ -11,7 +11,7 @@
 <meta property="og:url" content="http://wuhongyi.github.io/2014/12/09/InstallGDB/index.html">
 <meta property="og:site_name" content="Hongyi Wu(吴鸿毅)">
 <meta property="og:description" content="&amp;#160; &amp;#160; &amp;#160; &amp;#160;GDB 的好处只有用过了才能体会，可以大大加快调试进度。系统自带的 GDB 版本当升级 GCC 到 4.8 后, 会发现 GDB 与 GCC 不兼容,一般会报 “符号表找不到”或”Missing separate debuginfos, use: debuginfo-install glib” 这样的错误,将 GDB 升级到 7.6 之后版本即">
-<meta property="og:updated_time" content="2015-09-30T09:01:24.000Z">
+<meta property="og:updated_time" content="2015-10-01T07:27:50.000Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Scientific Linux 安装 GDB">
 <meta name="twitter:description" content="&amp;#160; &amp;#160; &amp;#160; &amp;#160;GDB 的好处只有用过了才能体会，可以大大加快调试进度。系统自带的 GDB 版本当升级 GCC 到 4.8 后, 会发现 GDB 与 GCC 不兼容,一般会报 “符号表找不到”或”Missing separate debuginfos, use: debuginfo-install glib” 这样的错误,将 GDB 升级到 7.6 之后版本即">
@@ -119,7 +119,7 @@
 				
 				<section class="switch-part switch-part2">
 					<div class="widget tagcloud" id="js-tagcloud">
-						<a href="/tags/Chrome/" style="font-size: 10px;">Chrome</a> <a href="/tags/GDB/" style="font-size: 10px;">GDB</a> <a href="/tags/Geant4-ROOT/" style="font-size: 13.33px;">Geant4-ROOT</a> <a href="/tags/Linux/" style="font-size: 20px;">Linux</a> <a href="/tags/Nuclearphysics/" style="font-size: 10px;">Nuclearphysics</a> <a href="/tags/Software/" style="font-size: 16.67px;">Software</a> <a href="/tags/TEST/" style="font-size: 10px;">TEST</a> <a href="/tags/TH1/" style="font-size: 10px;">TH1</a> <a href="/tags/rar/" style="font-size: 10px;">rar</a>
+						<a href="/tags/Chrome/" style="font-size: 10px;">Chrome</a> <a href="/tags/GDB/" style="font-size: 10px;">GDB</a> <a href="/tags/Geant4-ROOT/" style="font-size: 13.33px;">Geant4-ROOT</a> <a href="/tags/Linux/" style="font-size: 20px;">Linux</a> <a href="/tags/Nuclearphysics/" style="font-size: 10px;">Nuclearphysics</a> <a href="/tags/Software/" style="font-size: 16.67px;">Software</a> <a href="/tags/TEST/" style="font-size: 10px;">TEST</a> <a href="/tags/TH1/" style="font-size: 10px;">TH1</a> <a href="/tags/cryptsetup/" style="font-size: 10px;">cryptsetup</a> <a href="/tags/rar/" style="font-size: 10px;">rar</a> <a href="/tags/texlive/" style="font-size: 10px;">texlive</a> <a href="/tags/wiznote/" style="font-size: 10px;">wiznote</a>
 					</div>
 				</section>
 				
@@ -239,7 +239,7 @@
       
         <p>&#160; &#160; &#160; &#160;GDB 的好处只有用过了才能体会，可以大大加快调试进度。系统自带的 GDB 版本当升级 GCC 到 4.8 后, 会发现 GDB 与 GCC 不兼容,一般会报 “符号表找不到”或”Missing separate debuginfos, use: debuginfo-install glib” 这样的错误,将 GDB 升级到 7.6 之后版本即可解决。<br><a id="more"></a></p>
 <h2 id="下载源码">下载源码</h2><p>可以通过网站 <a href="http://sourceware.org/gdb/" target="_blank" rel="external">http://sourceware.org/gdb/</a> 下载源码，或者点击<a href="http://share.weiyun.com/6a10cc74bfadf425273dd9b5583c7db2" target="_blank" rel="external">下载</a> 我网盘的 7.8 版本。</p>
-<h2 id="安装">安装</h2><p>解压缩下载的源码，在文件夹内打开终端，依次执行<br><figure class="highlight"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">./configure --prefix=/usr&#10;make -j4&#10;make install</span><br></pre></td></tr></table></figure></p>
+<h2 id="安装">安装</h2><p>解压缩下载的源码，在文件夹内打开终端，依次执行<br><figure class="highlight"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ ./configure --prefix=/usr&#10;$ make -j4&#10;# make install</span><br></pre></td></tr></table></figure></p>
 <p>&#160; &#160; &#160; &#160;其中，<br><figure class="highlight"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">make -j4</span><br></pre></td></tr></table></figure></p>
 <p>4为所用核数，当然调用的核越多速度就越快。改成你电脑相应核数即可。</p>
 <p>&#160; &#160; &#160; &#160;其中，<br><figure class="highlight"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">make install</span><br></pre></td></tr></table></figure></p>
@@ -257,11 +257,11 @@
     
 <nav id="article-nav">
   
-    <a href="/2015/06/07/ROOTHistograms/" id="article-nav-newer" class="article-nav-link-wrap">
+    <a href="/2014/12/26/texlive/" id="article-nav-newer" class="article-nav-link-wrap">
       <strong class="article-nav-caption"><</strong>
       <div class="article-nav-title">
         
-          ROOT Histograms
+          Scientific Linux 安装 texlive
         
       </div>
     </a>
