@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  
+  <title>linux PATH环境变量全解析 | Hongyi Wu(吴鸿毅)</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta name="description" content="&amp;#160; &amp;#160; &amp;#160; &amp;#160;关于 PATH 的作用：PATH 说简单点就是一个字符串变量，当输入命令的时候 LINUX 会去查找 PATH 里面记录的路径。比如在根目录/下可以输入命令 ls。">
+<meta property="og:type" content="article">
+<meta property="og:title" content="linux PATH环境变量全解析">
+<meta property="og:url" content="http://wuhongyi.github.io/2013/10/01/linuxPATH/index.html">
+<meta property="og:site_name" content="Hongyi Wu(吴鸿毅)">
+<meta property="og:description" content="&amp;#160; &amp;#160; &amp;#160; &amp;#160;关于 PATH 的作用：PATH 说简单点就是一个字符串变量，当输入命令的时候 LINUX 会去查找 PATH 里面记录的路径。比如在根目录/下可以输入命令 ls。">
+<meta property="og:updated_time" content="2015-10-02T07:33:47.000Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="linux PATH环境变量全解析">
+<meta name="twitter:description" content="&amp;#160; &amp;#160; &amp;#160; &amp;#160;关于 PATH 的作用：PATH 说简单点就是一个字符串变量，当输入命令的时候 LINUX 会去查找 PATH 里面记录的路径。比如在根目录/下可以输入命令 ls。">
+  
+    <link rel="alternative" href="/atom.xml" title="Hongyi Wu(吴鸿毅)" type="application/atom+xml">
+  
+  
+    <link rel="icon" href="/favicon.png">
+  
+  <link rel="stylesheet" href="/css/style.css" type="text/css">
+</head>
+<body>
+  <div id="container">
+    <div class="left-col">
+    <div class="overlay"></div>
+<div class="intrude-less">
+	<header id="header" class="inner">
+		<a href="/" class="profilepic">
+			
+			<img lazy-src="img/why.jpg" class="js-avatar">
+			
+		</a>
+
+		<hgroup>
+		  <h1 class="header-author"><a href="/">Hongyi Wu(吴鸿毅)</a></h1>
+		</hgroup>
+
+		
+		<p class="header-subtitle">坚持引进、消化、吸收……</p>
+		
+
+		
+			<div class="switch-btn">
+				<div class="icon">
+					<div class="icon-ctn">
+						<div class="icon-wrap icon-house" data-idx="0">
+							<div class="birdhouse"></div>
+							<div class="birdhouse_holes"></div>
+						</div>
+						<div class="icon-wrap icon-ribbon hide" data-idx="1">
+							<div class="ribbon"></div>
+						</div>
+						
+						<div class="icon-wrap icon-link hide" data-idx="2">
+							<div class="loopback_l"></div>
+							<div class="loopback_r"></div>
+						</div>
+						
+						
+						<div class="icon-wrap icon-me hide" data-idx="3">
+							<div class="user"></div>
+							<div class="shoulder"></div>
+						</div>
+						
+					</div>
+					
+				</div>
+				<div class="tips-box hide">
+					<div class="tips-arrow"></div>
+					<ul class="tips-inner">
+						<li>Menu</li>
+						<li>Tags</li>
+						
+						<li>Link</li>
+						
+						
+						<li>AboutMe</li>
+						
+					</ul>
+				</div>
+			</div>
+		
+
+		<div class="switch-area">
+			<div class="switch-wrap">
+				<section class="switch-part switch-part1">
+					<nav class="header-menu">
+						<ul>
+						
+							<li><a href="/">Home</a></li>
+				        
+							<li><a href="/archives">Archives</a></li>
+				        
+							<li><a href="/tags/Linux">Linux</a></li>
+				        
+							<li><a href="/tags/Nuclearphysics">Nuclearphysics</a></li>
+				        
+							<li><a href="/about">AboutMe</a></li>
+				        
+						</ul>
+					</nav>
+					<nav class="header-nav">
+						<div class="social">
+							
+								<a class="github" target="_blank" href="https://github.com/wuhongyi" title="github">github</a>
+					        
+								<a class="weibo" target="_blank" href="http://weibo.com/wuhongyi" title="weibo">weibo</a>
+					        
+								<a class="rss" target="_blank" href="/#" title="rss">rss</a>
+					        
+						</div>
+					</nav>
+				</section>
+				
+				
+				<section class="switch-part switch-part2">
+					<div class="widget tagcloud" id="js-tagcloud">
+						<a href="/tags/C-C/" style="font-size: 15px;">C/C++</a> <a href="/tags/Chrome/" style="font-size: 10px;">Chrome</a> <a href="/tags/GDB/" style="font-size: 10px;">GDB</a> <a href="/tags/Geant4-ROOT/" style="font-size: 12.5px;">Geant4-ROOT</a> <a href="/tags/Linux/" style="font-size: 20px;">Linux</a> <a href="/tags/Makefile/" style="font-size: 10px;">Makefile</a> <a href="/tags/Nuclearphysics/" style="font-size: 10px;">Nuclearphysics</a> <a href="/tags/PATH/" style="font-size: 10px;">PATH</a> <a href="/tags/RTFM/" style="font-size: 10px;">RTFM</a> <a href="/tags/Software/" style="font-size: 17.5px;">Software</a> <a href="/tags/TEST/" style="font-size: 10px;">TEST</a> <a href="/tags/TH1/" style="font-size: 10px;">TH1</a> <a href="/tags/cmake/" style="font-size: 10px;">cmake</a> <a href="/tags/cryptsetup/" style="font-size: 10px;">cryptsetup</a> <a href="/tags/essay/" style="font-size: 12.5px;">essay</a> <a href="/tags/rand/" style="font-size: 10px;">rand</a> <a href="/tags/rar/" style="font-size: 10px;">rar</a> <a href="/tags/shell/" style="font-size: 12.5px;">shell</a> <a href="/tags/string/" style="font-size: 10px;">string</a> <a href="/tags/texlive/" style="font-size: 10px;">texlive</a> <a href="/tags/wiznote/" style="font-size: 10px;">wiznote</a>
+					</div>
+				</section>
+				
+				
+				
+				<section class="switch-part switch-part3">
+					<div id="js-friends">
+					
+			          <a target="_blank" class="main-nav-link switch-friends-link" href="http://http://www.pku.edu.cn/">PekingUniversity</a>
+			        
+			          <a target="_blank" class="main-nav-link switch-friends-link" href="http://geant4.cern.ch/">Geant4</a>
+			        
+			          <a target="_blank" class="main-nav-link switch-friends-link" href="http://root.cern.ch/drupal/">ROOT</a>
+			        
+			          <a target="_blank" class="main-nav-link switch-friends-link" href="http://www.cplusplus.com/">C++</a>
+			        
+			        </div>
+				</section>
+				
+
+				
+				
+				<section class="switch-part switch-part4">
+				
+					<div id="js-aboutme">人民，只有人民，才是创造世界历史的动力！</div>
+				</section>
+				
+			</div>
+		</div>
+	</header>				
+</div>
+
+    </div>
+    <div class="mid-col">
+      <nav id="mobile-nav">
+  	<div class="overlay">
+  		<div class="slider-trigger"></div>
+  		<h1 class="header-author js-mobile-header hide">Hongyi Wu(吴鸿毅)</h1>
+  	</div>
+	<div class="intrude-less">
+		<header id="header" class="inner">
+			<div class="profilepic">
+				<img lazy-src="img/why.jpg" class="js-avatar">
+			</div>
+			<hgroup>
+			  <h1 class="header-author">Hongyi Wu(吴鸿毅)</h1>
+			</hgroup>
+			
+			<p class="header-subtitle">坚持引进、消化、吸收……</p>
+			
+			<nav class="header-menu">
+				<ul>
+				
+					<li><a href="/">Home</a></li>
+		        
+					<li><a href="/archives">Archives</a></li>
+		        
+					<li><a href="/tags/Linux">Linux</a></li>
+		        
+					<li><a href="/tags/Nuclearphysics">Nuclearphysics</a></li>
+		        
+					<li><a href="/about">AboutMe</a></li>
+		        
+		        <div class="clearfix"></div>
+				</ul>
+			</nav>
+			<nav class="header-nav">
+				<div class="social">
+					
+						<a class="github" target="_blank" href="https://github.com/wuhongyi" title="github">github</a>
+			        
+						<a class="weibo" target="_blank" href="http://weibo.com/wuhongyi" title="weibo">weibo</a>
+			        
+						<a class="rss" target="_blank" href="/#" title="rss">rss</a>
+			        
+				</div>
+			</nav>
+		</header>				
+	</div>
+</nav>
+      <div class="body-wrap"><article id="post-linuxPATH" class="article article-type-post" itemscope itemprop="blogPost">
+  
+    <div class="article-meta">
+      <a href="/2013/10/01/linuxPATH/" class="article-date">
+  	<time datetime="2013-10-01T06:43:00.000Z" itemprop="datePublished">2013-10-01</time>
+</a>
+    </div>
+  
+  <div class="article-inner">
+    
+      <input type="hidden" class="isFancy" />
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 class="article-title" itemprop="name">
+      linux PATH环境变量全解析
+    </h1>
+  
+
+      </header>
+      
+      <div class="article-info article-info-post">
+        
+	<div class="article-tag tagcloud">
+		<ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Linux/">Linux</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/PATH/">PATH</a></li></ul>
+	</div>
+
+        
+
+        <div class="clearfix"></div>
+      </div>
+      
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <p>&#160; &#160; &#160; &#160;关于 PATH 的作用：PATH 说简单点就是一个字符串变量，当输入命令的时候 LINUX 会去查找 PATH 里面记录的路径。比如在根目录/下可以输入命令 ls。<br><a id="more"></a><br>在 /usr 目录下也可以输入 ls,但其实 ls 这个命令根本不在这个两个目录下。<br>事实上当你输入命令的时候 LINUX 会去 /bin,/usr/bin,/sbin 等目录下面去找你此时输入的命令，而 PATH 的值恰恰就是 /bin:/sbin:/usr/bin:……。<br>其中的冒号使目录与目录之间隔开。  </p>
+<h2 id="关于新增自定义路径：">关于新增自定义路径：</h2><p>假设新安装了一个命令在 /usr/locar/new/bin 下面，如果想像 ls 一样在任何地方都使用这个命令，就需要修改环境变量 PATH 了。<br>准确的说就是给 PATH 增加一个值 /usr/locar/new/bin。</p>
+<h2 id="需要一行bash命令:">需要一行bash命令:</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">export</span> PATH=<span class="variable">$PATH</span>:/usr/locar/new/bin</span><br></pre></td></tr></table></figure>
+<p>这条命令的意思为: 使 PATH 自增:/usr/locar/new/bin,<br>即<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">PATH=PATH+<span class="string">":/usr/locar/new/bin"</span>;</span><br></pre></td></tr></table></figure></p>
+<h2 id="通常的做法是：">通常的做法是：</h2><p>把这行 bash 命令写到 /root/.bashrc 的末尾，然后当你重新登陆 LINUX 的时候（linux 启动时就会执行这个文件），新的默认路径就添加进去了。<br>当然，也可以直接用命令：<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ <span class="built_in">source</span> /root/.bashrc</span><br></pre></td></tr></table></figure></p>
+<p>执行这个文件重新登陆了。可以用 echo $PATH 命令查看PATH的值。</p>
+<h2 id="关于删除自定义路径：">关于删除自定义路径：</h2><p>如果发现新增的路径 /usr/locar/new/bin 已经没用了，可以修改 /root/.bashrc 文件里面你新增的路径。<br>或者修改 /etc/profile 文件删除不需要的路径。</p>
+<p>修改/root/.bashrc文件，删除相应环境变量选项，然后<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ <span class="built_in">source</span> /root/.bashrc</span><br></pre></td></tr></table></figure></p>
+<p>即可。<br>或者可以利用命令。如要删除 PATH 里的 /usr/local/del/bin:变量，则可直接在命令行里输入<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ <span class="built_in">export</span> PATH=$(<span class="built_in">echo</span> <span class="variable">$PATH</span> | sed <span class="string">'s/:\/usr\/local\/del\/bin:/:/g'</span>)</span><br></pre></td></tr></table></figure></p>
+<p>注意：＂／＂代表转意字符。</p>
+<hr>
+<p>比如要把 /etc/apache/bin 目录添加到 PATH 中，方法有三：</p>
+<ul>
+<li><p>1.</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ PATH=<span class="variable">$PATH</span>:/etc/apache/bin</span><br></pre></td></tr></table></figure>
+<p>使用这种方法,只对当前会话有效，也就是说每当登出或注销系统以后，PATH 设置就会失效。</p>
+</li>
+<li><p>2.</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ emacs /etc/profile</span><br></pre></td></tr></table></figure>
+<p>在适当位置添加 PATH=$PATH:/etc/apache/bin （注意：＝ 即等号两边不能有任何空格）<br>这种方法最好,除非你手动强制修改 PATH 的值,否则将不会被改变。</p>
+</li>
+<li><p>3.</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ emacs ~/.bash_profile</span><br></pre></td></tr></table></figure>
+<p>修改 PATH 行,把 /etc/apache/bin 添加进去，这种方法是针对用户起作用的。</p>
+</li>
+</ul>
+<p><strong>NOTE：</strong><br>想改变 PATH，必须重新登陆才能生效，以下方法可以简化工作：<br>如果修改了/etc/profile，<br>那么编辑结束后执行<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ <span class="built_in">source</span> profile  (<span class="built_in">source</span> /etc/profile)</span><br></pre></td></tr></table></figure></p>
+<p>或 执行点命令<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ ./profile</span><br></pre></td></tr></table></figure></p>
+<p>PATH 的值就会立即生效了。<br>这个方法的原理就是再执行一次 /etc/profile shell 脚本，注意如果用sh /etc/profile 是不行的，因为 sh 是在子 shell 进程中执行的，即使 PATH 改变了也不会反应到当前环境中，但是 source 是在当前 shell进程中执行的，所以我们能看到 PATH 的改变。</p>
+<p>这样你就学会 Linux 系统下修改环境变量 PATH 路径的方法。</p>
+<h2 id="补充说明">补充说明</h2><p>工作环境设置文件<br>环境设置文件有两种：系统环境设置文件 和 个人环境设置文件：</p>
+<p>1.系统中的用户工作环境设置文件：<br><figure class="highlight gradle"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">登录环境设置文件：<span class="regexp">/etc/</span>profile  </span><br><span class="line">非登录环境设置文件：<span class="regexp">/etc/</span>bashrc</span><br></pre></td></tr></table></figure></p>
+<p>2.用户个人设置的环境设置文件：<br><figure class="highlight xquery"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">登录环境设置文件: <span class="variable">$HOME</span>/.bash_profile   //这个是环境变量设置的地方</span><br><span class="line">非登录环境设置文件：<span class="variable">$HOME</span>/.bashrc       //这个是定义别名的地方</span><br></pre></td></tr></table></figure></p>
+<p><strong>登录环境：</strong>指用户登录系统后的工作环境<br><strong>非登录环境：</strong>指用户再调用子shell时所使用的用户环境</p>
+<hr>
+<p>本文转自：<a href="http://www.2cto.com/os/201211/165769.html" target="_blank" rel="external">http://www.2cto.com/os/201211/165769.html</a> </p>
+
+      
+    </div>
+    
+  </div>
+  
+    
+<nav id="article-nav">
+  
+    <a href="/2013/10/06/Makefile20131006/" id="article-nav-newer" class="article-nav-link-wrap">
+      <strong class="article-nav-caption"><</strong>
+      <div class="article-nav-title">
+        
+          一个C/C++通用Makefile
+        
+      </div>
+    </a>
+  
+  
+    <a href="/2013/09/24/RTFM/" id="article-nav-older" class="article-nav-link-wrap">
+      <div class="article-nav-title">RTFM(去读那些他妈的手册)</div>
+      <strong class="article-nav-caption">></strong>
+    </a>
+  
+</nav>
+
+  
+</article>
+
+
+
+
+
+
+<section id="comments">
+  <div id="disqus_thread"></div>
+    <script type="text/javascript">
+    /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+    var disqus_shortname = 'wuhongyi'; // required: replace example with your forum shortname
+
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function() {
+      var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+      dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+      (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+  </script>
+  <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</section>
+
+</div>
+      <footer id="footer">
+  <div class="outer">
+    <div id="footer-info">
+    	<div class="footer-center">
+    		&copy; 2015 Hongyi Wu(吴鸿毅)
+    	</div>
+      	<!-- <div class="footer-right"> -->
+      	<!-- 	<a href="http://hexo.io/" target="_blank">Hexo</a>  Theme <a href="https://github.com/litten/hexo-theme-yilia" target="_blank">Yilia</a> by Litten -->
+      	<!-- </div> -->
+    </div>
+  </div>
+</footer>
+
+    </div>
+    
+  <link rel="stylesheet" href="/fancybox/jquery.fancybox.css" type="text/css">
+
+
+<script>
+	var yiliaConfig = {
+		fancybox: true,
+		mathjax: true,
+		animate: true,
+		isHome: false,
+		isPost: true,
+		isArchive: false,
+		isTag: false,
+		isCategory: false,
+		open_in_new: false
+	}
+</script>
+<script src="http://7.url.cn/edu/jslib/comb/require-2.1.6,jquery-1.9.1.min.js" type="text/javascript"></script>
+<script src="/js/main.js" type="text/javascript"></script>
+
+
+
+
+
+
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+    tex2jax: {
+        inlineMath: [ ['$','$'], ["\\(","\\)"]  ],
+        processEscapes: true,
+        skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
+    }
+});
+
+MathJax.Hub.Queue(function() {
+    var all = MathJax.Hub.getAllJax(), i;
+    for(i=0; i < all.length; i += 1) {
+        all[i].SourceElement().parentNode.className += ' has-jax';                 
+    }       
+});
+</script>
+
+<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
+
+
+  </div>
+</body>
+</html>
