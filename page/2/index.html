@@ -118,7 +118,7 @@
 				
 				<section class="switch-part switch-part2">
 					<div class="widget tagcloud" id="js-tagcloud">
-						<a href="/tags/C-C/" style="font-size: 17.5px;">C/C++</a> <a href="/tags/Chrome/" style="font-size: 10px;">Chrome</a> <a href="/tags/GDB/" style="font-size: 10px;">GDB</a> <a href="/tags/Geant4-ROOT/" style="font-size: 12.5px;">Geant4-ROOT</a> <a href="/tags/Linux/" style="font-size: 20px;">Linux</a> <a href="/tags/Makefile/" style="font-size: 10px;">Makefile</a> <a href="/tags/Nuclearphysics/" style="font-size: 10px;">Nuclearphysics</a> <a href="/tags/PATH/" style="font-size: 10px;">PATH</a> <a href="/tags/RTFM/" style="font-size: 10px;">RTFM</a> <a href="/tags/Software/" style="font-size: 15px;">Software</a> <a href="/tags/TEST/" style="font-size: 10px;">TEST</a> <a href="/tags/TH1/" style="font-size: 10px;">TH1</a> <a href="/tags/Windows/" style="font-size: 10px;">Windows</a> <a href="/tags/cmake/" style="font-size: 10px;">cmake</a> <a href="/tags/cryptsetup/" style="font-size: 10px;">cryptsetup</a> <a href="/tags/essay/" style="font-size: 12.5px;">essay</a> <a href="/tags/rand/" style="font-size: 10px;">rand</a> <a href="/tags/rar/" style="font-size: 10px;">rar</a> <a href="/tags/shell/" style="font-size: 12.5px;">shell</a> <a href="/tags/string/" style="font-size: 10px;">string</a> <a href="/tags/texlive/" style="font-size: 10px;">texlive</a> <a href="/tags/vector/" style="font-size: 10px;">vector</a> <a href="/tags/wiznote/" style="font-size: 10px;">wiznote</a>
+						<a href="/tags/C-C/" style="font-size: 15px;">C/C++</a> <a href="/tags/Chrome/" style="font-size: 10px;">Chrome</a> <a href="/tags/GCC/" style="font-size: 10px;">GCC</a> <a href="/tags/GDB/" style="font-size: 10px;">GDB</a> <a href="/tags/Geant4/" style="font-size: 10px;">Geant4</a> <a href="/tags/Geant4-ROOT/" style="font-size: 12.5px;">Geant4-ROOT</a> <a href="/tags/Github/" style="font-size: 10px;">Github</a> <a href="/tags/Latex/" style="font-size: 10px;">Latex</a> <a href="/tags/Linux/" style="font-size: 20px;">Linux</a> <a href="/tags/Makefile/" style="font-size: 10px;">Makefile</a> <a href="/tags/Nuclearphysics/" style="font-size: 10px;">Nuclearphysics</a> <a href="/tags/Octopress/" style="font-size: 10px;">Octopress</a> <a href="/tags/PATH/" style="font-size: 10px;">PATH</a> <a href="/tags/QStarDict/" style="font-size: 10px;">QStarDict</a> <a href="/tags/RTFM/" style="font-size: 10px;">RTFM</a> <a href="/tags/Software/" style="font-size: 17.5px;">Software</a> <a href="/tags/TEST/" style="font-size: 10px;">TEST</a> <a href="/tags/TH1/" style="font-size: 10px;">TH1</a> <a href="/tags/Windows/" style="font-size: 10px;">Windows</a> <a href="/tags/cmake/" style="font-size: 10px;">cmake</a> <a href="/tags/cryptsetup/" style="font-size: 10px;">cryptsetup</a> <a href="/tags/essay/" style="font-size: 12.5px;">essay</a> <a href="/tags/rand/" style="font-size: 10px;">rand</a> <a href="/tags/rar/" style="font-size: 10px;">rar</a> <a href="/tags/shell/" style="font-size: 12.5px;">shell</a> <a href="/tags/string/" style="font-size: 10px;">string</a> <a href="/tags/texlive/" style="font-size: 10px;">texlive</a> <a href="/tags/vector/" style="font-size: 10px;">vector</a> <a href="/tags/wiznote/" style="font-size: 10px;">wiznote</a> <a href="/tags/xerces/" style="font-size: 10px;">xerces</a>
 					</div>
 				</section>
 				
@@ -200,6 +200,296 @@
 	</div>
 </nav>
       <div class="body-wrap">
+  
+    <article id="post-InstallGDB" class="article article-type-post" itemscope itemprop="blogPost">
+  
+    <div class="article-meta">
+      <a href="/2014/12/09/InstallGDB/" class="article-date">
+  	<time datetime="2014-12-09T02:30:58.000Z" itemprop="datePublished">2014-12-09</time>
+</a>
+    </div>
+  
+  <div class="article-inner">
+    
+      <input type="hidden" class="isFancy" />
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2014/12/09/InstallGDB/">Scientific Linux 安装 GDB</a>
+    </h1>
+  
+
+      </header>
+      
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <p>&#160; &#160; &#160; &#160;GDB 的好处只有用过了才能体会，可以大大加快调试进度。系统自带的 GDB 版本当升级 GCC 到 4.8 后, 会发现 GDB 与 GCC 不兼容,一般会报 “符号表找不到”或”Missing separate debuginfos, use: debuginfo-install glib” 这样的错误,将 GDB 升级到 7.6 之后版本即可解决。<br>
+      
+    </div>
+    
+    <div class="article-info article-info-index">
+      
+      
+	<div class="article-tag tagcloud">
+		<ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/GDB/">GDB</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Linux/">Linux</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Software/">Software</a></li></ul>
+	</div>
+
+      
+
+      
+        <p class="article-more-link">
+          <a  href="/2014/12/09/InstallGDB/#more">more >></a>
+        </p>
+      
+      <div class="clearfix"></div>
+    </div>
+    
+  </div>
+  
+</article>
+
+
+
+
+
+
+
+  
+    <article id="post-InstallGCC" class="article article-type-post" itemscope itemprop="blogPost">
+  
+    <div class="article-meta">
+      <a href="/2014/08/21/InstallGCC/" class="article-date">
+  	<time datetime="2014-08-21T07:09:14.000Z" itemprop="datePublished">2014-08-21</time>
+</a>
+    </div>
+  
+  <div class="article-inner">
+    
+      <input type="hidden" class="isFancy" />
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2014/08/21/InstallGCC/">Scientific Linux 安装 GCC</a>
+    </h1>
+  
+
+      </header>
+      
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <p>&#160; &#160; &#160; &#160;Scientific Linux 默认 gcc 版本较低，并不支持 C++11 标准。需要使用较新的版本就得自己编译、安装。<br>
+      
+    </div>
+    
+    <div class="article-info article-info-index">
+      
+      
+	<div class="article-tag tagcloud">
+		<ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/GCC/">GCC</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Linux/">Linux</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Software/">Software</a></li></ul>
+	</div>
+
+      
+
+      
+        <p class="article-more-link">
+          <a  href="/2014/08/21/InstallGCC/#more">more >></a>
+        </p>
+      
+      <div class="clearfix"></div>
+    </div>
+    
+  </div>
+  
+</article>
+
+
+
+
+
+
+
+  
+    <article id="post-QStarDict" class="article article-type-post" itemscope itemprop="blogPost">
+  
+    <div class="article-meta">
+      <a href="/2014/08/17/QStarDict/" class="article-date">
+  	<time datetime="2014-08-17T06:12:55.000Z" itemprop="datePublished">2014-08-17</time>
+</a>
+    </div>
+  
+  <div class="article-inner">
+    
+      <input type="hidden" class="isFancy" />
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2014/08/17/QStarDict/">Scientific Linux 安装 QStarDict</a>
+    </h1>
+  
+
+      </header>
+      
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <p>&#160; &#160; &#160; &#160;windows下我们知道很多软件可以划词翻译，这在linux下也不是问题。这里我们介绍QStarDict，之所以选择使用它是因为它安装是最简便的。<br>
+      
+    </div>
+    
+    <div class="article-info article-info-index">
+      
+      
+	<div class="article-tag tagcloud">
+		<ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Linux/">Linux</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/QStarDict/">QStarDict</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Software/">Software</a></li></ul>
+	</div>
+
+      
+
+      
+        <p class="article-more-link">
+          <a  href="/2014/08/17/QStarDict/#more">more >></a>
+        </p>
+      
+      <div class="clearfix"></div>
+    </div>
+    
+  </div>
+  
+</article>
+
+
+
+
+
+
+
+  
+    <article id="post-rarlinux" class="article article-type-post" itemscope itemprop="blogPost">
+  
+    <div class="article-meta">
+      <a href="/2014/08/10/rarlinux/" class="article-date">
+  	<time datetime="2014-08-10T02:20:00.000Z" itemprop="datePublished">2014-08-10</time>
+</a>
+    </div>
+  
+  <div class="article-inner">
+    
+      <input type="hidden" class="isFancy" />
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2014/08/10/rarlinux/">Scientific Linux 安装 rarlinux 支持解压缩/压缩rar后缀压缩包</a>
+    </h1>
+  
+
+      </header>
+      
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <p>&#160; &#160; &#160; &#160;rar 格式的文件是在 <strong>windows</strong> 操作系统中常见的压缩格式，但是这种格式在 <strong>linux</strong> 操作系统中却不能正常解压缩，因为 linux 默认不支持这种格式，因此需要安装 rarlinux 软件才能压缩/解压缩 .rar 文件，下面介绍 Scientific Linux 下简易安装方案。<br>
+      
+    </div>
+    
+    <div class="article-info article-info-index">
+      
+      
+	<div class="article-tag tagcloud">
+		<ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Linux/">Linux</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Software/">Software</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/rar/">rar</a></li></ul>
+	</div>
+
+      
+
+      
+        <p class="article-more-link">
+          <a  href="/2014/08/10/rarlinux/#more">more >></a>
+        </p>
+      
+      <div class="clearfix"></div>
+    </div>
+    
+  </div>
+  
+</article>
+
+
+
+
+
+
+
+  
+    <article id="post-xerces" class="article article-type-post" itemscope itemprop="blogPost">
+  
+    <div class="article-meta">
+      <a href="/2014/06/27/xerces/" class="article-date">
+  	<time datetime="2014-06-27T07:11:24.000Z" itemprop="datePublished">2014-06-27</time>
+</a>
+    </div>
+  
+  <div class="article-inner">
+    
+      <input type="hidden" class="isFancy" />
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2014/06/27/xerces/">Scientific Linux 安装 xerces</a>
+    </h1>
+  
+
+      </header>
+      
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <p>&#160; &#160; &#160; &#160;Geant4 安装需要库 xerces，安装 xerces 可以使用 yum 安装或者 自己编译安装。<br>
+      
+    </div>
+    
+    <div class="article-info article-info-index">
+      
+      
+	<div class="article-tag tagcloud">
+		<ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Geant4/">Geant4</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Linux/">Linux</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Software/">Software</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/xerces/">xerces</a></li></ul>
+	</div>
+
+      
+
+      
+        <p class="article-more-link">
+          <a  href="/2014/06/27/xerces/#more">more >></a>
+        </p>
+      
+      <div class="clearfix"></div>
+    </div>
+    
+  </div>
+  
+</article>
+
+
+
+
+
+
+
   
     <article id="post-mapbasics" class="article article-type-post" itemscope itemprop="blogPost">
   
@@ -475,296 +765,6 @@
       
         <p class="article-more-link">
           <a  href="/2013/11/01/CmakeNote1/#more">more >></a>
-        </p>
-      
-      <div class="clearfix"></div>
-    </div>
-    
-  </div>
-  
-</article>
-
-
-
-
-
-
-
-  
-    <article id="post-shelljiami" class="article article-type-post" itemscope itemprop="blogPost">
-  
-    <div class="article-meta">
-      <a href="/2013/10/17/shelljiami/" class="article-date">
-  	<time datetime="2013-10-16T16:33:00.000Z" itemprop="datePublished">2013-10-17</time>
-</a>
-    </div>
-  
-  <div class="article-inner">
-    
-      <input type="hidden" class="isFancy" />
-    
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2013/10/17/shelljiami/">shell 脚本加密</a>
-    </h1>
-  
-
-      </header>
-      
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <p>&#160; &#160; &#160; &#160; 如何保护自己编写的 shell 程序\?要保护自己编写的 shell 脚本程序，方法有很多，最简单的方法有两种：1、加密 2、设定过期时间，下面以 shc 工具为例说明：<br>
-      
-    </div>
-    
-    <div class="article-info article-info-index">
-      
-      
-	<div class="article-tag tagcloud">
-		<ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Linux/">Linux</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/shell/">shell</a></li></ul>
-	</div>
-
-      
-
-      
-        <p class="article-more-link">
-          <a  href="/2013/10/17/shelljiami/#more">more >></a>
-        </p>
-      
-      <div class="clearfix"></div>
-    </div>
-    
-  </div>
-  
-</article>
-
-
-
-
-
-
-
-  
-    <article id="post-shellgood10" class="article article-type-post" itemscope itemprop="blogPost">
-  
-    <div class="article-meta">
-      <a href="/2013/10/17/shellgood10/" class="article-date">
-  	<time datetime="2013-10-16T16:26:00.000Z" itemprop="datePublished">2013-10-17</time>
-</a>
-    </div>
-  
-  <div class="article-inner">
-    
-      <input type="hidden" class="isFancy" />
-    
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2013/10/17/shellgood10/">关于 shell 脚本编程的 10 个最佳实践</a>
-    </h1>
-  
-
-      </header>
-      
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <p>&#160; &#160; &#160; &#160; 每一个在 UNIX/Linux 上工作的程序员可能都擅长 shell 脚本编程。但大家解决问题的方式却不尽相同，这要取决于对专业知识的掌握程度、使用命令的种类、看待问题的方式等等。对于那些处在 shell 脚本编程初级阶段的程序员来说，遵循一些恰当的做法可以帮助你更快、更好的学习这些编程技巧。下面，我们就来讨论这些能帮助你学习 shell 脚本编程的方法吧。<br>
-      
-    </div>
-    
-    <div class="article-info article-info-index">
-      
-      
-	<div class="article-tag tagcloud">
-		<ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Linux/">Linux</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/shell/">shell</a></li></ul>
-	</div>
-
-      
-
-      
-        <p class="article-more-link">
-          <a  href="/2013/10/17/shellgood10/#more">more >></a>
-        </p>
-      
-      <div class="clearfix"></div>
-    </div>
-    
-  </div>
-  
-</article>
-
-
-
-
-
-
-
-  
-    <article id="post-Makefile20131006" class="article article-type-post" itemscope itemprop="blogPost">
-  
-    <div class="article-meta">
-      <a href="/2013/10/06/Makefile20131006/" class="article-date">
-  	<time datetime="2013-10-06T13:30:00.000Z" itemprop="datePublished">2013-10-06</time>
-</a>
-    </div>
-  
-  <div class="article-inner">
-    
-      <input type="hidden" class="isFancy" />
-    
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2013/10/06/Makefile20131006/">一个C/C++通用Makefile</a>
-    </h1>
-  
-
-      </header>
-      
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <p>&#160; &#160; &#160; &#160;本文推荐了一个用于对 C/C++ 程序进行编译和连接以产生可执行程序的通用 Makefile。<br>&#160; &#160; &#160; &#160;在使用 Makefile 之前，只需对它进行一些简单的设置即可；而且一经设置，即使以后对源程序文件有所增减一般也不再需要改动 Makefile。因此，即便是一个没有学习过 Makefile 书写规则的人，也可以为自己的 C/C++ 程序快速建立一个可工作的 Makefile。<br>&#160; &#160; &#160; &#160;这个 Makefile 可以在 GNU Make 和 GCC 编译器下正常工作。但是不能保证对于其它版本的 Make 和编译器也能正常工作。<br>
-      
-    </div>
-    
-    <div class="article-info article-info-index">
-      
-      
-	<div class="article-tag tagcloud">
-		<ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/C-C/">C/C++</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Linux/">Linux</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Makefile/">Makefile</a></li></ul>
-	</div>
-
-      
-
-      
-        <p class="article-more-link">
-          <a  href="/2013/10/06/Makefile20131006/#more">more >></a>
-        </p>
-      
-      <div class="clearfix"></div>
-    </div>
-    
-  </div>
-  
-</article>
-
-
-
-
-
-
-
-  
-    <article id="post-linuxPATH" class="article article-type-post" itemscope itemprop="blogPost">
-  
-    <div class="article-meta">
-      <a href="/2013/10/01/linuxPATH/" class="article-date">
-  	<time datetime="2013-10-01T06:43:00.000Z" itemprop="datePublished">2013-10-01</time>
-</a>
-    </div>
-  
-  <div class="article-inner">
-    
-      <input type="hidden" class="isFancy" />
-    
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2013/10/01/linuxPATH/">linux PATH环境变量全解析</a>
-    </h1>
-  
-
-      </header>
-      
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <p>&#160; &#160; &#160; &#160;关于 PATH 的作用：PATH 说简单点就是一个字符串变量，当输入命令的时候 LINUX 会去查找 PATH 里面记录的路径。比如在根目录/下可以输入命令 ls。<br>
-      
-    </div>
-    
-    <div class="article-info article-info-index">
-      
-      
-	<div class="article-tag tagcloud">
-		<ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Linux/">Linux</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/PATH/">PATH</a></li></ul>
-	</div>
-
-      
-
-      
-        <p class="article-more-link">
-          <a  href="/2013/10/01/linuxPATH/#more">more >></a>
-        </p>
-      
-      <div class="clearfix"></div>
-    </div>
-    
-  </div>
-  
-</article>
-
-
-
-
-
-
-
-  
-    <article id="post-RTFM" class="article article-type-post" itemscope itemprop="blogPost">
-  
-    <div class="article-meta">
-      <a href="/2013/09/24/RTFM/" class="article-date">
-  	<time datetime="2013-09-24T13:32:00.000Z" itemprop="datePublished">2013-09-24</time>
-</a>
-    </div>
-  
-  <div class="article-inner">
-    
-      <input type="hidden" class="isFancy" />
-    
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2013/09/24/RTFM/">RTFM(去读那些他妈的手册)</a>
-    </h1>
-  
-
-      </header>
-      
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <p>&#160; &#160; &#160; &#160;<strong>RTFM</strong>，是一个英文缩写，意思是：“去读那些他妈的手册”（<strong>R</strong>ead <strong>T</strong>he <strong>F</strong>ucking <strong>M</strong>anual），这句话通常用在回复那些只要查阅文件就可以解决，拿出来提问只是浪费别人时间的问题。而为了避免这个缩写单词，因为用了 “fuck”（他妈的）这个单词而攻击性、火药味太重，RTFM 也被解释成“去读那些愚蠢的手册”（Read The Foolish Manual）；有的时候也解释成“去读那些友善的手册”（Read The Friendly Manual）或“去读那些写得不错的手册”（Read The Fine Manual）。另外，有时候就干脆把“F”拿掉，直接写成 RTM（去读手册，Read The Manual）。
-      
-    </div>
-    
-    <div class="article-info article-info-index">
-      
-      
-	<div class="article-tag tagcloud">
-		<ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/RTFM/">RTFM</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/essay/">essay</a></li></ul>
-	</div>
-
-      
-
-      
-        <p class="article-more-link">
-          <a  href="/2013/09/24/RTFM/#more">more >></a>
         </p>
       
       <div class="clearfix"></div>
