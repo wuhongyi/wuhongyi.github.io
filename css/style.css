@@ -470,7 +470,7 @@ a {
 }
 .header-author {
   text-align: center;
-  margin: 0.67em 0;
+  margin: 0.3em 0;
   font-family: Roboto, "Roboto", serif;
   font-size: 30px;
   -webkit-transition: 0.3s;
@@ -482,7 +482,7 @@ a {
   width: 100%;
 }
 #header a {
-  color: #696969;
+  color: #000;
 }
 #header a:hover {
   color: #b0a0aa;
@@ -925,7 +925,7 @@ a {
   color: #c8c8c8;
 }
 .article-title {
-  color: #696969;
+  color: #000;
   margin-left: 0px;
   font-weight: 300;
   line-height: 35px;
@@ -1080,7 +1080,7 @@ a {
 }
 .article-entry table {
   width: 100%;
-  border: 1px solid #dedede;
+  border: 3px solid #dedede;
   margin: 15px 0;
   border-collapse: collapse;
 }
