@@ -3,18 +3,21 @@
 <head>
   <meta charset="utf-8">
   
-  <title>shell 脚本加密 | Hongyi Wu(吴鸿毅)</title>
+  <title>Linux 下 markdown 生成html、pdf | Hongyi Wu(吴鸿毅)</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="&amp;#160; &amp;#160; &amp;#160; &amp;#160; 如何保护自己编写的 shell 程序\?要保护自己编写的 shell 脚本程序，方法有很多，最简单的方法有两种：1、加密 2、设定过期时间，下面以 shc 工具为例说明：">
+  <meta name="description" content="在Linux^Footnote系统中，编辑markdown可以用retext工具，但是其需要较高版本的python，所以没能使用。
+1retext name.md">
 <meta property="og:type" content="article">
-<meta property="og:title" content="shell 脚本加密">
-<meta property="og:url" content="http://wuhongyi.github.io/2013/10/17/shelljiami/index.html">
+<meta property="og:title" content="Linux 下 markdown 生成html、pdf">
+<meta property="og:url" content="http://wuhongyi.github.io/2016/01/14/markdown/index.html">
 <meta property="og:site_name" content="Hongyi Wu(吴鸿毅)">
-<meta property="og:description" content="&amp;#160; &amp;#160; &amp;#160; &amp;#160; 如何保护自己编写的 shell 程序\?要保护自己编写的 shell 脚本程序，方法有很多，最简单的方法有两种：1、加密 2、设定过期时间，下面以 shc 工具为例说明：">
-<meta property="og:updated_time" content="2015-10-02T13:59:26.000Z">
+<meta property="og:description" content="在Linux^Footnote系统中，编辑markdown可以用retext工具，但是其需要较高版本的python，所以没能使用。
+1retext name.md">
+<meta property="og:updated_time" content="2016-01-21T16:47:29.000Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="shell 脚本加密">
-<meta name="twitter:description" content="&amp;#160; &amp;#160; &amp;#160; &amp;#160; 如何保护自己编写的 shell 程序\?要保护自己编写的 shell 脚本程序，方法有很多，最简单的方法有两种：1、加密 2、设定过期时间，下面以 shc 工具为例说明：">
+<meta name="twitter:title" content="Linux 下 markdown 生成html、pdf">
+<meta name="twitter:description" content="在Linux^Footnote系统中，编辑markdown可以用retext工具，但是其需要较高版本的python，所以没能使用。
+1retext name.md">
   
     <link rel="alternative" href="/atom.xml" title="Hongyi Wu(吴鸿毅)" type="application/atom+xml">
   
@@ -200,11 +203,11 @@
 		</header>				
 	</div>
 </nav>
-      <div class="body-wrap"><article id="post-shelljiami" class="article article-type-post" itemscope itemprop="blogPost">
+      <div class="body-wrap"><article id="post-markdown" class="article article-type-post" itemscope itemprop="blogPost">
   
     <div class="article-meta">
-      <a href="/2013/10/17/shelljiami/" class="article-date">
-  	<time datetime="2013-10-16T16:33:00.000Z" itemprop="datePublished">2013-10-17</time>
+      <a href="/2016/01/14/markdown/" class="article-date">
+  	<time datetime="2016-01-14T02:16:16.000Z" itemprop="datePublished">2016-01-14</time>
 </a>
     </div>
   
@@ -217,7 +220,7 @@
         
   
     <h1 class="article-title" itemprop="name">
-      shell 脚本加密
+      Linux 下 markdown 生成html、pdf
     </h1>
   
 
@@ -226,7 +229,7 @@
       <div class="article-info article-info-post">
         
 	<div class="article-tag tagcloud">
-		<ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Linux/">Linux</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/shell/">shell</a></li></ul>
+		<ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Linux/">Linux</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/markdown/">markdown</a></li></ul>
 	</div>
 
         
@@ -237,26 +240,47 @@
     
     <div class="article-entry" itemprop="articleBody">
       
-        <p>&#160; &#160; &#160; &#160; 如何保护自己编写的 shell 程序\?要保护自己编写的 shell 脚本程序，方法有很多，最简单的方法有两种：1、加密 2、设定过期时间，下面以 shc 工具为例说明：<br><a id="more"></a></p>
-<h2 id="一、下载安装shc工具">一、下载安装shc工具</h2><p>shc 是一个加密 shell 脚本的工具.它的作用是把 shell 脚本转换为一个可执行的二进制文件.<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># wget http://www.datsi.fi.upm.es/~frosal/sources/shc-3.8.7.tgz</span></span><br></pre></td></tr></table></figure></p>
-<p>安装:<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># tar zxvf shc-3.8.7.gz</span></span><br><span class="line"><span class="comment"># cd shc-3.8.7</span></span><br><span class="line"><span class="comment"># mkdir /usr/local/man/man1/     (install 时会把 man 文件放入该目录,如果该目录不存在需提前建好) 这一步需要root权限</span></span><br><span class="line"><span class="comment"># make test</span></span><br><span class="line"><span class="comment"># make</span></span><br><span class="line"><span class="comment"># make test</span></span><br><span class="line"><span class="comment"># make strings</span></span><br><span class="line"><span class="comment"># make install       这一步需要root权限</span></span><br></pre></td></tr></table></figure></p>
-<h2 id="二、加密方法:">二、加密方法:</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">shc -r <span class="operator">-f</span> script-name</span><br></pre></td></tr></table></figure>
-<p>注意:要有 <strong>-r</strong> 选项, <strong>-f</strong> 后跟要加密的脚本名。运行后会生成两个文件,script-name.x 和 script-name.x.c<br>script-name.x 是加密后的可执行的二进制文件，<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">./script-name 即可运行</span><br></pre></td></tr></table></figure></p>
-<p>script-name.x.c 是生成 script-name.x 的原文件(c语言)</p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># shc -v -f test.sh</span></span><br></pre></td></tr></table></figure>
-<p><strong>-v</strong> 是 verbose 模式, 输出更详细编译日志;<strong>-f</strong> 指定脚本的名称。<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># ll test*</span></span><br></pre></td></tr></table></figure></p>
-<figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">-rwxr-xr-x <span class="number">1</span> oracle oinstall <span class="number">1178</span> Aug <span class="number">18</span> <span class="number">10</span>:<span class="number">00</span> test.sh</span><br><span class="line">-rwx--x--x <span class="number">1</span> oracle oinstall <span class="number">8984</span> Aug <span class="number">18</span> <span class="number">18</span>:<span class="number">01</span> test.sh.x</span><br><span class="line">-rw-r--r-- <span class="number">1</span> oracle oinstall <span class="number">14820</span> Aug <span class="number">18</span> <span class="number">18</span>:<span class="number">01</span> test.sh.x.c</span><br></pre></td></tr></table></figure>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># file test.sh.x</span></span><br></pre></td></tr></table></figure>
-<figure class="highlight stata"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">test</span>.<span class="keyword">sh</span>.x: ELF 32-bit LSB executable, Intel 80386, <span class="keyword">version</span> 1 (SYSV), <span class="keyword">for</span> GNU/Linux 2.2.5, dynamically linked (uses shared libs), stripped</span><br></pre></td></tr></table></figure>
-<p>可以看到生成了动态链接可执行二进制文件test.sh.x和C源文件testup.sh.x.c, 注意生成的二进制文件因为是动态链接形式, 所以在其它平台上不能运行。</p>
-<p>生成静态链接的二进制可执行文件可以通过下面的方法生成一个静态链接的二进制可执行文件:<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">$ CFLAGS=-static shc -r <span class="operator">-f</span> test.sh</span><br><span class="line">$ file testup.sh.x</span><br></pre></td></tr></table></figure></p>
-<h2 id="三-_通过sch加密后的脚本文件很安全吗?">三. 通过sch加密后的脚本文件很安全吗?</h2><p>&#160; &#160; &#160; &#160;一般来说是安全的, 不过可以使用gdb和其它的调试工具获得最初的源代码. 如果需要更加安全的方法, 可以考虑使用 wzshSDK。 另外 shc 还可以设置脚本的运行期限和自定义返回信息:<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ shc <span class="operator">-e</span> <span class="number">03</span>/<span class="number">31</span>/<span class="number">2007</span> -m <span class="string">"the mysql backup scrīpt is now out of date."</span> <span class="operator">-f</span> test.sh</span><br></pre></td></tr></table></figure></p>
-<p><strong>-e</strong> 表示脚本将在 2007 年 3 月 31 日前失效, 并根据 <strong>-m</strong> 定义的信息返回给终端用户。</p>
-<hr>
-<p><strong>题外：</strong><br>如果你仅仅是看不见内容就行了的话，不妨用<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">gzexe a.sh</span><br></pre></td></tr></table></figure></p>
-<p>原来的 a.sh 就被存为 a.sh~，新的 a.sh 是乱码，但是可以用 sh 的方式运行。</p>
-<hr>
-<p>转自： <a href="http://blog.chinaunix.net/uid-26495963-id-3180203.html" target="_blank" rel="external">http://blog.chinaunix.net/uid-26495963-id-3180203.html</a> </p>
+        <p>在Linux<a href="SclentificLinux6.6">^Footnote</a>系统中，编辑markdown可以用retext工具，但是其需要较高版本的python，所以没能使用。</p>
+<figure class="highlight applescript"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">retext <span class="property">name</span>.md</span><br></pre></td></tr></table></figure>
+<a id="more"></a>
+<p>要将markdown文件转换成html文件，可以用discount或python-markdown软件包提供的markdown，系统中默认安装的python-markdown好像存在问题，所以安装discount。</p>
+<h3 id="先卸载系统中的python-markdown">先卸载系统中的python-markdown</h3><figure class="highlight vim"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">yum <span class="built_in">remove</span> <span class="keyword">python</span>-markdown.noarch</span><br></pre></td></tr></table></figure>
+<h3 id="然后安装discount">然后安装discount</h3><figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">yum</span> <span class="tag">install</span> <span class="tag">discount</span><span class="class">.x86_64</span> <span class="tag">discount-devel</span><span class="class">.x86_64</span></span><br></pre></td></tr></table></figure>
+<h3 id="用discount提供的markdown工具">用discount提供的markdown工具</h3><figure class="highlight applescript"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">markdown -o <span class="property">name</span>.html <span class="property">name</span>.md</span><br></pre></td></tr></table></figure>
+<p>将生成的html用网页打开，利用浏览器就能将其存成pdf格式了。</p>
+<h1 id="利用Pandoc将markdown文件转化为pdf">利用Pandoc将markdown文件转化为pdf</h1><p>pandoc是能够在几十种文件格式之间自如的转换，得依赖各种格式文件所需要库。</p>
+<h3 id="pandoc安装">pandoc安装</h3><figure class="highlight cmake"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">yum <span class="keyword">install</span> pandoc.x86_64</span><br></pre></td></tr></table></figure>
+<p>如果markdown文件中不包含中文字符，那么直接使用下面的命令就可以将markdown文件无缝转换为Latex支持的pdf文件。</p>
+<figure class="highlight applescript"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">pandoc <span class="property">name</span>.md -o <span class="property">name</span>.pdf</span><br></pre></td></tr></table></figure>
+<p>英文pdf的输出</p>
+<figure class="highlight stylus"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">pandoc name<span class="class">.md</span> -o name<span class="class">.pdf</span> --latex-engine=xelatex</span><br></pre></td></tr></table></figure>
+<p>为了解决中文编译的问题，需要做以下的工作：</p>
+<ul>
+<li>将markdown文档的编码方式改为utf-8。使用emacs默认就是UTF-8编码的。</li>
+<li>编译pandoc默认的latex引擎是pdflatex，是不支持中文的，因此需要手动设置编译时所用的引擎为xelatex。</li>
+<li>这时编译可能没有错误了，但是得到的pdf文档中可能所有的中文都没有了。这是字体的问题，因为编译时默认的字体时不支持中文的，所以我们得手动设置中文字体。显然，所设的字体应该为系统中已装的字体，且字体的名字不能写错。</li>
+<li>中文字符应该能够显示了，但是你可能会发现很多文字已经超出了文档的边界无法显示了，这是因为pandoc对中文的支持不太好，不能自动换行。解决方案是使用编辑好的latex模板来生成pdf。然后编译命令加上： --template=name.tex</li>
+<li>你也可以使用自己定义的模板来生成tex和pdf文件。首先使用命令 pandoc -D latex &gt; name.tex 生成一个默认的模板，在对这个模板进行修改，如字体、自动换行等。</li>
+<li>pandoc表格排版方式要求用 -- -- -- 来分割列。这样排版的并不通用。<br>中文pdf的输出</li>
+</ul>
+<figure class="highlight stylus"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">pandoc name<span class="class">.md</span> -o name<span class="class">.pdf</span> --latex-engine=xelatex  -V mainfont=<span class="string">"SimSun"</span></span><br></pre></td></tr></table></figure>
+<p>中文调用模板pdf的输出</p>
+<figure class="highlight stylus"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">pandoc name<span class="class">.md</span> -o name<span class="class">.pdf</span> --latex-engine=xelatex --template=pm-name.tex</span><br></pre></td></tr></table></figure>
+<p>在emacs下使用时须配置markdown-mode。修改markdown-mode 的Customization</p>
+<p>一般是通过 M-x customize-mode 来修改，将Markdown Command 修改为:</p>
+<figure class="highlight stylus"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">pandoc -f markdown -t <span class="tag">html</span> -s -c /PathToFile/name<span class="class">.css</span> --mathjax --highlight-style espresso</span><br></pre></td></tr></table></figure>
+<p>上面这句话有两个位置需要注意：</p>
+<ul>
+<li>name.css，可以自定义你的生成的html文件的样式</li>
+<li>mathjax参数，在C-c C-c p做浏览器预览时，可以自动加载数学公式</li>
+</ul>
+<p>也可以直接修改在markdown-mode.el文件中。</p>
+<h2 id="使用自定义的css来渲染网页，然后用浏览器生成pdf">使用自定义的css来渲染网页，然后用浏览器生成pdf</h2><p>非emacs下可通过在命令行中执行如下代码生成自定义的html文件：</p>
+<figure class="highlight stylus"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">pandoc -s name<span class="class">.md</span> -c name<span class="class">.css</span> -o name.html</span><br></pre></td></tr></table></figure>
+<p><strong>参考网页</strong></p>
+<blockquote>
+<p><a href="http://blog.sina.com.cn/s/blog_5ee56d450101dah2.html" target="_blank" rel="external">http://blog.sina.com.cn/s/blog_5ee56d450101dah2.html</a></p>
+</blockquote>
 
       
     </div>
@@ -266,18 +290,18 @@
     
 <nav id="article-nav">
   
-    <a href="/2013/11/01/CmakeNote1/" id="article-nav-newer" class="article-nav-link-wrap">
+    <a href="/3000/01/01/hello-world/" id="article-nav-newer" class="article-nav-link-wrap">
       <strong class="article-nav-caption"><</strong>
       <div class="article-nav-title">
         
-          cmake 学习笔记1
+          Hello ! Read Me.
         
       </div>
     </a>
   
   
-    <a href="/2013/10/17/shellgood10/" id="article-nav-older" class="article-nav-link-wrap">
-      <div class="article-nav-title">关于 shell 脚本编程的 10 个最佳实践</div>
+    <a href="/2016/01/13/redwaregf3/" id="article-nav-older" class="article-nav-link-wrap">
+      <div class="article-nav-title">RedWare gf3 Commands Available</div>
       <strong class="article-nav-caption">></strong>
     </a>
   
