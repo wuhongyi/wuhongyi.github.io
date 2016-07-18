@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  
+  <title>CAEN DT5730 | Hongyi Wu(吴鸿毅)</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta name="description" content="&amp;lt;!-- CAEN_DT5730.md --- 
+;; 
+;; Description: 
+;; Author: Hongyi Wu(吴鸿毅)
+;; Email: wuhongyi@qq.com 
+;; Created: 日 7月 17 11:01:07 2016 (+0800)
+;; Last-Updated: 日 7月 17 17:01:54 2016 (+0800)
+;;">
+<meta property="og:type" content="article">
+<meta property="og:title" content="CAEN DT5730">
+<meta property="og:url" content="http://wuhongyi.github.io/2016/07/17/draft/CAEN_DT5730/index.html">
+<meta property="og:site_name" content="Hongyi Wu(吴鸿毅)">
+<meta property="og:description" content="&amp;lt;!-- CAEN_DT5730.md --- 
+;; 
+;; Description: 
+;; Author: Hongyi Wu(吴鸿毅)
+;; Email: wuhongyi@qq.com 
+;; Created: 日 7月 17 11:01:07 2016 (+0800)
+;; Last-Updated: 日 7月 17 17:01:54 2016 (+0800)
+;;">
+<meta property="og:image" content="http://wuhongyi.github.io/img/CAENDT5730_SELFTRIGGRT_95.png">
+<meta property="og:image" content="http://wuhongyi.github.io/img/CAENDT5730_MajorityLevel0_98.png">
+<meta property="og:image" content="http://wuhongyi.github.io/img/CAENDT5730_MajorityLevel0_99.png">
+<meta property="og:image" content="http://wuhongyi.github.io/img/CAENDT5730_MajorityLevel1_910.png">
+<meta property="og:image" content="http://wuhongyi.github.io/img/CAENDT5730_MajorityLevel1_911.png">
+<meta property="og:updated_time" content="2016-07-17T09:01:54.000Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="CAEN DT5730">
+<meta name="twitter:description" content="&amp;lt;!-- CAEN_DT5730.md --- 
+;; 
+;; Description: 
+;; Author: Hongyi Wu(吴鸿毅)
+;; Email: wuhongyi@qq.com 
+;; Created: 日 7月 17 11:01:07 2016 (+0800)
+;; Last-Updated: 日 7月 17 17:01:54 2016 (+0800)
+;;">
+  
+    <link rel="alternative" href="/atom.xml" title="Hongyi Wu(吴鸿毅)" type="application/atom+xml">
+  
+  
+    <link rel="icon" href="/favicon.png">
+  
+  <link rel="stylesheet" href="/css/style.css" type="text/css">
+</head>
+<body>
+  <div id="container">
+    <div class="left-col">
+    <div class="overlay"></div>
+<div class="intrude-less">
+	<header id="header" class="inner">
+		<a href="/" class="profilepic">
+			
+			<img lazy-src="img/why.jpg" class="js-avatar">
+			
+		</a>
+
+		<hgroup>
+		  <h1 class="header-author"><a href="/">Hongyi Wu(吴鸿毅)</a></h1>
+		</hgroup>
+
+		
+		<p class="header-subtitle">坚持引进、消化、吸收……</p>
+		
+
+		
+			<div class="switch-btn">
+				<div class="icon">
+					<div class="icon-ctn">
+						<div class="icon-wrap icon-house" data-idx="0">
+							<div class="birdhouse"></div>
+							<div class="birdhouse_holes"></div>
+						</div>
+						<div class="icon-wrap icon-ribbon hide" data-idx="1">
+							<div class="ribbon"></div>
+						</div>
+						
+						<div class="icon-wrap icon-link hide" data-idx="2">
+							<div class="loopback_l"></div>
+							<div class="loopback_r"></div>
+						</div>
+						
+						
+						<div class="icon-wrap icon-me hide" data-idx="3">
+							<div class="user"></div>
+							<div class="shoulder"></div>
+						</div>
+						
+					</div>
+					
+				</div>
+				<div class="tips-box hide">
+					<div class="tips-arrow"></div>
+					<ul class="tips-inner">
+						<li>Menu</li>
+						<li>Tags</li>
+						
+						<li>Link</li>
+						
+						
+						<li>AboutMe</li>
+						
+					</ul>
+				</div>
+			</div>
+		
+
+		<div class="switch-area">
+			<div class="switch-wrap">
+				<section class="switch-part switch-part1">
+					<nav class="header-menu">
+						<ul>
+						
+							<li><a href="/">Home</a></li>
+				        
+							<li><a href="/archives">Archives</a></li>
+				        
+							<li><a href="/tags/Linux">Linux</a></li>
+				        
+							<li><a href="/tags/Nuclearphysics">Nuclearphysics</a></li>
+				        
+							<li><a href="/about">AboutMe</a></li>
+				        
+						</ul>
+					</nav>
+					<nav class="header-nav">
+						<div class="social">
+							
+								<a class="github" target="_blank" href="https://github.com/wuhongyi" title="github">github</a>
+					        
+								<a class="weibo" target="_blank" href="http://weibo.com/wuhongyi" title="weibo">weibo</a>
+					        
+								<a class="rss" target="_blank" href="/#" title="rss">rss</a>
+					        
+						</div>
+					</nav>
+				</section>
+				
+				
+				<section class="switch-part switch-part2">
+					<div class="widget tagcloud" id="js-tagcloud">
+						<a href="/tags/C-C/" style="font-size: 16px;">C/C++</a> <a href="/tags/CAEN/" style="font-size: 10px;">CAEN</a> <a href="/tags/Chrome/" style="font-size: 10px;">Chrome</a> <a href="/tags/CodeProject/" style="font-size: 10px;">CodeProject</a> <a href="/tags/Digitizer/" style="font-size: 10px;">Digitizer</a> <a href="/tags/GCC/" style="font-size: 10px;">GCC</a> <a href="/tags/GDB/" style="font-size: 10px;">GDB</a> <a href="/tags/Geant4/" style="font-size: 14px;">Geant4</a> <a href="/tags/Geant4-ROOT/" style="font-size: 12px;">Geant4-ROOT</a> <a href="/tags/Github/" style="font-size: 10px;">Github</a> <a href="/tags/Latex/" style="font-size: 10px;">Latex</a> <a href="/tags/Linux/" style="font-size: 20px;">Linux</a> <a href="/tags/Makefile/" style="font-size: 10px;">Makefile</a> <a href="/tags/Nuclearphysics/" style="font-size: 12px;">Nuclearphysics</a> <a href="/tags/Octopress/" style="font-size: 10px;">Octopress</a> <a href="/tags/PATH/" style="font-size: 10px;">PATH</a> <a href="/tags/QStarDict/" style="font-size: 10px;">QStarDict</a> <a href="/tags/RTFM/" style="font-size: 10px;">RTFM</a> <a href="/tags/Software/" style="font-size: 18px;">Software</a> <a href="/tags/TEST/" style="font-size: 10px;">TEST</a> <a href="/tags/TH1/" style="font-size: 10px;">TH1</a> <a href="/tags/Windows/" style="font-size: 10px;">Windows</a> <a href="/tags/cmake/" style="font-size: 10px;">cmake</a> <a href="/tags/cryptsetup/" style="font-size: 10px;">cryptsetup</a> <a href="/tags/essay/" style="font-size: 12px;">essay</a> <a href="/tags/markdown/" style="font-size: 10px;">markdown</a> <a href="/tags/rand/" style="font-size: 10px;">rand</a> <a href="/tags/rar/" style="font-size: 10px;">rar</a> <a href="/tags/shell/" style="font-size: 12px;">shell</a> <a href="/tags/string/" style="font-size: 10px;">string</a> <a href="/tags/texlive/" style="font-size: 10px;">texlive</a> <a href="/tags/vector/" style="font-size: 10px;">vector</a> <a href="/tags/wiznote/" style="font-size: 10px;">wiznote</a> <a href="/tags/xerces/" style="font-size: 10px;">xerces</a>
+					</div>
+				</section>
+				
+				
+				
+				<section class="switch-part switch-part3">
+					<div id="js-friends">
+					
+			          <a target="_blank" class="main-nav-link switch-friends-link" href="http://http://www.pku.edu.cn/">PekingUniversity</a>
+			        
+			          <a target="_blank" class="main-nav-link switch-friends-link" href="http://geant4.cern.ch/">Geant4</a>
+			        
+			          <a target="_blank" class="main-nav-link switch-friends-link" href="http://root.cern.ch/drupal/">ROOT</a>
+			        
+			          <a target="_blank" class="main-nav-link switch-friends-link" href="http://www.cplusplus.com/">C++</a>
+			        
+			        </div>
+				</section>
+				
+
+				
+				
+				<section class="switch-part switch-part4">
+				
+					<div id="js-aboutme">人民，只有人民，才是创造世界历史的动力！</div>
+				</section>
+				
+			</div>
+		</div>
+	</header>				
+</div>
+
+    </div>
+    <div class="mid-col">
+      <nav id="mobile-nav">
+  	<div class="overlay">
+  		<div class="slider-trigger"></div>
+  		<h1 class="header-author js-mobile-header hide">Hongyi Wu(吴鸿毅)</h1>
+  	</div>
+	<div class="intrude-less">
+		<header id="header" class="inner">
+			<div class="profilepic">
+				<img lazy-src="img/why.jpg" class="js-avatar">
+			</div>
+			<hgroup>
+			  <h1 class="header-author">Hongyi Wu(吴鸿毅)</h1>
+			</hgroup>
+			
+			<p class="header-subtitle">坚持引进、消化、吸收……</p>
+			
+			<nav class="header-menu">
+				<ul>
+				
+					<li><a href="/">Home</a></li>
+		        
+					<li><a href="/archives">Archives</a></li>
+		        
+					<li><a href="/tags/Linux">Linux</a></li>
+		        
+					<li><a href="/tags/Nuclearphysics">Nuclearphysics</a></li>
+		        
+					<li><a href="/about">AboutMe</a></li>
+		        
+		        <div class="clearfix"></div>
+				</ul>
+			</nav>
+			<nav class="header-nav">
+				<div class="social">
+					
+						<a class="github" target="_blank" href="https://github.com/wuhongyi" title="github">github</a>
+			        
+						<a class="weibo" target="_blank" href="http://weibo.com/wuhongyi" title="weibo">weibo</a>
+			        
+						<a class="rss" target="_blank" href="/#" title="rss">rss</a>
+			        
+				</div>
+			</nav>
+		</header>				
+	</div>
+</nav>
+      <div class="body-wrap"><article id="draft-draft/CAEN_DT5730" class="article article-type-draft" itemscope itemprop="blogPost">
+  
+    <div class="article-meta">
+      <a href="/2016/07/17/draft/CAEN_DT5730/" class="article-date">
+  	<time datetime="2016-07-17T03:01:07.000Z" itemprop="datePublished">2016-07-17</time>
+</a>
+    </div>
+  
+  <div class="article-inner">
+    
+      <input type="hidden" class="isFancy" />
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 class="article-title" itemprop="name">
+      CAEN DT5730
+    </h1>
+  
+
+      </header>
+      
+      <div class="article-info article-info-post">
+        
+	<div class="article-tag tagcloud">
+		<ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/CAEN/">CAEN</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Digitizer/">Digitizer</a></li></ul>
+	</div>
+
+        
+
+        <div class="clearfix"></div>
+      </div>
+      
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <!-- CAEN_DT5730.md --- 
+;; 
+;; Description: 
+;; Author: Hongyi Wu(吴鸿毅)
+;; Email: wuhongyi@qq.com 
+;; Created: 日 7月 17 11:01:07 2016 (+0800)
+;; Last-Updated: 日 7月 17 17:01:54 2016 (+0800)
+;;           By: Hongyi Wu(吴鸿毅)
+;;     Update #: 12
+;; URL: http://wuhongyi.github.io --> 
+<h1 id="DT5730">DT5730</h1><a id="more"></a>
+<p>输入增益只有两档：</p>
+<ul>
+<li>1：input range is 2 Vpp</li>
+<li>4：input range is 0.5 Vpp</li>
+</ul>
+<h2 id="Trigger_Management">Trigger Management</h2><p>According to the standard firmware operating, all the channels in a board share the same trigger (board common trigger), that is to say they acquire an event simultaneously and in the same way (a determined number of samples and position with respect to the trigger).</p>
+<p>The generation of a common acquisition trigger is based on different trigger sources (configurable through the Trigger Source Enable Mask register):</p>
+<ul>
+<li>Software trigger</li>
+<li>External trigger</li>
+<li>Self-trigger</li>
+<li>Coincidence</li>
+</ul>
+<h3 id="Software_Trigger">Software Trigger</h3><p>Software triggers are internally produced via a software command (write access in the Software Trigger register) through USB or Optical Link.</p>
+<h3 id="External_Trigger">External Trigger</h3><p>A TTL or NIM external signal can be provided in the front panel TRG-IN connector (configurable through the Front Panel I/O Control register). If the external trigger is not synchronized with the internal clock, a 1-clock period jitter occurs.</p>
+<h3 id="Self-Trigger">Self-Trigger</h3><p>Each channel is able to generate a self-trigger signal when the digitized input pulse exceeds a configurable threshold(Channel n Threshold register). The self-triggers of each couple of adjacent channels are then processed to provide out a single trigger request. The trigger requests are propagated to the central trigger logic where they are ORed to produce the board common trigger, which is finally distributed back to all channels causing the event acquisition. Fig. 9.5 schematizes the self-trigger and trigger request logic having the channel 0 and channel 1 couple as an example.</p>
+<p><img src="/img/CAENDT5730_SELFTRIGGRT_95.png" alt="Self Trigger and Trigger Request logic for Ch0 and Ch1 couple. A single trigger request signal is generated."></p>
+<p>……</p>
+<h3 id="Trigger_Coincidence_Level">Trigger Coincidence Level</h3><p>Operating with the standard firmware, the acquisition trigger is a board common trigger. This common trigger allows the coincidence acquisition mode to be performed through the Majority operation.</p>
+<p>Enabling the coincidences is possible by writing in the Trigger Source Enable Mask register (address 0x810C):</p>
+<ul>
+<li>Bits[3:0] enable the trigger request signals to participate in the coincidence;</li>
+<li>Bits[23:20] set the coincidence window ($T_{TVAW}$);</li>
+<li>Bits[26:24] set the Majority (i.e. Coincidence) level; the coincidence takes place when: <strong>Number of enabled trigger requests &gt; Majority level</strong></li>
+</ul>
+<p>Supposing bits[3:0] = FF (i.e. all the 4 trigger request are enabled) and bits[26:24] = 01 (i.e. Majority level = 1), a board common trigger is issued whenever at least two of the enabled trigger requests are in coincidence within the programmed $T_{TVAW}$ .</p>
+<p>The Majority level must be smaller than the number of trigger requests enabled via bits[3:0] mask. By default, bits[26:24] = 00 (i.e. Majority level = 0), which means the coincidence acquisition mode is disabled and the $T_{TVAW}$ is meaningless. In this case, the board common trigger is simple OR of the signals from the enabled channels pairs.</p>
+<p>Fig. 9.8 and Fig. 9.9 show the trigger management in case the coincidences are disabled:</p>
+<p><img src="/img/CAENDT5730_MajorityLevel0_98.png" alt="Trigger request management at mezzanine level with Majority level = 0"><br><img src="/img/CAENDT5730_MajorityLevel0_99.png" alt="Trigger request management at motherboard level with Majority level = 0"></p>
+<p>Fig. 9.10 and shows the trigger management in case the coincidences are enabled with Majority level = 1 and $T_{TVAW}$ is a value different from 0. In order to simplify the description, CH1 and CH3 channels are considered disabled, so that the relevant trigger requests are the over-threshold signals from CH0 and CH1.</p>
+<p><img src="/img/CAENDT5730_MajorityLevel1_910.png" alt="Fig. 9.10: Trigger request relationship with Majority level = 1 and T TVAW ≠ 0"></p>
+<p><em>Note: with respect to the position where the common trigger is generated, the portion of input signal stored depends on the programmed length of the acquisition window and on the post trigger setting.</em></p>
+<p>Fig. 9.11 shows the trigger management in case the coincidences are enabled with Majority level = 1 and T TVAW = 0 (i.e. 1 clock cycle). In order to simplify the description, CH1 and CH3 channels are considered disabled, so that the relevant trigger requests are the over-threshold signals from CH0 and CH1.</p>
+<p><img src="/img/CAENDT5730_MajorityLevel1_911.png" alt="Trigger request relationship with Majority level = 1 and T TVAW = 0"></p>
+<h3 id="Trigger_Distribution">Trigger Distribution</h3><p>In the default configuration, the OR of all the enabled trigger sources is synchronized with the internal clock, then becomes the common trigger of the board and is fed in parallel to all channels, which consequently provokes the capture of an event.</p>
+<p>A Trigger Out signal is also generated on the relevant front panel GPO connector (NIM or TTL), and allows to extend the trigger signal to other boards: set bits[17:16] = 00 in Front Panel Control register and enable the desired trigger sources in Front Panel Trigger Out Enable Mask register.</p>
+<p>For example, in order to start the acquisition on all the channels of the boards, as soon as one of the channels crosses its threshold, the relevant local trigger must be enabled as Trigger Out signal. The Trigger Out must then be fed to a Fan Out unit; the obtained signal has to be fed to the external trigger input TRG-IN of all the boards in the chain(including the board which generated the Trigger Out signal).</p>
+<!-- CAEN_DT5730.md ends here -->
+
+      
+    </div>
+    
+  </div>
+  
+    
+<nav id="article-nav">
+  
+    <a href="/3000/01/01/hello-world/" id="article-nav-newer" class="article-nav-link-wrap">
+      <strong class="article-nav-caption"><</strong>
+      <div class="article-nav-title">
+        
+          Hello ! Read Me.
+        
+      </div>
+    </a>
+  
+  
+    <a href="/2016/03/23/CodeProject/ScientisicLinux6/" id="article-nav-older" class="article-nav-link-wrap">
+      <div class="article-nav-title">Scientific Linux 6 常用软件安装</div>
+      <strong class="article-nav-caption">></strong>
+    </a>
+  
+</nav>
+
+  
+</article>
+
+
+
+
+
+
+<section id="comments">
+  <div id="disqus_thread"></div>
+    <script type="text/javascript">
+    /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+    var disqus_shortname = 'wuhongyi'; // required: replace example with your forum shortname
+
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function() {
+      var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+      dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+      (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+  </script>
+  <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</section>
+
+</div>
+      <footer id="footer">
+  <div class="outer">
+    <div id="footer-info">
+    	<div class="footer-center">
+    		&copy; 2016 Hongyi Wu(吴鸿毅)
+    	</div>
+      	<!-- <div class="footer-right"> -->
+      	<!-- 	<a href="http://hexo.io/" target="_blank">Hexo</a>  Theme <a href="https://github.com/litten/hexo-theme-yilia" target="_blank">Yilia</a> by Litten -->
+      	<!-- </div> -->
+    </div>
+  </div>
+</footer>
+
+    </div>
+    
+  <link rel="stylesheet" href="/fancybox/jquery.fancybox.css" type="text/css">
+
+
+<script>
+	var yiliaConfig = {
+		fancybox: true,
+		mathjax: true,
+		animate: true,
+		isHome: false,
+		isPost: true,
+		isArchive: false,
+		isTag: false,
+		isCategory: false,
+		open_in_new: false
+	}
+</script>
+<script src="http://7.url.cn/edu/jslib/comb/require-2.1.6,jquery-1.9.1.min.js" type="text/javascript"></script>
+<script src="/js/main.js" type="text/javascript"></script>
+
+
+
+
+
+
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+    tex2jax: {
+        inlineMath: [ ['$','$'], ["\\(","\\)"]  ],
+        processEscapes: true,
+        skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
+    }
+});
+
+MathJax.Hub.Queue(function() {
+    var all = MathJax.Hub.getAllJax(), i;
+    for(i=0; i < all.length; i += 1) {
+        all[i].SourceElement().parentNode.className += ' has-jax';                 
+    }       
+});
+</script>
+
+<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
+
+
+  </div>
+</body>
+</html>
