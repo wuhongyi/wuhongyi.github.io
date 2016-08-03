@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: draft
 title: "CAEN DT5730"
 date: 2016-07-17 11:01:07 +0800
 comments: true
@@ -11,9 +11,9 @@ tags: [CAEN,Digitizer]
 ;; Author: Hongyi Wu(吴鸿毅)
 ;; Email: wuhongyi@qq.com 
 ;; Created: 日 7月 17 11:01:07 2016 (+0800)
-;; Last-Updated: 一 7月 25 16:21:49 2016 (+0800)
+;; Last-Updated: 三 8月  3 18:08:39 2016 (+0800)
 ;;           By: Hongyi Wu(吴鸿毅)
-;;     Update #: 22
+;;     Update #: 23
 ;; URL: http://wuhongyi.github.io --> 
 
 输入增益只有两档：

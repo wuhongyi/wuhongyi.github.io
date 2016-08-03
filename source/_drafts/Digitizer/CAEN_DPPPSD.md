@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: draft
 title: "CAEN DPP-PSD"
 date: 2016-07-24 13:32:09 +0800
 comments: true
@@ -11,9 +11,9 @@ tags: [Digitizer]
 ;; Author: Hongyi Wu(吴鸿毅)
 ;; Email: wuhongyi@qq.com 
 ;; Created: 日 7月 24 13:32:09 2016 (+0800)
-;; Last-Updated: 一 7月 25 15:30:36 2016 (+0800)
+;; Last-Updated: 三 8月  3 18:08:51 2016 (+0800)
 ;;           By: Hongyi Wu(吴鸿毅)
-;;     Update #: 23
+;;     Update #: 24
 ;; URL: http://wuhongyi.github.io -->
 
 
