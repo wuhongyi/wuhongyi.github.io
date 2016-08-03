@@ -49,7 +49,7 @@ TeX capacity exceeded, sorry [main memory size=5000000]
 如果编译tex文件时报以上错误，则在下面文件添加以下几行（插入ROOT生成的tex格式图片需要缓存较大，是ROOT的原因，这个问题之前在官网有人了反映过）：
 /usr/local/texlive/2015/texmf.cnf
 ~~~
-main_memory = 1024000000 % words of inimemory available; also applies to inimf&mp 
+main_memory = 10240000 % words of inimemory available; also applies to inimf&mp 
 extra_mem_top = 100000000 % extra high memory for chars, tokens, etc. 
 extra_mem_bot = 100000000 % extra low memory for boxes, glue, breakpoints, etc
 save_size = 1500000 % for saving values outside current group 
@@ -65,6 +65,12 @@ texhash 刷新 lsr 数据库
 ~~~
 # fmtutil-sys --all
 ~~~
+
+如果 **main\_memory** 设置太大，latex、pdflatex 将无法使用，出现以下错误：
+~~~
+Ouch---my initernal constants have been clobbered!---case 14
+~~~
+
 
 ----
 &#160; &#160; &#160; &#160;
