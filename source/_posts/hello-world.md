@@ -21,7 +21,7 @@ Welcome to Hongyi Wu(吴鸿毅) blog! If you have any problems when using my blo
 
 [Hongyi Wu Github](https://github.com/wuhongyi)
 下载
-[yum SL6 SL7](https://github.com/wuhongyi/YumSet)
+[yum SL6 SL7](https://github.com/wuhongyi/ScientificLinuxYumSet)
 [emacs linux](https://github.com/wuhongyi/EmacsSet)
 [emacs windows](https://github.com/wuhongyi/EmacsSet)
 [linux latex fonts](https://github.com/wuhongyi/fonts) 
