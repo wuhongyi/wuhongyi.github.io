@@ -1,14 +1,3 @@
-<!-- cplusplusvitualfunction.md --- 
-;; 
-;; Description: 
-;; Author: Hongyi Wu(吴鸿毅)
-;; Email: wuhongyi@qq.com 
-;; Created: 三 10月  5 10:25:30 2016 (+0800)
-;; Last-Updated: 三 10月  5 10:39:33 2016 (+0800)
-;;           By: Hongyi Wu(吴鸿毅)
-;;     Update #: 2
-;; URL: http://wuhongyi.github.io -->
-
 ---
 layout: post
 title: "C++虚函数与纯虚函数"
@@ -16,6 +5,18 @@ date: 2016-10-05 10:25:30 +0800
 comments: true
 tags: [C/C++]
 ---
+
+<!-- cplusplusvitualfunction.md --- 
+;; 
+;; Description: 
+;; Author: Hongyi Wu(吴鸿毅)
+;; Email: wuhongyi@qq.com 
+;; Created: 三 10月  5 10:25:30 2016 (+0800)
+;; Last-Updated: 五 10月 28 20:41:39 2016 (+0800)
+;;           By: Hongyi Wu(吴鸿毅)
+;;     Update #: 3
+;; URL: http://wuhongyi.github.io -->
+
 
 # 什么是虚函数、纯虚函数、抽象基类
 
