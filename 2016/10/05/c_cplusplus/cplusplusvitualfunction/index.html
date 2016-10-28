@@ -3,17 +3,36 @@
 <head>
   <meta charset="utf-8">
   
-  <title>Hongyi Wu(吴鸿毅)</title>
+  <title>C++虚函数与纯虚函数 | Hongyi Wu(吴鸿毅)</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="引进、消化、吸收……">
-<meta property="og:type" content="website">
-<meta property="og:title" content="Hongyi Wu(吴鸿毅)">
-<meta property="og:url" content="http://wuhongyi.github.io/index.html">
+  <meta name="description" content="&amp;lt;!-- cplusplusvitualfunction.md --- 
+;; 
+;; Description: 
+;; Author: Hongyi Wu(吴鸿毅)
+;; Email: wuhongyi@qq.com 
+;; Created: 三 10月  5 10:25:30 2016 (+0800)
+;; Last-Updated: 五 10月 28 20:41:39 2016 (+0800">
+<meta property="og:type" content="article">
+<meta property="og:title" content="C++虚函数与纯虚函数">
+<meta property="og:url" content="http://wuhongyi.github.io/2016/10/05/c_cplusplus/cplusplusvitualfunction/index.html">
 <meta property="og:site_name" content="Hongyi Wu(吴鸿毅)">
-<meta property="og:description" content="引进、消化、吸收……">
+<meta property="og:description" content="&amp;lt;!-- cplusplusvitualfunction.md --- 
+;; 
+;; Description: 
+;; Author: Hongyi Wu(吴鸿毅)
+;; Email: wuhongyi@qq.com 
+;; Created: 三 10月  5 10:25:30 2016 (+0800)
+;; Last-Updated: 五 10月 28 20:41:39 2016 (+0800">
+<meta property="og:updated_time" content="2016-10-28T12:41:39.241Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Hongyi Wu(吴鸿毅)">
-<meta name="twitter:description" content="引进、消化、吸收……">
+<meta name="twitter:title" content="C++虚函数与纯虚函数">
+<meta name="twitter:description" content="&amp;lt;!-- cplusplusvitualfunction.md --- 
+;; 
+;; Description: 
+;; Author: Hongyi Wu(吴鸿毅)
+;; Email: wuhongyi@qq.com 
+;; Created: 三 10月  5 10:25:30 2016 (+0800)
+;; Last-Updated: 五 10月 28 20:41:39 2016 (+0800">
   
     <link rel="alternative" href="/atom.xml" title="Hongyi Wu(吴鸿毅)" type="application/atom+xml">
   
@@ -199,67 +218,7 @@
 		</header>				
 	</div>
 </nav>
-      <div class="body-wrap">
-  
-    <article id="post-hello-world" class="article article-type-post" itemscope itemprop="blogPost">
-  
-    <div class="article-meta">
-      <a href="/3000/01/01/hello-world/" class="article-date">
-  	<time datetime="2999-12-31T16:00:00.000Z" itemprop="datePublished">3000-01-01</time>
-</a>
-    </div>
-  
-  <div class="article-inner">
-    
-      <input type="hidden" class="isFancy" />
-    
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/3000/01/01/hello-world/">Hello ! Read Me.</a>
-    </h1>
-  
-
-      </header>
-      
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <p>&#160; &#160; &#160; &#160;<strong>请确保连接国际网下访问本站，教育网免费IP下访问可能存在部分内容无法正常显示(数学公式、底下评论框等)。在Chrome浏览器下访问效果更佳！评论支持匿名（有个选项打上勾），无须注册相关帐号即可评论。</strong><br>Welcome to Hongyi Wu(吴鸿毅) blog! If you have any problems when using my blog, you can ask me for email: wuhongyi@qq.com / wuhongyi@pku.edu.cn.<br>
-      
-    </div>
-    
-    <div class="article-info article-info-index">
-      
-      
-	<div class="article-tag tagcloud">
-		<ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Geant4-ROOT/">Geant4-ROOT</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Linux/">Linux</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Nuclearphysics/">Nuclearphysics</a></li></ul>
-	</div>
-
-      
-
-      
-        <p class="article-more-link">
-          <a  href="/3000/01/01/hello-world/#more">more >></a>
-        </p>
-      
-      <div class="clearfix"></div>
-    </div>
-    
-  </div>
-  
-</article>
-
-
-
-
-
-
-
-  
-    <article id="post-c_cplusplus/cplusplusvitualfunction" class="article article-type-post" itemscope itemprop="blogPost">
+      <div class="body-wrap"><article id="post-c_cplusplus/cplusplusvitualfunction" class="article article-type-post" itemscope itemprop="blogPost">
   
     <div class="article-meta">
       <a href="/2016/10/05/c_cplusplus/cplusplusvitualfunction/" class="article-date">
@@ -275,12 +234,23 @@
       <header class="article-header">
         
   
-    <h1 itemprop="name">
-      <a class="article-title" href="/2016/10/05/c_cplusplus/cplusplusvitualfunction/">C++虚函数与纯虚函数</a>
+    <h1 class="article-title" itemprop="name">
+      C++虚函数与纯虚函数
     </h1>
   
 
       </header>
+      
+      <div class="article-info article-info-post">
+        
+	<div class="article-tag tagcloud">
+		<ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/C-C/">C/C++</a></li></ul>
+	</div>
+
+        
+
+        <div class="clearfix"></div>
+      </div>
       
     
     <div class="article-entry" itemprop="articleBody">
@@ -329,154 +299,28 @@
       
     </div>
     
-    <div class="article-info article-info-index">
-      
-      
-	<div class="article-tag tagcloud">
-		<ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/C-C/">C/C++</a></li></ul>
-	</div>
-
-      
-
-      
-      <div class="clearfix"></div>
-    </div>
-    
   </div>
   
-</article>
-
-
-
-
-
-
-
-  
-    <article id="draft-Digitizer/CAEN_DigitizerSync" class="article article-type-draft" itemscope itemprop="blogPost">
-  
-    <div class="article-meta">
-      <a href="/2016/09/12/Digitizer/CAEN_DigitizerSync/" class="article-date">
-  	<time datetime="2016-09-12T06:26:20.000Z" itemprop="datePublished">2016-09-12</time>
-</a>
-    </div>
-  
-  <div class="article-inner">
     
-      <input type="hidden" class="isFancy" />
-    
-    
-      <header class="article-header">
+<nav id="article-nav">
+  
+    <a href="/3000/01/01/hello-world/" id="article-nav-newer" class="article-nav-link-wrap">
+      <strong class="article-nav-caption"><</strong>
+      <div class="article-nav-title">
         
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2016/09/12/Digitizer/CAEN_DigitizerSync/">CAEN Digitizer Synchronization</a>
-    </h1>
-  
-
-      </header>
-      
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <!-- CAEN_DigitizerSync.md --- 
-;; 
-;; Description: 
-;; Author: Hongyi Wu(吴鸿毅)
-;; Email: wuhongyi@qq.com 
-;; Created: 一 9月 12 14:26:20 2016 (+0800)
-;; Last-Updated: 一 9月 12 16:54:07 2016 (+0800)
-;;           By: Hongyi Wu(吴鸿毅)
-;;     Update #: 6
-;; URL: http://wuhongyi.github.io -->
-<p>光纤直接连接插件，红色端在上，黑色端在下<br>
-      
-    </div>
-    
-    <div class="article-info article-info-index">
-      
-      
-	<div class="article-tag tagcloud">
-		<ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/CAEN/">CAEN</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Digitizer/">Digitizer</a></li></ul>
-	</div>
-
-      
-
-      
-        <p class="article-more-link">
-          <a  href="/2016/09/12/Digitizer/CAEN_DigitizerSync/#more">more >></a>
-        </p>
-      
-      <div class="clearfix"></div>
-    </div>
-    
-  </div>
-  
-</article>
-
-
-
-
-
-
-
-  
-    <article id="draft-testdraft" class="article article-type-draft" itemscope itemprop="blogPost">
-  
-    <div class="article-meta">
-      <a href="/2016/08/03/testdraft/" class="article-date">
-  	<time datetime="2016-08-03T08:32:56.000Z" itemprop="datePublished">2016-08-03</time>
-</a>
-    </div>
-  
-  <div class="article-inner">
-    
-      <input type="hidden" class="isFancy" />
-    
-    
-      <header class="article-header">
+          Hello ! Read Me.
         
+      </div>
+    </a>
   
-    <h1 itemprop="name">
-      <a class="article-title" href="/2016/08/03/testdraft/">draft test</a>
-    </h1>
   
+    <a href="/2016/09/12/Digitizer/CAEN_DigitizerSync/" id="article-nav-older" class="article-nav-link-wrap">
+      <div class="article-nav-title">CAEN Digitizer Synchronization</div>
+      <strong class="article-nav-caption">></strong>
+    </a>
+  
+</nav>
 
-      </header>
-      
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <!-- testdraft.md --- 
-;; 
-;; Description: 
-;; Author: Hongyi Wu(吴鸿毅)
-;; Email: wuhongyi@qq.com 
-;; Created: 三 8月  3 16:32:56 2016 (+0800)
-;; Last-Updated: 三 8月  3 16:34:16 2016 (+0800)
-;;           By: Hongyi Wu(吴鸿毅)
-;;     Update #: 1
-;; URL: http://wuhongyi.github.io -->
-<h1 id="Draft_Test_Page">Draft Test Page</h1><p>This is a test page.</p>
-<!-- testdraft.md ends here -->
-
-      
-    </div>
-    
-    <div class="article-info article-info-index">
-      
-      
-	<div class="article-tag tagcloud">
-		<ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/TEST/">TEST</a></li></ul>
-	</div>
-
-      
-
-      
-      <div class="clearfix"></div>
-    </div>
-    
-  </div>
   
 </article>
 
@@ -485,443 +329,22 @@
 
 
 
+<section id="comments">
+  <div id="disqus_thread"></div>
+    <script type="text/javascript">
+    /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+    var disqus_shortname = 'wuhongyi'; // required: replace example with your forum shortname
 
-  
-    <article id="draft-Digitizer/CAEN_DPPPSD" class="article article-type-draft" itemscope itemprop="blogPost">
-  
-    <div class="article-meta">
-      <a href="/2016/07/24/Digitizer/CAEN_DPPPSD/" class="article-date">
-  	<time datetime="2016-07-24T05:32:09.000Z" itemprop="datePublished">2016-07-24</time>
-</a>
-    </div>
-  
-  <div class="article-inner">
-    
-      <input type="hidden" class="isFancy" />
-    
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2016/07/24/Digitizer/CAEN_DPPPSD/">CAEN DPP-PSD</a>
-    </h1>
-  
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function() {
+      var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+      dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+      (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+  </script>
+  <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</section>
 
-      </header>
-      
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <!-- CAEN_DPPPSD.md --- 
-;; 
-;; Description: 
-;; Author: Hongyi Wu(吴鸿毅)
-;; Email: wuhongyi@qq.com 
-;; Created: 日 7月 24 13:32:09 2016 (+0800)
-;; Last-Updated: 三 8月  3 18:08:51 2016 (+0800)
-;;           By: Hongyi Wu(吴鸿毅)
-;;     Update #: 24
-;; URL: http://wuhongyi.github.io -->
-<p>This user manual is intended to describe the Digital Pulse Processing for Pulse Shape Discrimination firmware (DPP-PSD) running on the 720 series digitizers with the EP1C20 FPGA and DT5790 (12 bit, 250MS/s), on the 725 series (14 bit,250 MS/s), the 730 series (14 bit, 500 MS/s), and on the 751 series digitizers (10 bit, 1 GS/s; DES mode not supported).</p>
-      
-    </div>
-    
-    <div class="article-info article-info-index">
-      
-      
-	<div class="article-tag tagcloud">
-		<ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Digitizer/">Digitizer</a></li></ul>
-	</div>
-
-      
-
-      
-        <p class="article-more-link">
-          <a  href="/2016/07/24/Digitizer/CAEN_DPPPSD/#more">more >></a>
-        </p>
-      
-      <div class="clearfix"></div>
-    </div>
-    
-  </div>
-  
-</article>
-
-
-
-
-
-
-
-  
-    <article id="draft-Digitizer/CAEN_DT5730" class="article article-type-draft" itemscope itemprop="blogPost">
-  
-    <div class="article-meta">
-      <a href="/2016/07/17/Digitizer/CAEN_DT5730/" class="article-date">
-  	<time datetime="2016-07-17T03:01:07.000Z" itemprop="datePublished">2016-07-17</time>
-</a>
-    </div>
-  
-  <div class="article-inner">
-    
-      <input type="hidden" class="isFancy" />
-    
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2016/07/17/Digitizer/CAEN_DT5730/">CAEN DT5730</a>
-    </h1>
-  
-
-      </header>
-      
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <!-- CAEN_DT5730.md --- 
-;; 
-;; Description: 
-;; Author: Hongyi Wu(吴鸿毅)
-;; Email: wuhongyi@qq.com 
-;; Created: 日 7月 17 11:01:07 2016 (+0800)
-;; Last-Updated: 三 8月  3 18:08:39 2016 (+0800)
-;;           By: Hongyi Wu(吴鸿毅)
-;;     Update #: 23
-;; URL: http://wuhongyi.github.io --> 
-<p>输入增益只有两档：</p>
-<ul>
-<li>1：input range is 2 Vpp</li>
-<li>4：input range is 0.5 Vpp
-      
-    </div>
-    
-    <div class="article-info article-info-index">
-      
-      
-	<div class="article-tag tagcloud">
-		<ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/CAEN/">CAEN</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Digitizer/">Digitizer</a></li></ul>
-	</div>
-
-      
-
-      
-        <p class="article-more-link">
-          <a  href="/2016/07/17/Digitizer/CAEN_DT5730/#more">more >></a>
-        </p>
-      
-      <div class="clearfix"></div>
-    </div>
-    
-  </div>
-  
-</article>
-
-
-
-
-
-
-
-  
-    <article id="post-CodeProject/ScientisicLinux6" class="article article-type-post" itemscope itemprop="blogPost">
-  
-    <div class="article-meta">
-      <a href="/2016/03/23/CodeProject/ScientisicLinux6/" class="article-date">
-  	<time datetime="2016-03-23T08:52:33.000Z" itemprop="datePublished">2016-03-23</time>
-</a>
-    </div>
-  
-  <div class="article-inner">
-    
-      <input type="hidden" class="isFancy" />
-    
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2016/03/23/CodeProject/ScientisicLinux6/">Scientific Linux 6 常用软件安装</a>
-    </h1>
-  
-
-      </header>
-      
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <!-- ScientisicLinux6.md --- 
-;; 
-;; Description: 
-;; Author: Hongyi Wu(吴鸿毅)
-;; Email: wuhongyi@qq.com 
-;; Created: 三 3月 23 16:52:33 2016 (+0800)
-;; Last-Updated: 六 7月 16 19:41:22 2016 (+0800)
-;;           By: Hongyi Wu(吴鸿毅)
-;;     Update #: 18
-;; URL: http://wuhongyi.github.io -->
-<h1 id="Scientific_Linux_6_常用软件安装">Scientific Linux 6 常用软件安装</h1><h2 id="吴鸿毅（wuhongyi@qq-com）">吴鸿毅（wuhongyi@qq.com）</h2><h3 id="更新于_2016_年_3_月_23_日_-_北京大学_-_加速器楼">更新于 2016 年 3 月 23 日 - 北京大学 - 加速器楼</h3><hr>
-<hr>
-<p><strong>以下终端命令中，没有$开头的表示需要root权限。</strong></p>
-<h3 id="Scientific_Linux_6_Everything完整版安装">Scientific Linux 6 Everything完整版安装</h3><ul>
-<li>将光盘 DVD1 放进光驱，等待进入安装界面。</li>
-<li><strong>待补充</strong>。
-      
-    </div>
-    
-    <div class="article-info article-info-index">
-      
-      
-	<div class="article-tag tagcloud">
-		<ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Linux/">Linux</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Software/">Software</a></li></ul>
-	</div>
-
-      
-
-      
-        <p class="article-more-link">
-          <a  href="/2016/03/23/CodeProject/ScientisicLinux6/#more">more >></a>
-        </p>
-      
-      <div class="clearfix"></div>
-    </div>
-    
-  </div>
-  
-</article>
-
-
-
-
-
-
-
-  
-    <article id="post-CodeProject/ScientisicLinux72" class="article article-type-post" itemscope itemprop="blogPost">
-  
-    <div class="article-meta">
-      <a href="/2016/03/13/CodeProject/ScientisicLinux72/" class="article-date">
-  	<time datetime="2016-03-13T13:42:38.000Z" itemprop="datePublished">2016-03-13</time>
-</a>
-    </div>
-  
-  <div class="article-inner">
-    
-      <input type="hidden" class="isFancy" />
-    
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2016/03/13/CodeProject/ScientisicLinux72/">Scientific Linux 7 常用软件安装</a>
-    </h1>
-  
-
-      </header>
-      
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <!-- ScientisicLinux72.md --- 
-;; 
-;; Description: 
-;; Author: Hongyi Wu(吴鸿毅)
-;; Email: wuhongyi@qq.com 
-;; Created: 日 3月 13 21:42:38 2016 (+0800)
-;; Last-Updated: 六 7月 16 19:48:06 2016 (+0800)
-;;           By: Hongyi Wu(吴鸿毅)
-;;     Update #: 103
-;; URL: http://wuhongyi.github.io -->
-<h1 id="Scientific_Linux_7_常用软件安装">Scientific Linux 7 常用软件安装</h1><h2 id="吴鸿毅（wuhongyi@qq-com）">吴鸿毅（wuhongyi@qq.com）</h2><h3 id="更新于_2016_年_3_月_23_日_-_北京大学_-_加速器楼">更新于 2016 年 3 月 23 日 - 北京大学 - 加速器楼</h3><hr>
-<p><strong>以下终端命令中，没有$开头的表示需要root权限。</strong></p>
-<hr>
-<h3 id="Scientific_Linux_7_安装">Scientific Linux 7 安装</h3>
-      
-    </div>
-    
-    <div class="article-info article-info-index">
-      
-      
-	<div class="article-tag tagcloud">
-		<ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Linux/">Linux</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Software/">Software</a></li></ul>
-	</div>
-
-      
-
-      
-        <p class="article-more-link">
-          <a  href="/2016/03/13/CodeProject/ScientisicLinux72/#more">more >></a>
-        </p>
-      
-      <div class="clearfix"></div>
-    </div>
-    
-  </div>
-  
-</article>
-
-
-
-
-
-
-
-  
-    <article id="post-CodeProject/ProjectGeant4/HowToUseFileOptical" class="article article-type-post" itemscope itemprop="blogPost">
-  
-    <div class="article-meta">
-      <a href="/2016/02/17/CodeProject/ProjectGeant4/HowToUseFileOptical/" class="article-date">
-  	<time datetime="2016-02-17T04:39:21.000Z" itemprop="datePublished">2016-02-17</time>
-</a>
-    </div>
-  
-  <div class="article-inner">
-    
-      <input type="hidden" class="isFancy" />
-    
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2016/02/17/CodeProject/ProjectGeant4/HowToUseFileOptical/">吴鸿毅 CodeProject - How To Use File Optical(Geant4)</a>
-    </h1>
-  
-
-      </header>
-      
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <!-- HowToUseFileOptical.md --- 
-;; 
-;; Description: 
-;; Author: Hongyi Wu(吴鸿毅)
-;; Email: wuhongyi@qq.com 
-;; Created: 三 2月 17 12:39:21 2016 (+0800)
-;; Last-Updated: 六 7月 16 20:06:49 2016 (+0800)
-;;           By: Hongyi Wu(吴鸿毅)
-;;     Update #: 7
-;; URL: http://wuhongyi.github.io -->
-<h1 id="Optical-txt_文件内参数填写说明">Optical.txt 文件内参数填写说明</h1><h2 id="吴鸿毅（wuhongyi@qq-com）">吴鸿毅（wuhongyi@qq.com）</h2><h3 id="更新于_2016_年_02_月_17_日_-_北京大学_-_加速器楼">更新于 2016 年 02 月 17 日 - 北京大学 - 加速器楼</h3><hr>
-<p>Optical.txt 文件包含光学过程的一些相关参数、材料的光学属性、光学表面参数等。</p>
-<hr>
-<h1 id="有关物理过程">有关物理过程</h1><h2 id="Cerenkov">Cerenkov</h2><figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">MaxNumPhotonsPerStep   <span class="number">100</span>       <span class="preprocessor">#默认<span class="number">100</span></span></span><br><span class="line">MaxBetaChangePerStep   <span class="number">10.0</span>      <span class="preprocessor">#默认<span class="number">10.0</span></span></span><br></pre></td></tr></table></figure>
-<ul>
-<li><strong>MaxNumPhotonsPerStep</strong></li>
-<li><strong>MaxBetaChangePerStep</strong>
-      
-    </div>
-    
-    <div class="article-info article-info-index">
-      
-      
-	<div class="article-tag tagcloud">
-		<ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Geant4/">Geant4</a></li></ul>
-	</div>
-
-      
-
-      
-        <p class="article-more-link">
-          <a  href="/2016/02/17/CodeProject/ProjectGeant4/HowToUseFileOptical/#more">more >></a>
-        </p>
-      
-      <div class="clearfix"></div>
-    </div>
-    
-  </div>
-  
-</article>
-
-
-
-
-
-
-
-  
-    <article id="post-CodeProject/ProjectGeant4/HowToUseFileReadData" class="article article-type-post" itemscope itemprop="blogPost">
-  
-    <div class="article-meta">
-      <a href="/2016/02/17/CodeProject/ProjectGeant4/HowToUseFileReadData/" class="article-date">
-  	<time datetime="2016-02-17T04:38:55.000Z" itemprop="datePublished">2016-02-17</time>
-</a>
-    </div>
-  
-  <div class="article-inner">
-    
-      <input type="hidden" class="isFancy" />
-    
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2016/02/17/CodeProject/ProjectGeant4/HowToUseFileReadData/">吴鸿毅 CodeProject - How To Use File ReadData(Geant4)</a>
-    </h1>
-  
-
-      </header>
-      
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <!-- HowToUseFileReadData.md --- 
-;; 
-;; Description: 
-;; Author: Hongyi Wu(吴鸿毅)
-;; Email: wuhongyi@qq.com 
-;; Created: 三 2月 17 12:38:55 2016 (+0800)
-;; Last-Updated: 六 7月 16 20:10:07 2016 (+0800)
-;;           By: Hongyi Wu(吴鸿毅)
-;;     Update #: 70
-;; URL: http://wuhongyi.github.io -->
-<h1 id="ReadData-txt_文件内参数填写说明">ReadData.txt 文件内参数填写说明</h1><h2 id="吴鸿毅（wuhongyi@qq-com）">吴鸿毅（wuhongyi@qq.com）</h2><h3 id="更新于_2016_年_02_月_17_日">更新于 2016 年 02 月 17 日</h3><h3 id="更新于_2016_年_03_月_23_日_-_北京大学_-_加速器楼">更新于 2016 年 03 月 23 日 - 北京大学 - 加速器楼</h3><hr>
-<p>ReadData.txt 文件存在以下两种参数。</p>
-<figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">ParameterName    (<span class="keyword">int</span>/<span class="keyword">double</span>/<span class="built_in">string</span>)Data</span><br></pre></td></tr></table></figure>
-<p>第一个为变量名（不能修改），后面为我们需要修改的int/double/string型数据。</p>
-<figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">ParameterName    (<span class="keyword">int</span>)Number  (<span class="keyword">int</span>/<span class="keyword">double</span>/<span class="built_in">string</span>)Data1  (<span class="keyword">int</span>/<span class="keyword">double</span>/<span class="built_in">string</span>)Data2 ...</span><br></pre></td></tr></table></figure>
-<p>第一个为变量名（不能修改），第二个为int型数值，指定其后面的int/double/string型数据个数，再后面则为int/double/string型数据。<br>
-      
-    </div>
-    
-    <div class="article-info article-info-index">
-      
-      
-	<div class="article-tag tagcloud">
-		<ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Geant4/">Geant4</a></li></ul>
-	</div>
-
-      
-
-      
-        <p class="article-more-link">
-          <a  href="/2016/02/17/CodeProject/ProjectGeant4/HowToUseFileReadData/#more">more >></a>
-        </p>
-      
-      <div class="clearfix"></div>
-    </div>
-    
-  </div>
-  
-</article>
-
-
-
-
-
-
-
-  
-  
-    <nav id="page-nav">
-      <span class="page-number current">1</span><a class="page-number" href="/page/2/">2</a><a class="page-number" href="/page/3/">3</a><span class="space">&hellip;</span><a class="page-number" href="/page/5/">5</a><a class="extend next" rel="next" href="/page/2/">Next &raquo;</a>
-    </nav>
-  
 </div>
       <footer id="footer">
   <div class="outer">
@@ -946,8 +369,8 @@
 		fancybox: true,
 		mathjax: true,
 		animate: true,
-		isHome: true,
-		isPost: false,
+		isHome: false,
+		isPost: true,
 		isArchive: false,
 		isTag: false,
 		isCategory: false,
