@@ -23,7 +23,7 @@
 ;; Email: wuhongyi@qq.com 
 ;; Created: 三 10月  5 10:25:30 2016 (+0800)
 ;; Last-Updated: 五 10月 28 20:41:39 2016 (+0800">
-<meta property="og:updated_time" content="2016-10-28T12:41:39.241Z">
+<meta property="og:updated_time" content="2016-10-29T01:26:25.422Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="C++虚函数与纯虚函数">
 <meta name="twitter:description" content="&amp;lt;!-- cplusplusvitualfunction.md --- 
@@ -264,7 +264,7 @@
 ;; Last-Updated: 五 10月 28 20:41:39 2016 (+0800)
 ;;           By: Hongyi Wu(吴鸿毅)
 ;;     Update #: 3
-;; URL: http://wuhongyi.github.io -->
+;; URL: http://wuhongyi.cn -->
 <h1 id="什么是虚函数、纯虚函数、抽象基类">什么是虚函数、纯虚函数、抽象基类</h1><p>虚函数：在某基类中声明为 virtual 并在一个或多个派生类中被重新定 义的成员函数。<br>纯虚函数：是一种特殊的虚函数，使用virtual关键字，并且在其后面加上=0。<br>抽象基类：在基类中加入至少一个纯虚函数，使基类成为抽象类。</p>
 <p>虚函数的作用：每个类必须提供一个可以被调用的虚函数，但每个类可以按它们认为合适的任何方式处理。如果某个类不想做什么特别的事，可以借助于基类中提供的缺省处理函数。也就是说，虚函数的声明是在告诉子类的设计者，”你必须支持虚函数，但如果你不想写自己的版本，可以借助基类中的缺省版本。</p>
 <p>纯虚函数的作用：让所有的类对象（主要是派生类对象）都可以执行纯虚函数的动作，但类无法为纯虚函数提供一个合理的缺省实现。所以类纯虚函数的声明就是在告诉子类的设计者，“你必须提供一个纯虚函数的实现，但我不知道你会怎样实现它”。</p>
