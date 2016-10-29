@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  
+  <title>Scientific Linux 下用Octopress免费静态博客系统在Github上搭建个人网站 | Hongyi Wu(吴鸿毅)</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta name="description" content="本教程讲解在Scientific Linux 下用Octopress免费静态博客系统在Github上搭建个人网站。这里只是说说怎么建立网站，发布到Github上还需要Github的使用技能。如果不想使用默认的模板，还得取下载模板来使用或者增加写模板。这些技能网上都很多的。">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Scientific Linux 下用Octopress免费静态博客系统在Github上搭建个人网站">
+<meta property="og:url" content="http://wuhongyi.github.io/SoftwareInstall/Octopress/index.html">
+<meta property="og:site_name" content="Hongyi Wu(吴鸿毅)">
+<meta property="og:description" content="本教程讲解在Scientific Linux 下用Octopress免费静态博客系统在Github上搭建个人网站。这里只是说说怎么建立网站，发布到Github上还需要Github的使用技能。如果不想使用默认的模板，还得取下载模板来使用或者增加写模板。这些技能网上都很多的。">
+<meta property="og:updated_time" content="2016-09-27T05:36:12.379Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Scientific Linux 下用Octopress免费静态博客系统在Github上搭建个人网站">
+<meta name="twitter:description" content="本教程讲解在Scientific Linux 下用Octopress免费静态博客系统在Github上搭建个人网站。这里只是说说怎么建立网站，发布到Github上还需要Github的使用技能。如果不想使用默认的模板，还得取下载模板来使用或者增加写模板。这些技能网上都很多的。">
+  
+    <link rel="alternative" href="/atom.xml" title="Hongyi Wu(吴鸿毅)" type="application/atom+xml">
+  
+  
+    <link rel="icon" href="/favicon.png">
+  
+  <link rel="stylesheet" href="/css/style.css" type="text/css">
+</head>
+<body>
+  <div id="container">
+    <div class="left-col">
+    <div class="overlay"></div>
+<div class="intrude-less">
+	<header id="header" class="inner">
+		<a href="/" class="profilepic">
+			
+			<img lazy-src="img/why.jpg" class="js-avatar">
+			
+		</a>
+
+		<hgroup>
+		  <h1 class="header-author"><a href="/">Hongyi Wu</a></h1>
+		</hgroup>
+
+		
+		<p class="header-subtitle">吴鸿毅</p>
+		
+
+		
+			<div class="switch-btn">
+				<div class="icon">
+					<div class="icon-ctn">
+						<div class="icon-wrap icon-house" data-idx="0">
+							<div class="birdhouse"></div>
+							<div class="birdhouse_holes"></div>
+						</div>
+						<div class="icon-wrap icon-ribbon hide" data-idx="1">
+							<div class="ribbon"></div>
+						</div>
+						
+						<div class="icon-wrap icon-link hide" data-idx="2">
+							<div class="loopback_l"></div>
+							<div class="loopback_r"></div>
+						</div>
+						
+						
+						<div class="icon-wrap icon-me hide" data-idx="3">
+							<div class="user"></div>
+							<div class="shoulder"></div>
+						</div>
+						
+					</div>
+					
+				</div>
+				<div class="tips-box hide">
+					<div class="tips-arrow"></div>
+					<ul class="tips-inner">
+						<li>Menu</li>
+						<li>Tags</li>
+						
+						<li>Link</li>
+						
+						
+						<li>AboutMe</li>
+						
+					</ul>
+				</div>
+			</div>
+		
+
+		<div class="switch-area">
+			<div class="switch-wrap">
+				<section class="switch-part switch-part1">
+					<nav class="header-menu">
+						<ul>
+						
+							<li><a href="/">Home</a></li>
+				        
+							<li><a href="/archives">Archives</a></li>
+				        
+							<li><a href="/tags/Linux">Linux</a></li>
+				        
+							<li><a href="/tags/Nuclearphysics">Nuclearphysics</a></li>
+				        
+							<li><a href="/about">AboutMe</a></li>
+				        
+						</ul>
+					</nav>
+					<nav class="header-nav">
+						<div class="social">
+							
+								<a class="github" target="_blank" href="https://github.com/wuhongyi" title="github">github</a>
+					        
+								<a class="weibo" target="_blank" href="http://weibo.com/wuhongyi" title="weibo">weibo</a>
+					        
+								<a class="rss" target="_blank" href="/#" title="rss">rss</a>
+					        
+						</div>
+					</nav>
+				</section>
+				
+				
+				<section class="switch-part switch-part2">
+					<div class="widget tagcloud" id="js-tagcloud">
+						<a href="/tags/C-C/" style="font-size: 16.67px;">C/C++</a> <a href="/tags/CAEN/" style="font-size: 11.67px;">CAEN</a> <a href="/tags/Chrome/" style="font-size: 10px;">Chrome</a> <a href="/tags/CodeProject/" style="font-size: 10px;">CodeProject</a> <a href="/tags/Digitizer/" style="font-size: 13.33px;">Digitizer</a> <a href="/tags/GCC/" style="font-size: 10px;">GCC</a> <a href="/tags/GDB/" style="font-size: 10px;">GDB</a> <a href="/tags/Geant4/" style="font-size: 15px;">Geant4</a> <a href="/tags/Geant4-ROOT/" style="font-size: 11.67px;">Geant4-ROOT</a> <a href="/tags/Github/" style="font-size: 10px;">Github</a> <a href="/tags/Latex/" style="font-size: 10px;">Latex</a> <a href="/tags/Linux/" style="font-size: 20px;">Linux</a> <a href="/tags/Makefile/" style="font-size: 10px;">Makefile</a> <a href="/tags/Nuclearphysics/" style="font-size: 11.67px;">Nuclearphysics</a> <a href="/tags/Octopress/" style="font-size: 10px;">Octopress</a> <a href="/tags/PATH/" style="font-size: 10px;">PATH</a> <a href="/tags/QStarDict/" style="font-size: 10px;">QStarDict</a> <a href="/tags/RTFM/" style="font-size: 10px;">RTFM</a> <a href="/tags/Software/" style="font-size: 18.33px;">Software</a> <a href="/tags/TEST/" style="font-size: 11.67px;">TEST</a> <a href="/tags/TH1/" style="font-size: 10px;">TH1</a> <a href="/tags/Windows/" style="font-size: 10px;">Windows</a> <a href="/tags/cmake/" style="font-size: 10px;">cmake</a> <a href="/tags/cryptsetup/" style="font-size: 10px;">cryptsetup</a> <a href="/tags/essay/" style="font-size: 11.67px;">essay</a> <a href="/tags/markdown/" style="font-size: 10px;">markdown</a> <a href="/tags/rand/" style="font-size: 10px;">rand</a> <a href="/tags/rar/" style="font-size: 10px;">rar</a> <a href="/tags/shell/" style="font-size: 11.67px;">shell</a> <a href="/tags/string/" style="font-size: 10px;">string</a> <a href="/tags/texlive/" style="font-size: 10px;">texlive</a> <a href="/tags/vector/" style="font-size: 10px;">vector</a> <a href="/tags/wiznote/" style="font-size: 10px;">wiznote</a> <a href="/tags/xerces/" style="font-size: 10px;">xerces</a>
+					</div>
+				</section>
+				
+				
+				
+				<section class="switch-part switch-part3">
+					<div id="js-friends">
+					
+			          <a target="_blank" class="main-nav-link switch-friends-link" href="http://http://www.pku.edu.cn/">PekingUniversity</a>
+			        
+			          <a target="_blank" class="main-nav-link switch-friends-link" href="http://geant4.cern.ch/">Geant4</a>
+			        
+			          <a target="_blank" class="main-nav-link switch-friends-link" href="http://root.cern.ch/drupal/">ROOT</a>
+			        
+			          <a target="_blank" class="main-nav-link switch-friends-link" href="http://www.cplusplus.com/">C++</a>
+			        
+			        </div>
+				</section>
+				
+
+				
+				
+				<section class="switch-part switch-part4">
+				
+					<div id="js-aboutme">人民，只有人民，才是创造世界历史的动力！</div>
+				</section>
+				
+			</div>
+		</div>
+	</header>				
+</div>
+
+    </div>
+    <div class="mid-col">
+      <nav id="mobile-nav">
+  	<div class="overlay">
+  		<div class="slider-trigger"></div>
+  		<h1 class="header-author js-mobile-header hide">Hongyi Wu</h1>
+  	</div>
+	<div class="intrude-less">
+		<header id="header" class="inner">
+			<div class="profilepic">
+				<img lazy-src="img/why.jpg" class="js-avatar">
+			</div>
+			<hgroup>
+			  <h1 class="header-author">Hongyi Wu</h1>
+			</hgroup>
+			
+			<p class="header-subtitle">吴鸿毅</p>
+			
+			<nav class="header-menu">
+				<ul>
+				
+					<li><a href="/">Home</a></li>
+		        
+					<li><a href="/archives">Archives</a></li>
+		        
+					<li><a href="/tags/Linux">Linux</a></li>
+		        
+					<li><a href="/tags/Nuclearphysics">Nuclearphysics</a></li>
+		        
+					<li><a href="/about">AboutMe</a></li>
+		        
+		        <div class="clearfix"></div>
+				</ul>
+			</nav>
+			<nav class="header-nav">
+				<div class="social">
+					
+						<a class="github" target="_blank" href="https://github.com/wuhongyi" title="github">github</a>
+			        
+						<a class="weibo" target="_blank" href="http://weibo.com/wuhongyi" title="weibo">weibo</a>
+			        
+						<a class="rss" target="_blank" href="/#" title="rss">rss</a>
+			        
+				</div>
+			</nav>
+		</header>				
+	</div>
+</nav>
+      <div class="body-wrap"><article id="post-SoftwareInstall/Octopress" class="article article-type-post" itemscope itemprop="blogPost">
+  
+    <div class="article-meta">
+      <a href="/SoftwareInstall/Octopress/" class="article-date">
+  	<time datetime="2015-08-10T12:03:52.000Z" itemprop="datePublished">2015-08-10</time>
+</a>
+    </div>
+  
+  <div class="article-inner">
+    
+      <input type="hidden" class="isFancy" />
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 class="article-title" itemprop="name">
+      Scientific Linux 下用Octopress免费静态博客系统在Github上搭建个人网站
+    </h1>
+  
+
+      </header>
+      
+      <div class="article-info article-info-post">
+        
+	<div class="article-tag tagcloud">
+		<ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Github/">Github</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Linux/">Linux</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Octopress/">Octopress</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Software/">Software</a></li></ul>
+	</div>
+
+        
+
+        <div class="clearfix"></div>
+      </div>
+      
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <p>本教程讲解在Scientific Linux 下用Octopress免费静态博客系统在Github上搭建个人网站。这里只是说说怎么建立网站，发布到Github上还需要Github的使用技能。如果不想使用默认的模板，还得取下载模板来使用或者增加写模板。这些技能网上都很多的。<br><a id="more"></a></p>
+<h2 id="必备软件安装">必备软件安装</h2><p>我网盘的软件：<br><a href="http://share.weiyun.com/d036ee46d3d059db86b043dfc3bb6b35" target="_blank" rel="external">下载 autoconf-2.67</a><br><a href="http://share.weiyun.com/4ebfe8e205851608acf17184725d6302" target="_blank" rel="external">下载 ruby-2.2.2</a></p>
+<p>系统自带的 ruby ，因为其版本太低<br>自己去下载 ruby 高一点的版本，我安装的是2.2.2。安装在/usr下   ./configure –prefix=/usr<br>ruby2.2.2 要求 autoconf 版本2.67及以上，安装在/usr下     ./configure –prefix=/usr</p>
+<p>然后通过 yum 安装软件 nodejs<br><figure class="highlight vala"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="preprocessor"># yum install nodejs</span></span><br></pre></td></tr></table></figure></p>
+<h2 id="安装octopress">安装octopress</h2><p>可以下载我网盘的版本<a href="http://share.weiyun.com/bec313a85a8f635e3bfa47a1dc2733aa" target="_blank" rel="external">下载 octopress-master.zip</a></p>
+<p>也可以直接在Github上下载octopress源码。<br><figure class="highlight groovy"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git clone <span class="string">git:</span><span class="comment">//github.com/imathis/octopress.git  octopress</span></span><br></pre></td></tr></table></figure></p>
+<p>就是去下来放在你想要放的地方</p>
+<p>然后在该文件夹內，替换镜像源网站<br><figure class="highlight crystal"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="variable">$ </span> gem sources -a <span class="symbol">https:</span>/<span class="regexp">/ruby.taobao.org/</span></span><br><span class="line"><span class="variable">$ </span> gem sources -r <span class="symbol">http:</span>/<span class="regexp">/rubygems.org/</span></span><br><span class="line"><span class="variable">$ </span> gem -l</span><br></pre></td></tr></table></figure></p>
+<p>将文件Gemfile的第一行网址改为 <a href="https://ruby.taobao.org" target="_blank" rel="external">https://ruby.taobao.org</a></p>
+<p>然后在该文件夹內执行<br><figure class="highlight armasm"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"># gem install <span class="keyword">bundler </span>   //安装<span class="keyword">bundler</span><br><span class="line"></span>$ <span class="keyword">bundle </span>install</span><br><span class="line">$ rake install           //安装octopress默认主题</span><br></pre></td></tr></table></figure></p>
+<p>然后就是生成和预览博客了<br><figure class="highlight crystal"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="variable">$ </span>rake generate</span><br><span class="line"><span class="variable">$ </span>rake preview</span><br></pre></td></tr></table></figure></p>
+<p>在浏览器中输入 localhost:4000 回车等待就可预览网页了。</p>
+<p>如果要支持在网页中插入Latex数学公式，那么还需要做以下配置：<br>在 source/_includes/custom/footer.html文件中加入以下：<br><figure class="highlight xml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">&lt;!-- mathjax config similar to math.stackexchange --&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="title">script</span> <span class="attribute">type</span>=<span class="value">"text/x-mathjax-config"</span>&gt;</span><span class="actionscript"></span><br><span class="line">  MathJax.Hub.Config(&#123;</span><br><span class="line">    tex2jax: &#123;</span><br><span class="line">      inlineMath: [ [<span class="string">'$'</span>,<span class="string">'$'</span>], [<span class="string">"\\("</span>,<span class="string">"\\)"</span>] ],</span><br><span class="line">      processEscapes: <span class="literal">true</span></span><br><span class="line">    &#125;</span><br><span class="line">  &#125;);</span><br><span class="line"></span><span class="tag">&lt;/<span class="title">script</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="title">script</span> <span class="attribute">type</span>=<span class="value">"text/x-mathjax-config"</span>&gt;</span><span class="actionscript"></span><br><span class="line">    MathJax.Hub.Config(&#123;</span><br><span class="line">      tex2jax: &#123;</span><br><span class="line">        skipTags: [<span class="string">'script'</span>, <span class="string">'noscript'</span>, <span class="string">'style'</span>, <span class="string">'textarea'</span>, <span class="string">'pre'</span>, <span class="string">'code'</span>]</span><br><span class="line">      &#125;</span><br><span class="line">    &#125;);</span><br><span class="line"></span><span class="tag">&lt;/<span class="title">script</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="title">script</span> <span class="attribute">type</span>=<span class="value">"text/x-mathjax-config"</span>&gt;</span><span class="actionscript"></span><br><span class="line">    MathJax.Hub.Queue(<span class="function"><span class="keyword">function</span><span class="params">()</span> </span>&#123;</span><br><span class="line">        <span class="keyword">var</span> all = MathJax.Hub.getAllJax(), i;</span><br><span class="line">        <span class="keyword">for</span>(i=<span class="number">0</span>; i &lt; all.length; i += <span class="number">1</span>) &#123;</span><br><span class="line">            all[i].SourceElement().parentNode.className += <span class="string">' has-jax'</span>;</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;);</span><br><span class="line"></span><span class="tag">&lt;/<span class="title">script</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="title">script</span> <span class="attribute">type</span>=<span class="value">"text/javascript"</span></span><br><span class="line">   <span class="attribute">src</span>=<span class="value">"http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"</span>&gt;</span><span class="undefined"></span><br><span class="line"></span><span class="tag">&lt;/<span class="title">script</span>&gt;</span></span><br></pre></td></tr></table></figure></p>
+<p>然后将_config.yml 中的 markdown: rdiscount 改为 markdown: kramdown</p>
+<h2 id="发布">发布</h2><p>发布命令<br>首次使用配置，在文件夹内执行以下第一句，并按要求输入第二句：<br><figure class="highlight stylus"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">rake setup_github_pages</span><br><span class="line">url: git@github<span class="class">.com</span>:username/username<span class="class">.github</span><span class="class">.io</span><span class="class">.git</span></span><br></pre></td></tr></table></figure></p>
+<p>然后使用以下语句就能发布了。<br><figure class="highlight nginx"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="title">rake</span> deploy</span><br></pre></td></tr></table></figure></p>
+<h2 id=""><br></h2><p>&#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160;<strong>Update: 6. Last-Modified: 2015-09-27 21:02</strong></p>
+
+      
+    </div>
+    
+  </div>
+  
+    
+<nav id="article-nav">
+  
+    <a href="/wuhongyi/" id="article-nav-newer" class="article-nav-link-wrap">
+      <strong class="article-nav-caption"><</strong>
+      <div class="article-nav-title">
+        
+          排版测试页面
+        
+      </div>
+    </a>
+  
+  
+    <a href="/Scientific/ROOTHistograms/" id="article-nav-older" class="article-nav-link-wrap">
+      <div class="article-nav-title">ROOT Histograms</div>
+      <strong class="article-nav-caption">></strong>
+    </a>
+  
+</nav>
+
+  
+</article>
+
+
+
+
+
+
+<section id="comments">
+  <div id="disqus_thread"></div>
+    <script type="text/javascript">
+    /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+    var disqus_shortname = 'wuhongyi'; // required: replace example with your forum shortname
+
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function() {
+      var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+      dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+      (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+  </script>
+  <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</section>
+
+</div>
+      <footer id="footer">
+  <div class="outer">
+    <div id="footer-info">
+    	<div class="footer-center">
+    		&copy; 2016 Hongyi Wu
+    	</div>
+      	<!-- <div class="footer-right"> -->
+      	<!-- 	<a href="http://hexo.io/" target="_blank">Hexo</a>  Theme <a href="https://github.com/litten/hexo-theme-yilia" target="_blank">Yilia</a> by Litten -->
+      	<!-- </div> -->
+    </div>
+  </div>
+</footer>
+
+    </div>
+    
+  <link rel="stylesheet" href="/fancybox/jquery.fancybox.css" type="text/css">
+
+
+<script>
+	var yiliaConfig = {
+		fancybox: true,
+		mathjax: true,
+		animate: true,
+		isHome: false,
+		isPost: true,
+		isArchive: false,
+		isTag: false,
+		isCategory: false,
+		open_in_new: false
+	}
+</script>
+<script src="http://7.url.cn/edu/jslib/comb/require-2.1.6,jquery-1.9.1.min.js" type="text/javascript"></script>
+<script src="/js/main.js" type="text/javascript"></script>
+
+
+
+
+
+
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+    tex2jax: {
+        inlineMath: [ ['$','$'], ["\\(","\\)"]  ],
+        processEscapes: true,
+        skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
+    }
+});
+
+MathJax.Hub.Queue(function() {
+    var all = MathJax.Hub.getAllJax(), i;
+    for(i=0; i < all.length; i += 1) {
+        all[i].SourceElement().parentNode.className += ' has-jax';                 
+    }       
+});
+</script>
+
+<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
+
+
+  </div>
+</body>
+</html>
