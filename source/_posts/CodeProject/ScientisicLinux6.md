@@ -14,7 +14,7 @@ tags: [Linux,Software]
 ;; Last-Updated: 六 7月 16 19:41:22 2016 (+0800)
 ;;           By: Hongyi Wu(吴鸿毅)
 ;;     Update #: 18
-;; URL: http://wuhongyi.github.io -->
+;; URL: http://wuhongyi.cn -->
 
 
 # Scientific Linux 6 常用软件安装

@@ -14,7 +14,7 @@ tags: [Digitizer]
 ;; Last-Updated: 三 8月  3 18:08:51 2016 (+0800)
 ;;           By: Hongyi Wu(吴鸿毅)
 ;;     Update #: 24
-;; URL: http://wuhongyi.github.io -->
+;; URL: http://wuhongyi.cn -->
 
 
 This user manual is intended to describe the Digital Pulse Processing for Pulse Shape Discrimination firmware (DPP-PSD) running on the 720 series digitizers with the EP1C20 FPGA and DT5790 (12 bit, 250MS/s), on the 725 series (14 bit,250 MS/s), the 730 series (14 bit, 500 MS/s), and on the 751 series digitizers (10 bit, 1 GS/s; DES mode not supported).

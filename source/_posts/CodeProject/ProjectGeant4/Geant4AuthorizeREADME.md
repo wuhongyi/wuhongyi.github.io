@@ -14,7 +14,7 @@ tags: [Geant4]
 ;; Last-Updated: 六 7月 16 20:43:41 2016 (+0800)
 ;;           By: Hongyi Wu(吴鸿毅)
 ;;     Update #: 8
-;; URL: http://wuhongyi.github.io -->
+;; URL: http://wuhongyi.cn -->
 
 # Authorize 文件夹说明
 

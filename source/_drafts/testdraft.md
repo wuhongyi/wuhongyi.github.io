@@ -14,7 +14,7 @@ tags: [TEST]
 ;; Last-Updated: 三 8月  3 16:34:16 2016 (+0800)
 ;;           By: Hongyi Wu(吴鸿毅)
 ;;     Update #: 1
-;; URL: http://wuhongyi.github.io -->
+;; URL: http://wuhongyi.cn -->
 
 # Draft Test Page
 

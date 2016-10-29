@@ -14,7 +14,7 @@ tags: [Linux,CodeProject]
 ;; Last-Updated: 六 7月 16 19:42:16 2016 (+0800)
 ;;           By: Hongyi Wu(吴鸿毅)
 ;;     Update #: 178
-;; URL: http://wuhongyi.github.io -->
+;; URL: http://wuhongyi.cn -->
 
 
 # 吴鸿毅 CodeProject使用说明书

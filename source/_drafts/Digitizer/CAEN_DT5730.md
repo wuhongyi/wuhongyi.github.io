@@ -14,7 +14,7 @@ tags: [CAEN,Digitizer]
 ;; Last-Updated: 三 8月  3 18:08:39 2016 (+0800)
 ;;           By: Hongyi Wu(吴鸿毅)
 ;;     Update #: 23
-;; URL: http://wuhongyi.github.io --> 
+;; URL: http://wuhongyi.cn --> 
 
 输入增益只有两档：
 

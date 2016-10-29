@@ -14,7 +14,7 @@ tags: [CAEN,Digitizer]
 ;; Last-Updated: 一 9月 12 16:54:07 2016 (+0800)
 ;;           By: Hongyi Wu(吴鸿毅)
 ;;     Update #: 6
-;; URL: http://wuhongyi.github.io -->
+;; URL: http://wuhongyi.cn -->
 
 光纤直接连接插件，红色端在上，黑色端在下
 <!-- more -->

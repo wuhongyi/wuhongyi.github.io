@@ -14,7 +14,7 @@ tags: [Geant4]
 ;; Last-Updated: 六 7月 16 20:06:49 2016 (+0800)
 ;;           By: Hongyi Wu(吴鸿毅)
 ;;     Update #: 7
-;; URL: http://wuhongyi.github.io -->
+;; URL: http://wuhongyi.cn -->
 
 # Optical.txt 文件内参数填写说明
 

@@ -15,7 +15,7 @@ tags: [C/C++]
 ;; Last-Updated: 五 10月 28 20:41:39 2016 (+0800)
 ;;           By: Hongyi Wu(吴鸿毅)
 ;;     Update #: 3
-;; URL: http://wuhongyi.github.io -->
+;; URL: http://wuhongyi.cn -->
 
 
 # 什么是虚函数、纯虚函数、抽象基类
