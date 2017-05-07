@@ -3,7 +3,7 @@ date: 3000-01-01 00:00:00 +0800
 comments: true
 tags: [Linux,Geant4-ROOT,Nuclearphysics]
 ---
-&#160; &#160; &#160; &#160;**请确保连接国际网下访问本站，教育网免费IP下访问可能存在部分内容无法正常显示(数学公式、底下评论框等)。在Chrome浏览器下访问效果更佳！评论支持匿名（有个选项打上勾），无须注册相关帐号即可评论。**  
+&#160; &#160; &#160; &#160;**请确保连接国际网下访问本站，教育网免费IP下访问可能存在部分内容无法正常显示(数学公式、底下评论框等)。在Chrome浏览器下访问效果更佳！**  
 Welcome to Hongyi Wu(吴鸿毅) blog! If you have any problems when using my blog, you can ask me for email: wuhongyi@qq.com / wuhongyi@pku.edu.cn.
 <!--more-->
 
@@ -20,14 +20,40 @@ Welcome to Hongyi Wu(吴鸿毅) blog! If you have any problems when using my blo
 ## 常用配置
 
 [Hongyi Wu Github](https://github.com/wuhongyi)
-下载
+*多年积累程序包源码暂不公开* [Code Project](https://github.com/wuhongyi/CodeProject)
+
+**下载我的模板及配置**
 [yum SL6 SL7](https://github.com/wuhongyi/ScientificLinuxYumSet)
 [emacs linux](https://github.com/wuhongyi/EmacsSet)
 [emacs windows](https://github.com/wuhongyi/EmacsSet)
 [linux latex fonts](https://github.com/wuhongyi/fonts) 
 [cmake template](https://github.com/wuhongyi/cmakeTemplate)
 [latex template](https://github.com/wuhongyi/LatexTemplate)
+[ROOT GUI template](https://github.com/wuhongyi/ROOTGUITemplate)
+[Environment variable settings](https://github.com/wuhongyi/BasicConfiguration)
 
+**我的笔记**
+
+[Code Project And Tool](http://wuhongyi.cn/CodeProject/)
+[DAQ Note](http://wuhongyi.cn/DAQNote/)
+[ROOT Note](http://wuhongyi.cn/ROOTNote/)
+[C++ Note(大量未更新)](http://wuhongyi.cn/CPlusPlusNote/)
+
+**PKU DAQ源码**
+
+*XIA Pixie16 RevF 暂不公开* [XIA Pixie16 RevF](https://github.com/wuhongyi/PKU_Pixie16RevF_V1)
+[XIA Pixie Net]()
+[CAEN Desktop Digitizer]()
+[CAEN V1724 Digitizer](https://github.com/wuhongyi/CAENV1724Digitizer)
+[CAEN VME](https://github.com/wuhongyi/VMEDAQ)
+
+**其它**
+
+[PB-5/MSCF远程控制界面(未开发完)](https://github.com/wuhongyi/SerialCommunications)
+[CSM计算](https://github.com/wuhongyi/CSM)
+
+
+----
 
 ## 本网站由 Hexo 搭建
 Hexo新建博客：
@@ -89,4 +115,4 @@ gitbook serve [-p port] <Pathto>/Gitbook
 
 <br />
 ----
-&#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160;**Update: 3. Last-Modified: 2016-08-03 18:27**
+&#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160;**Update: 3. Last-Modified: 2017-05-07 22:18**
