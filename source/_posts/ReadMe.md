@@ -34,16 +34,16 @@ Welcome to Hongyi Wu(吴鸿毅) blog! If you have any problems when using my blo
 
 **我的笔记**
 
-[Code Project And Tool](http://wuhongyi.cn/CodeProject/)
-[DAQ Note](http://wuhongyi.cn/DAQNote/)
-[ROOT Note](http://wuhongyi.cn/ROOTNote/)
-[C++ Note(大量未更新)](http://wuhongyi.cn/CPlusPlusNote/)
+[Code Project And Tool](http://wuhongyi.cn/CodeProject)
+[DAQ Note](http://wuhongyi.cn/DAQNote)
+[ROOT Note](http://wuhongyi.cn/ROOTNote)
+[C++ Note(大量未更新)](http://wuhongyi.cn/CPlusPlusNote)
 
 **PKU DAQ源码**
 
 *XIA Pixie16 RevF 暂不公开* [XIA Pixie16 RevF](https://github.com/wuhongyi/PKU_Pixie16RevF_V1)
-[XIA Pixie Net]()
-[CAEN Desktop Digitizer]()
+[XIA Pixie Net](https://github.com/wuhongyi/PKUXIAPixieNet)
+[CAEN Desktop Digitizer](https://github.com/wuhongyi/PKU_CAENDesktopDigitizer)
 [CAEN V1724 Digitizer](https://github.com/wuhongyi/CAENV1724Digitizer)
 [CAEN VME](https://github.com/wuhongyi/VMEDAQ)
 
