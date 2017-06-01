@@ -14,6 +14,11 @@ Hongyi wu(吴鸿毅)
 ## Date of Birth:
 &#160; &#160; &#160; &#160;May 27,1991
 
+## Lucky number:
+
+   *3*
+
+
 ## Education:
 
     2011.9-2015.6 Harbin Engineering University  

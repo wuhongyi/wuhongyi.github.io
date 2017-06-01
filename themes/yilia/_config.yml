@@ -1,21 +1,21 @@
 # Header
 menu:
   Home: /
-  Archives: /archives
-  Linux: /tags/Linux
+  #Archives: /archives
+  #Linux: /tags/Linux
   #Geant4&ROOT: /tags/Geant4-ROOT
-  Nuclearphysics: /tags/Nuclearphysics
+  #Nuclearphysics: /tags/Nuclearphysics
   AboutMe: /about
   # 随笔: /tags/随笔
 
 # SubNav
 subnav:
   github: "https://github.com/wuhongyi"
-  weibo: "http://weibo.com/wuhongyi"
+  mail: "wuhongyi@qq.com"
+  #weibo: "http://weibo.com/wuhongyi"
   rss: "#"
   #zhihu: "#"
   #douban: "#"
-  #mail: "#"
   #facebook: "#"
   #google: "#"
   #twitter: "#"
