@@ -11,40 +11,43 @@ tags: []
 ## 常用配置
 
 [Hongyi Wu Github](https://github.com/wuhongyi)
-*多年积累程序包源码暂不公开* [Code Project](https://github.com/wuhongyi/CodeProject)
+*多年积累程序包源码暂不公开* ([Code Project](https://github.com/wuhongyi/CodeProject))
 
 **下载我的模板及配置**
 [yum SL6 SL7](https://github.com/wuhongyi/ScientificLinuxYumSet)
-[emacs linux](https://github.com/wuhongyi/EmacsSet)
-[emacs windows](https://github.com/wuhongyi/EmacsSet)
+[emacs set linux/windows](https://github.com/wuhongyi/EmacsSet)
 [linux latex fonts](https://github.com/wuhongyi/fonts) 
 [cmake template](https://github.com/wuhongyi/cmakeTemplate)
 [latex template](https://github.com/wuhongyi/LatexTemplate)
 [ROOT GUI template](https://github.com/wuhongyi/ROOTGUITemplate)
-[Environment variable settings](https://github.com/wuhongyi/BasicConfiguration)
+[系统安装之后自动配置软件脚本](https://github.com/wuhongyi/BasicConfiguration)
 
 
 **我的笔记**
 
 [Code Project And Tool](http://wuhongyi.cn/CodeProject)
 [DAQ Note](http://wuhongyi.cn/DAQNote)
+[Hardware Note](http://wuhongyi.cn/HardwareNote)
 [ROOT Note](http://wuhongyi.cn/ROOTNote)
-[C++ Note(大量未更新)](http://wuhongyi.cn/CPlusPlusNote)
+[C++ Note(大量未更新上传)](http://wuhongyi.cn/CPlusPlusNote)
 
 
 **PKU DAQ源码**
 
-*XIA Pixie16 RevF 暂不公开* [XIA Pixie16 RevF](https://github.com/wuhongyi/PKU_Pixie16RevF_V1)
+*XIA Pixie16 RevF 暂不公开* ([XIA Pixie16 RevF](https://github.com/wuhongyi/PKU_Pixie16RevF_V1))
 [XIA Pixie Net](https://github.com/wuhongyi/PKUXIAPixieNet)
 [CAEN Desktop Digitizer](https://github.com/wuhongyi/PKU_CAENDesktopDigitizer)
 [CAEN V1724 Digitizer](https://github.com/wuhongyi/CAENV1724Digitizer)
-*VME DAQ 暂不公开* [CAEN VME](https://github.com/wuhongyi/VMEDAQ)
+*VME DAQ 暂不公开* ([CAEN VME](https://github.com/wuhongyi/VMEDAQ))
 
 
 **其它**
 
-[PB-5/MSCF远程控制界面(未开发完)](https://github.com/wuhongyi/SerialCommunications)
+
+[FFTW](https://github.com/wuhongyi/FFTW)
 [CSM计算](https://github.com/wuhongyi/CSM)
+[PB-5/MSCF远程控制界面(未开发完)](https://github.com/wuhongyi/SerialCommunications)
+
 
 
 ----
@@ -109,4 +112,4 @@ gitbook serve [-p port] <Pathto>/Gitbook
 
 <br />
 ----
-&#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160;**Update: 3. Last-Modified: 2017-05-07 22:18**
+**Update: 3. Last-Modified: 2017-05-07 22:18**
