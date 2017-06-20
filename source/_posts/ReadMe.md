@@ -29,6 +29,8 @@ tags: []
 [DAQ Note](http://wuhongyi.cn/DAQNote)
 [Hardware Note](http://wuhongyi.cn/HardwareNote)
 [ROOT Note](http://wuhongyi.cn/ROOTNote)
+[Python Note](http://wuhongyi.cn/PythonNote)
+[HTML Note](http://wuhongyi.cn/HTMLNote)
 [C++ Note(大量未更新上传)](http://wuhongyi.cn/CPlusPlusNote)
 
 
