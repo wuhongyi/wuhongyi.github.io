@@ -2,9 +2,7 @@
 menu:
   Home: /
   #Archives: /archives
-  #Linux: /tags/Linux
-  #Geant4&ROOT: /tags/Geant4-ROOT
-  #Nuclearphysics: /tags/Nuclearphysics
+  Navigation: /Navigation   
   AboutMe: /about
   # 随笔: /tags/随笔
 
@@ -63,4 +61,4 @@ friends:
 #不开启——
 #aboutme: false
 #开启——
-aboutme: 人民，只有人民，才是创造世界历史的动力！
+aboutme: 猫越来越像你，你越来越像猫。
