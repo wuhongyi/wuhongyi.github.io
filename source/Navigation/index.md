@@ -13,9 +13,9 @@ footer: true
 ;; Author: Hongyi Wu(吴鸿毅)
 ;; Email: wuhongyi@qq.com 
 ;; Created: 五 6月 23 20:30:32 2017 (+0800)
-;; Last-Updated: 五 6月 23 21:30:19 2017 (+0800)
+;; Last-Updated: 三 7月  5 14:53:49 2017 (+0800)
 ;;           By: Hongyi Wu(吴鸿毅)
-;;     Update #: 3
+;;     Update #: 5
 ;; URL: http://wuhongyi.cn -->
 
 
@@ -24,7 +24,7 @@ footer: true
 ----
 
 **工具**  
-[百度](https://www.baidu.com/)  [必应](http://global.bing.com/)  [Google](http://www.google.com/)  [google镜像](http://dir.scmor.com/google/)  [百度翻译](http://fanyi.baidu.com/)  [谷歌翻译](http://translate.google.cn/)  [cnki翻译助手](http://dict.cnki.net/)  [百度网盘](http://pan.baidu.com/)  [QQ邮箱](http://mail.qq.com/)  
+[百度](https://www.baidu.com/)  [必应](http://global.bing.com/)  [Google](http://www.google.com/)  [google镜像](http://dir.scmor.com/google/)  [百度翻译](http://fanyi.baidu.com/)  [谷歌翻译](http://translate.google.cn/)  [cnki翻译助手](http://dict.cnki.net/)  [百度网盘](http://pan.baidu.com/)  [QQ邮箱](http://mail.qq.com/)  [百度企业信用](http://xin.baidu.com/)
 
 ----
 
@@ -54,8 +54,7 @@ footer: true
 ----
 
 **教程**
-[极客学院](http://www.jikexueyuan.com/)  [latex](http://www.latextemplates.com/)  [phy410-505](http://www.physics.buffalo.edu/phy410-505/contents/index.html)  [MITG4](http://geant4.slac.stanford.edu/MIT2015/MIT2015_Agenda.html)  
-[SLACG4](http://geant4.slac.stanford.edu/SLACTutorial14/Agenda.html)  [菜鸟教程](http://www.runoob.com/)  [Git](http://git-scm.com/book/zh/v2)  [MQL5](https://www.mql5.com/zh/docs)  [Matlab](http://cn.mathworks.com/help/index.html)  [在线手册](http://shouce.jb51.net/)  [Citavi](http://www.citavi.com/sub/manual5/en/index.html)  
+[极客学院](http://www.jikexueyuan.com/)  [latex](http://www.latextemplates.com/)  [phy410-505](http://www.physics.buffalo.edu/phy410-505/contents/index.html)  [MITG4](http://geant4.slac.stanford.edu/MIT2015/MIT2015_Agenda.html)  [SLACG4](http://geant4.slac.stanford.edu/SLACTutorial14/Agenda.html)  [菜鸟教程](http://www.runoob.com/)  [Git](http://git-scm.com/book/zh/v2)  [MQL5](https://www.mql5.com/zh/docs)  [Matlab](http://cn.mathworks.com/help/index.html)  [在线手册](http://shouce.jb51.net/)  [Citavi](http://www.citavi.com/sub/manual5/en/index.html)  [C++reference](http://naipc.uchicago.edu/2015/ref/cppreference/en/cpp.html)
 
 ----
 

@@ -32,7 +32,7 @@ tags: []
 [Python Note](http://wuhongyi.cn/PythonNote)
 [HTML Note](http://wuhongyi.cn/HTMLNote)
 [C++ Note(大量未更新上传)](http://wuhongyi.cn/CPlusPlusNote)
-
+[Analysis 不公开](https://github.com/wuhongyi/AnalysisNote)
 
 **PKU DAQ源码**
 
@@ -53,6 +53,8 @@ tags: []
 
 
 ----
+
+<!-- more -->
 
 ## 本网站由 Hexo 搭建
 Hexo新建博客：
