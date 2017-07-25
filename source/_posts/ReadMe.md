@@ -42,6 +42,8 @@ tags: []
 [CAEN V1724 Digitizer](https://github.com/wuhongyi/CAENV1724Digitizer)
 *VME DAQ 暂不公开* ([CAEN VME](https://github.com/wuhongyi/VMEDAQ))
 
+*HEU CAMAC DAQ 暂不公开* ([HEU CAMAC](https://github.com/wuhongyi/HEUCAMAC))
+
 
 **其它**
 
