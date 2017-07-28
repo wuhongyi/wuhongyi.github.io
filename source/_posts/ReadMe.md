@@ -11,16 +11,17 @@ tags: []
 ## 常用配置
 
 [Hongyi Wu Github](https://github.com/wuhongyi)
-*多年积累程序包源码暂不公开* ([Code Project](https://github.com/wuhongyi/CodeProject))
+*积累程序包源码暂不公开* ([Code Project](https://github.com/wuhongyi/CodeProject))
 
 **下载我的模板及配置**
+[系统安装之后自动配置软件脚本](https://github.com/wuhongyi/BasicConfiguration)
 [yum SL6 SL7](https://github.com/wuhongyi/ScientificLinuxYumSet)
 [emacs set linux/windows](https://github.com/wuhongyi/EmacsSet)
 [linux latex fonts](https://github.com/wuhongyi/fonts) 
 [cmake template](https://github.com/wuhongyi/cmakeTemplate)
 [latex template](https://github.com/wuhongyi/LatexTemplate)
 [ROOT GUI template](https://github.com/wuhongyi/ROOTGUITemplate)
-[系统安装之后自动配置软件脚本](https://github.com/wuhongyi/BasicConfiguration)
+
 
 
 **我的笔记**
@@ -31,8 +32,10 @@ tags: []
 [ROOT Note](http://wuhongyi.cn/ROOTNote)
 [Python Note](http://wuhongyi.cn/PythonNote)
 [HTML Note](http://wuhongyi.cn/HTMLNote)
+[VHDL Note](http://wuhongyi.cn/VHDLNote/)
 [C++ Note(大量未更新上传)](http://wuhongyi.cn/CPlusPlusNote)
 <!-- [Analysis 不公开](https://github.com/wuhongyi/AnalysisNote) -->
+
 
 **PKU DAQ源码**
 
@@ -118,4 +121,4 @@ gitbook serve [-p port] <Pathto>/Gitbook
 
 <br />
 ----
-**Update: 3. Last-Modified: 2017-05-07 22:18**
+**Update: 5. Last-Modified: 2017-07-28 16:15**
