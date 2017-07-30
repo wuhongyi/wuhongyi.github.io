@@ -32,7 +32,7 @@ tags: []
 [ROOT Note](http://wuhongyi.cn/ROOTNote)
 [Python Note](http://wuhongyi.cn/PythonNote)
 [HTML Note](http://wuhongyi.cn/HTMLNote)
-[VHDL Note](http://wuhongyi.cn/VHDLNote/)
+[FPGA Note](http://wuhongyi.cn/FPGANote/)
 [C++ Note(大量未更新上传)](http://wuhongyi.cn/CPlusPlusNote)
 <!-- [Analysis 不公开](https://github.com/wuhongyi/AnalysisNote) -->
 
