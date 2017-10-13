@@ -13,9 +13,9 @@ footer: true
 ;; Author: Hongyi Wu(吴鸿毅)
 ;; Email: wuhongyi@qq.com 
 ;; Created: 五 6月 23 20:30:32 2017 (+0800)
-;; Last-Updated: 五 9月  8 19:29:37 2017 (+0800)
+;; Last-Updated: 五 10月 13 23:44:11 2017 (+0800)
 ;;           By: Hongyi Wu(吴鸿毅)
-;;     Update #: 8
+;;     Update #: 10
 ;; URL: http://wuhongyi.cn -->
 
 
@@ -34,7 +34,7 @@ footer: true
 ----
 
 **插件、探测器**  
-[analog](http://www.analog.com/cn/index.html)  [TEXAS](http://www.ti.com.cn/)  [hamamatsu](http://www.hamamatsu.com/us/en/index.html)  [saint-gobain](http://www.crystals.saint-gobain.com/)  [ORTEC](http://www.ortec-online.com/)  [PHILLIPS](http://www.phillipsscientific.com/)  [MESYTEC](http://www.mesytec.com/)  [TechnoAP](http://www.techno-ap.com/)  [CAEN](http://www.caen.it/)  [XIA](http://www.xia.com/)  [SPDevices](https://spdevices.com/)   [ApisSys](http://www.apissys.com/)  [licel](http://licel.com/)  [北京星烁华创](http://www.fcctec.com/)   [RS-online](http://china.rs-online.com/web/)
+[analog](http://www.analog.com/cn/index.html)  [TEXAS](http://www.ti.com.cn/)  [hamamatsu](http://www.hamamatsu.com/us/en/index.html)  [saint-gobain](http://www.crystals.saint-gobain.com/)  [ORTEC](http://www.ortec-online.com/)  [PHILLIPS](http://www.phillipsscientific.com/)  [MESYTEC](http://www.mesytec.com/)  [TechnoAP](http://www.techno-ap.com/)  [CAEN](http://www.caen.it/)  [XIA](http://www.xia.com/)  [struck](http://www.struck.de/)  [SPDevices](https://spdevices.com/)   [ApisSys](http://www.apissys.com/)  [licel](http://licel.com/)  [北京星烁华创](http://www.fcctec.com/)   [RS-online](http://china.rs-online.com/web/)
 
 ----
 
@@ -68,7 +68,9 @@ footer: true
 
 [IntenseDebate](https://intensedebate.com/)
 
+----
 
+[TA-Lib](http://www.ta-lib.org/)
 
 
 <!-- index.md ends here -->
