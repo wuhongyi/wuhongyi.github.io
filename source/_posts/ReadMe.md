@@ -33,8 +33,10 @@ tags: []
 [Python Note](http://wuhongyi.cn/PythonNote)
 [HTML Note](http://wuhongyi.cn/HTMLNote)
 [FPGA Note](http://wuhongyi.cn/FPGANote/)
-[C++ Note(大量未更新上传)](http://wuhongyi.cn/CPlusPlusNote)
-<!-- [Analysis 不公开](https://github.com/wuhongyi/AnalysisNote) -->
+[Qt NOte(未更新上传)](http://wuhongyi.cn/QtNote/)
+[Geant4 Note(未更新上传)](http://wuhongyi.cn/Geant4Note/)
+[C++ Note(大量未更新上传)](http://wuhongyi.cn/CPlusPlusNote/)
+[Analysis 不公开](https://github.com/wuhongyi/AnalysisNote/)
 
 
 **PKU DAQ源码**
@@ -53,7 +55,7 @@ tags: []
 
 [FFTW](https://github.com/wuhongyi/FFTW)
 [CSM计算](https://github.com/wuhongyi/CSM)
-[PB-5/MSCF远程控制界面(未开发完)](https://github.com/wuhongyi/SerialCommunications)
+[PB-5/MSCF远程控制界面(未开发完成)](https://github.com/wuhongyi/SerialCommunications)
 
 
 
