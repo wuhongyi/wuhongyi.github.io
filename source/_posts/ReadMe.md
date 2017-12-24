@@ -33,7 +33,7 @@ tags: []
 [Python Note](http://wuhongyi.cn/PythonNote)
 [HTML Note](http://wuhongyi.cn/HTMLNote)
 [FPGA Note](http://wuhongyi.cn/FPGANote/)
-[Qt NOte(未更新上传)](http://wuhongyi.cn/QtNote/)
+[Qt Note(未更新上传)](http://wuhongyi.cn/QtNote/)
 [Geant4 Note(未更新上传)](http://wuhongyi.cn/Geant4Note/)
 [C++ Note(大量未更新上传)](http://wuhongyi.cn/CPlusPlusNote/)
 [Analysis 不公开](https://github.com/wuhongyi/AnalysisNote/)
