@@ -13,9 +13,9 @@ footer: true
 ;; Author: Hongyi Wu(吴鸿毅)
 ;; Email: wuhongyi@qq.com 
 ;; Created: 五 6月 23 20:30:32 2017 (+0800)
-;; Last-Updated: 五 10月 13 23:44:11 2017 (+0800)
+;; Last-Updated: 二 1月 30 17:35:50 2018 (+0800)
 ;;           By: Hongyi Wu(吴鸿毅)
-;;     Update #: 10
+;;     Update #: 14
 ;; URL: http://wuhongyi.cn -->
 
 
@@ -34,12 +34,19 @@ footer: true
 ----
 
 **插件、探测器**  
-[analog](http://www.analog.com/cn/index.html)  [TEXAS](http://www.ti.com.cn/)  [hamamatsu](http://www.hamamatsu.com/us/en/index.html)  [saint-gobain](http://www.crystals.saint-gobain.com/)  [ORTEC](http://www.ortec-online.com/)  [PHILLIPS](http://www.phillipsscientific.com/)  [MESYTEC](http://www.mesytec.com/)  [TechnoAP](http://www.techno-ap.com/)  [CAEN](http://www.caen.it/)  [XIA](http://www.xia.com/)  [struck](http://www.struck.de/)  [SPDevices](https://spdevices.com/)   [ApisSys](http://www.apissys.com/)  [licel](http://licel.com/)  [北京星烁华创](http://www.fcctec.com/)   [RS-online](http://china.rs-online.com/web/)
+[analog](http://www.analog.com/cn/index.html)  [TEXAS](http://www.ti.com.cn/)   [hamamatsu](http://www.hamamatsu.com/us/en/index.html)  [saint-gobain](http://www.crystals.saint-gobain.com/)  [micron](http://www.micronsemiconductor.co.uk/)  
+[ORTEC](http://www.ortec-online.com/)  [PHILLIPS](http://www.phillipsscientific.com/)  [MESYTEC](http://www.mesytec.com/)  [TechnoAP](http://www.techno-ap.com/)  [CAEN](http://www.caen.it/) [sci-compiler](http://www.sci-compiler.com/) [XIA](http://www.xia.com/)  
+[struck](http://www.struck.de/)  [SPDevices](https://spdevices.com/)   [ApisSys](http://www.apissys.com/)  [licel](http://licel.com/)  [北京星烁华创](http://www.fcctec.com/)   [RS-online](http://china.rs-online.com/web/)   
 
 ----
 
 **软件**
 [GEANT4](http://geant4.cern.ch/)  [ROOT](http://root.cern.ch/drupal/)  [VMC](https://root.cern.ch/vmc)  [C++](http://www.cplusplus.com/)  [radware](http://radware.phy.ornl.gov/)  [Garfield++](http://garfieldpp.web.cern.ch/garfieldpp/)  [FREYA](https://nuclear.llnl.gov/simulation/)  [mingw](http://www.mingw.org/)  
+
+----
+
+**FPGA**
+[fpga4student](http://www.fpga4student.com/)   [opencores](https://opencores.org/)
 
 ----
 
