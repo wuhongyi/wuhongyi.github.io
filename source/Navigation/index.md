@@ -13,9 +13,9 @@ footer: true
 ;; Author: Hongyi Wu(吴鸿毅)
 ;; Email: wuhongyi@qq.com 
 ;; Created: 五 6月 23 20:30:32 2017 (+0800)
-;; Last-Updated: 五 2月 23 16:20:18 2018 (+0800)
+;; Last-Updated: 三 2月 28 20:09:35 2018 (+0800)
 ;;           By: Hongyi Wu(吴鸿毅)
-;;     Update #: 21
+;;     Update #: 22
 ;; URL: http://wuhongyi.cn -->
 
 
@@ -42,7 +42,7 @@ footer: true
 ----
 
 **软件**
-[GEANT4](http://geant4.cern.ch/)  [ROOT](http://root.cern.ch/drupal/)  [VMC](https://root.cern.ch/vmc)  [C++](http://www.cplusplus.com/)  [radware](http://radware.phy.ornl.gov/)  [Garfield++](http://garfieldpp.web.cern.ch/garfieldpp/)  [FREYA](https://nuclear.llnl.gov/simulation/)  [mingw](http://www.mingw.org/)  
+[GEANT4](http://geant4.cern.ch/)  [ROOT](http://root.cern.ch/drupal/)  [VMC](https://root.cern.ch/vmc)  [C++](http://www.cplusplus.com/)  [radware](http://radware.phy.ornl.gov/)  [Garfield++](http://garfieldpp.web.cern.ch/garfieldpp/)  [FREYA](https://nuclear.llnl.gov/simulation/)  [mingw](http://www.mingw.org/)  [typora](https://www.typora.io/)
 
 ----
 
