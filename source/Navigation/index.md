@@ -13,9 +13,9 @@ footer: true
 ;; Author: Hongyi Wu(吴鸿毅)
 ;; Email: wuhongyi@qq.com 
 ;; Created: 五 6月 23 20:30:32 2017 (+0800)
-;; Last-Updated: 四 4月 19 20:55:53 2018 (+0800)
+;; Last-Updated: 六 4月 21 18:43:22 2018 (+0800)
 ;;           By: Hongyi Wu(吴鸿毅)
-;;     Update #: 26
+;;     Update #: 28
 ;; URL: http://wuhongyi.cn -->
 
 
@@ -36,7 +36,7 @@ footer: true
 **插件、探测器**  
 [analog](http://www.analog.com/cn/index.html)  [TEXAS](http://www.ti.com.cn/)   [hamamatsu](http://www.hamamatsu.com/us/en/index.html)  [saint-gobain](http://www.crystals.saint-gobain.com/)  [micronsemiconductor](http://www.micronsemiconductor.co.uk/)  [microndiamond](http://www.microndiamond.co.uk/)  [CANBERRA](http://www.canberra.com/) [MIRION](https://www.mirion.com/)  [ET-Enterprises](http://www.et-enterprises.com/)  [PHOTONIS](http://www.photonis.com/)  [Cremat](http://www.cremat.com/)   [naicam-tech](http://www.naicam-tech.com/en/)   [clearpulse](http://www.clearpulse.co.jp/index.html)   [kromek](http://www.kromek.com/index.php)  
 [wiener](http://www.wiener-d.com/)   [ORTEC](http://www.ortec-online.com/)  [PHILLIPS](http://www.phillipsscientific.com/)  [MESYTEC](http://www.mesytec.com/)  [TechnoAP](http://www.techno-ap.com/)  [CAEN](http://www.caen.it/) [sci-compiler](http://www.sci-compiler.com/) [XIA](http://www.xia.com/)   
-[keysight](https://www.keysight.com/)   [struck](http://www.struck.de/)  [SPDevices](https://spdevices.com/)   [ApisSys](http://www.apissys.com/)  [licel](http://licel.com/)  [北京星烁华创](http://www.fcctec.com/)   [LATTICE](http://www.latticesemi.com/)   [MICROCHIP](http://www.microchip.com/)
+[keysight](https://www.keysight.com/)   [struck](http://www.struck.de/)  [SPDevices](https://spdevices.com/)   [ApisSys](http://www.apissys.com/)  [licel](http://licel.com/)  [北京星烁华创](http://www.fcctec.com/)   [LATTICE](http://www.latticesemi.com/)   [MICROCHIP](http://www.microchip.com/)   [labzy](http://www.labzy.com/)
 [RS-online](http://china.rs-online.com/web/)   
 
 ----
@@ -57,7 +57,7 @@ footer: true
 ----
 
 **论坛**  
-[德州仪器论坛](http://www.deyisupport.com/)  [电子发烧友](http://www.elecfans.com/)  
+[德州仪器论坛](http://www.deyisupport.com/)  [电子发烧友](http://www.elecfans.com/)  [yolinux](http://www.yolinux.com/)
 
 ----
 

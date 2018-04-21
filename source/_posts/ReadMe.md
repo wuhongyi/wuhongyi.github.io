@@ -31,11 +31,12 @@ tags: []
 [Hardware Note](http://wuhongyi.cn/HardwareNote)
 [ROOT Note](http://wuhongyi.cn/ROOTNote)
 [Python Note](http://wuhongyi.cn/PythonNote)
-[HTML Note](http://wuhongyi.cn/HTMLNote)
 [FPGA Note](http://wuhongyi.cn/FPGANote/)
+[CGI Note](http://wuhongyi.cn/CGINote/)
 [Qt Note(未更新上传)](http://wuhongyi.cn/QtNote/)
 [Geant4 Note(未更新上传)](http://wuhongyi.cn/Geant4Note/)
 [C++ Note(大量未更新上传)](http://wuhongyi.cn/CPlusPlusNote/)
+[HTML Note](http://wuhongyi.cn/HTMLNote)
 [Analysis 不公开](https://github.com/wuhongyi/AnalysisNote/)
 
 
