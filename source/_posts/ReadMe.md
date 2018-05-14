@@ -43,7 +43,7 @@ tags: []
 
 **PKU DAQ源码**
 
-*XIA Pixie16 RevF 暂不公开* ([XIA Pixie16 RevF](https://github.com/wuhongyi/PKU_Pixie16RevF_V1))
+*XIA Pixie16 RevF 暂不公开* ([XIA Pixie16 RevF](https://github.com/wuhongyi/PKUXIADAQ))
 [XIA Pixie Net](https://github.com/wuhongyi/PKUXIAPixieNet)
 [CAEN Desktop Digitizer](https://github.com/wuhongyi/PKU_CAENDesktopDigitizer)
 [CAEN V1724 Digitizer](https://github.com/wuhongyi/CAENV1724Digitizer)
