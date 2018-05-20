@@ -13,9 +13,9 @@ footer: true
 ;; Author: Hongyi Wu(吴鸿毅)
 ;; Email: wuhongyi@qq.com 
 ;; Created: 五 6月 23 20:30:32 2017 (+0800)
-;; Last-Updated: 四 5月  3 22:37:05 2018 (+0800)
+;; Last-Updated: 日 5月 20 22:01:59 2018 (+0800)
 ;;           By: Hongyi Wu(吴鸿毅)
-;;     Update #: 30
+;;     Update #: 31
 ;; URL: http://wuhongyi.cn -->
 
 
@@ -72,7 +72,7 @@ footer: true
 ----
 
 **未分类**  
-[C++ shell](http://cpp.sh/)  [微云](http://www.weiyun.com/)  [github](https://github.com/)  [百度学术](http://xueshu.baidu.com/)  
+[C++ shell](http://cpp.sh/)  [微云](http://www.weiyun.com/)  [github](https://github.com/)  [百度学术](http://xueshu.baidu.com/)  [pCloud](https://my.pcloud.com/)
 
 [IntenseDebate](https://intensedebate.com/)
 
