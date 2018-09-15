@@ -154,6 +154,11 @@ hexo version
 $ gitbook -V
 ```
 
+更新到gitbook的最新版本
+```
+gitbook update
+```
+
 新建 gitbook
 
 ```
@@ -161,6 +166,8 @@ $ gitbook -V
 gitbook init Gitbook
 gitbook serve [-p port] <Pathto>/Gitbook
 ```
+
+
 
 
 <br />
