@@ -107,6 +107,46 @@ deploy:
   branch: master
 ~~~
 
+## 扩展插件
+
+### hexo-blog-encrypt
+
+> https://github.com/MikeCoder/hexo-blog-encrypt/blob/master/ReadMe.zh.md
+
+- 在 hexo 根目录的 package.json 中添加 '"hexo-blog-encrypt": "1.1.*"' 依赖
+- 然后执行 npm install 命令
+
+在 _config.yml 中启用该插件
+```
+# Security
+##
+encrypt:
+    enable: true
+    default_abstract: the content has been encrypted, enter the password to read.</br>
+    default_message: Please enter the password to read.	
+```
+
+## hexo升级
+
+查看哪些需要升级
+```
+npm outdated
+```
+
+根据提示的版本修改一下 package.json 文件  
+
+修改好了以后，就 npm 更新一下：
+```
+npm install --save
+```
+
+运行 Hexo 看看效果
+```
+hexo version
+```
+
+
+
 ## gitbook 制作
 得先安装 npm nodejs
 ```

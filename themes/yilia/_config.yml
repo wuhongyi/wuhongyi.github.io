@@ -52,10 +52,11 @@ tagcloud: true
 #friends: false
 #开启——
 friends:
-  PekingUniversity: http://http://www.pku.edu.cn/
+  PekingUniversity: http://www.pku.edu.cn/
   Geant4: http://geant4.cern.ch/
   ROOT: http://root.cern.ch/drupal/
   C++: http://www.cplusplus.com/
+  李会: http://lihui-snippets.cn/
 
 #是否开启“关于我”。
 #不开启——

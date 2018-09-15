@@ -67,6 +67,19 @@ pagination_dir: page
 theme: yilia  #yilia next
 #yilia landscape
 
+
+
+
+# Security
+##
+encrypt:
+    enable: true
+    default_abstract: the content has been encrypted, enter the password to read.</br>
+    default_message: Please enter the password to read.
+
+
+
+
 # Deployment
 ## Docs: http://hexo.io/docs/deployment.html
 deploy:
