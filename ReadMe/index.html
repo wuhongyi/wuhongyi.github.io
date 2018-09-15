@@ -13,7 +13,7 @@
 <meta property="og:site_name" content="Hongyi Wu(吴鸿毅)">
 <meta property="og:description" content="&amp;#160; &amp;#160; &amp;#160; &amp;#160;Welcome to Hongyi Wu(吴鸿毅) blog! If you have any problems when using my blog, you can ask me for email: wuhongyi@qq.com / wuhongyi@pku.edu.cn.
 &amp;#160; &amp;#160; &amp;#160; &amp;#160;1987">
-<meta property="og:updated_time" content="2018-09-15T01:15:14.053Z">
+<meta property="og:updated_time" content="2018-09-15T01:55:12.599Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Hello ! Read Me.">
 <meta name="twitter:description" content="&amp;#160; &amp;#160; &amp;#160; &amp;#160;Welcome to Hongyi Wu(吴鸿毅) blog! If you have any problems when using my blog, you can ask me for email: wuhongyi@qq.com / wuhongyi@pku.edu.cn.
@@ -127,13 +127,15 @@
 				<section class="switch-part switch-part3">
 					<div id="js-friends">
 					
-			          <a target="_blank" class="main-nav-link switch-friends-link" href="http://http://www.pku.edu.cn/">PekingUniversity</a>
+			          <a target="_blank" class="main-nav-link switch-friends-link" href="http://www.pku.edu.cn/">PekingUniversity</a>
 			        
 			          <a target="_blank" class="main-nav-link switch-friends-link" href="http://geant4.cern.ch/">Geant4</a>
 			        
 			          <a target="_blank" class="main-nav-link switch-friends-link" href="http://root.cern.ch/drupal/">ROOT</a>
 			        
 			          <a target="_blank" class="main-nav-link switch-friends-link" href="http://www.cplusplus.com/">C++</a>
+			        
+			          <a target="_blank" class="main-nav-link switch-friends-link" href="http://lihui-snippets.cn/">李会</a>
 			        
 			        </div>
 				</section>
@@ -249,6 +251,14 @@
 <p>部署提示找不到git(在Hexo 3.0版本后deploy git 被分开的，所以需要安装):<br><figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm <span class="operator"><span class="keyword">install</span> hexo-deployer-git <span class="comment">--save</span></span></span><br></pre></td></tr></table></figure></p>
 <hr>
 <p>部署的时候执行：hexo deploy 命令行没有任何输出，也没有错误。<br>解决办法：<br>在部署的_config.yml文件中，找到deploy:标签，在每个冒号后面必须要空格，否则就会出现上述问题。我的配置如下：<br><figure class="highlight less"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="attribute">deploy</span>:</span><br><span class="line">  <span class="attribute">type</span>: git</span><br><span class="line">  <span class="attribute">repository</span>: git<span class="variable">@github</span>.<span class="attribute">com</span>:wuhongyi/wuhongyi.github.io.git</span><br><span class="line">  <span class="attribute">branch</span>: master</span><br></pre></td></tr></table></figure></p>
+<h2 id="扩展插件">扩展插件</h2><h3 id="hexo-blog-encrypt">hexo-blog-encrypt</h3><blockquote>
+<p><a href="https://github.com/MikeCoder/hexo-blog-encrypt/blob/master/ReadMe.zh.md" target="_blank" rel="external">https://github.com/MikeCoder/hexo-blog-encrypt/blob/master/ReadMe.zh.md</a></p>
+</blockquote>
+<ul>
+<li>在 hexo 根目录的 package.json 中添加 ‘“hexo-blog-encrypt”: “1.1.*”‘ 依赖</li>
+<li>然后执行 npm install 命令</li>
+</ul>
+<p>在 _config.yml 中启用该插件<br><figure class="highlight livecodeserver"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># Security</span></span><br><span class="line"><span class="comment">##</span></span><br><span class="line"><span class="built_in">encrypt</span>:</span><br><span class="line">    enable: <span class="constant">true</span></span><br><span class="line">    default_abstract: <span class="operator">the</span> content has been encrypted, enter <span class="operator">the</span> password <span class="built_in">to</span> <span class="built_in">read</span>.&lt;/br&gt;</span><br><span class="line">    default_message: Please enter <span class="operator">the</span> password <span class="built_in">to</span> <span class="built_in">read</span>.</span><br></pre></td></tr></table></figure></p>
 <h2 id="gitbook_制作">gitbook 制作</h2><p>得先安装 npm nodejs<br><figure class="highlight crystal"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># npm install -g gitbook-cli</span></span><br><span class="line"><span class="variable">$ </span>gitbook -<span class="constant">V</span></span><br></pre></td></tr></table></figure></p>
 <p>新建 gitbook</p>
 <figure class="highlight stylus"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">//在当前路径下新建Gitbook文件夹，并在里面生成README.md SUMMARY.md 文件</span></span><br><span class="line">gitbook init Gitbook</span><br><span class="line">gitbook serve [-<span class="tag">p</span> port] &lt;Pathto&gt;/Gitbook</span><br></pre></td></tr></table></figure>
