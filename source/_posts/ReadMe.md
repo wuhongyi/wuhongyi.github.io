@@ -33,6 +33,7 @@ tags: []
 [Geant4 Note](http://wuhongyi.cn/Geant4Note/)
 [Python Note](http://wuhongyi.cn/PythonNote)
 [FPGA Note](http://wuhongyi.cn/FPGANote/)
+[Neutron Simulation Note](http://wuhongyi.cn/NeutronSimulationNote/)
 [CGI Note](http://wuhongyi.cn/CGINote/)
 [TCL Note](http://wuhongyi.cn/TCLNote/)
 [HTML Note](http://wuhongyi.cn/HTMLNote)
@@ -152,14 +153,16 @@ hexo version
 ```
 # npm install -g gitbook-cli
 $ gitbook -V
+npm install gitbook-plugin-mermaid   流程图
+npm install --save gitbook-plugin-anchor-navigation   锚点导航
 ```
 
-更新到gitbook的最新版本
+### 更新到gitbook的最新版本
 ```
 gitbook update
 ```
 
-新建 gitbook
+### 新建 gitbook
 
 ```
 //在当前路径下新建Gitbook文件夹，并在里面生成README.md SUMMARY.md 文件
@@ -167,9 +170,16 @@ gitbook init Gitbook
 gitbook serve [-p port] <Pathto>/Gitbook
 ```
 
+### 插件 book.json
 
+新建一个 book.json 文件，可以配置网站信息、在 plugins 和 pluginsConfig 字段添加插件等。
+
+```
+gitbook install ./
+```
+不要忘记这步，根目录 node_modules 文件下能看到安装那些插件。
 
 
 <br />
 ----
-**Update: 5. Last-Modified: 2017-07-28 16:15**
+**Update: 9. Last-Modified: 2018-09-15 12:11**
