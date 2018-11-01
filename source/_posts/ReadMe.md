@@ -44,11 +44,11 @@ tags: []
 
 **PKU DAQ源码**
 
-*XIA Pixie16 RevF 暂不公开* ([XIA Pixie16 RevF](https://github.com/wuhongyi/PKUXIADAQ))
+[XIA Pixie16 DAQ](https://github.com/wuhongyi/PKUXIADAQ)
 [XIA Pixie Net](https://github.com/wuhongyi/PKUXIAPixieNet)
 [CAEN Desktop Digitizer](https://github.com/wuhongyi/PKU_CAENDesktopDigitizer)
 [CAEN V1724 Digitizer](https://github.com/wuhongyi/CAENV1724Digitizer)
-*VME DAQ 暂不公开* ([CAEN VME](https://github.com/wuhongyi/VMEDAQ))
+[CAEN VME](https://github.com/wuhongyi/VMEDAQ)
 
 *HEU CAMAC DAQ 暂不公开* ([HEU CAMAC](https://github.com/wuhongyi/HEUCAMAC))
 

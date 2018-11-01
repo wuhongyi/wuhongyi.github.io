@@ -13,9 +13,9 @@ footer: true
 ;; Author: Hongyi Wu(吴鸿毅)
 ;; Email: wuhongyi@qq.com 
 ;; Created: 五 6月 23 20:30:32 2017 (+0800)
-;; Last-Updated: 六 9月 15 09:07:44 2018 (+0800)
+;; Last-Updated: 三 10月 31 15:12:18 2018 (+0800)
 ;;           By: Hongyi Wu(吴鸿毅)
-;;     Update #: 51
+;;     Update #: 52
 ;; URL: http://wuhongyi.cn -->
 
 
@@ -68,6 +68,8 @@ footer: true
 
 **生活**  
 [顺丰速运](http://www.sf-express.com/)  [支付宝](http://www.alipay.com/)  [小米官网](http://www.xiaomi.com/)  [铁路客服中心](http://www.12306.cn/mormhweb/)  [淘宝网](http://www.taobao.com/)  [中国农业银行](http://www.abchina.com/)  [京东商城](http://www.jd.com/)  
+
+[捷配PCB](https://www.jiepei.com/)
 
 ----
 
