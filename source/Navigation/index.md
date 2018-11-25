@@ -13,9 +13,9 @@ footer: true
 ;; Author: Hongyi Wu(吴鸿毅)
 ;; Email: wuhongyi@qq.com 
 ;; Created: 五 6月 23 20:30:32 2017 (+0800)
-;; Last-Updated: 日 11月 18 13:30:12 2018 (+0800)
+;; Last-Updated: 日 11月 25 09:34:33 2018 (+0800)
 ;;           By: Hongyi Wu(吴鸿毅)
-;;     Update #: 53
+;;     Update #: 54
 ;; URL: http://wuhongyi.cn -->
 
 
@@ -79,6 +79,8 @@ footer: true
 [IntenseDebate](https://intensedebate.com/)  [S. V. Paulauskas](https://www.projectscience.tech/)  [Christian](http://people.physics.tamu.edu/christian/links.html)  
 
 [GRIFFIN](https://griffin.triumf.ca/index.html)  [GO4](https://www.gsi.de/en/work/research/experiment_electronics/data_processing/data_analysis/the_go4_home_page.htm)
+
+[glances](https://nicolargo.github.io/glances/)
 
 ----
 
