@@ -11,7 +11,7 @@ tags: []
 ## 常用配置
 
 [Hongyi Wu Github](https://github.com/wuhongyi)
-*积累程序包源码暂不公开* ([Code Project](https://github.com/wuhongyi/CodeProject))
+*程序包源码暂不公开* ([Code Project](https://github.com/wuhongyi/CodeProject))
 
 **下载我的模板及配置**
 [系统安装之后自动配置软件脚本](https://github.com/wuhongyi/BasicConfiguration)
@@ -42,15 +42,19 @@ tags: []
 [Analysis 不公开](https://github.com/wuhongyi/AnalysisNote/)
 
 
-**PKU DAQ源码**
+**PKU DAQ源码/固件**
 
 [XIA Pixie16 DAQ](https://github.com/wuhongyi/PKUXIADAQ)
 [XIA Pixie Net](https://github.com/wuhongyi/PKUXIAPixieNet)
 [CAEN Desktop Digitizer](https://github.com/wuhongyi/PKU_CAENDesktopDigitizer)
 [CAEN V1724 Digitizer](https://github.com/wuhongyi/CAENV1724Digitizer)
 [CAEN VME](https://github.com/wuhongyi/VMEDAQ)
+[CAEN DT5495](http://wuhongyi.cn/CAEN_DT5495/)
+[XIA MZTIO](https://github.com/wuhongyi/MZTIO)
 
 *HEU CAMAC DAQ 暂不公开* ([HEU CAMAC](https://github.com/wuhongyi/HEUCAMAC))
+*暂不公开* ([PCIE](https://github.com/wuhongyi/PCIE))
+*暂不公开* ([LUPO](https://github.com/wuhongyi/LUPO))
 
 
 **其它**
@@ -58,7 +62,7 @@ tags: []
 
 [FFTW](https://github.com/wuhongyi/FFTW)
 [CSM计算](https://github.com/wuhongyi/CSM)
-[PB-5/MSCF远程控制界面(未开发完成)](https://github.com/wuhongyi/SerialCommunications)
+[PB-5/MSCF远程控制界面(未完成)](https://github.com/wuhongyi/SerialCommunications)
 
 
 
