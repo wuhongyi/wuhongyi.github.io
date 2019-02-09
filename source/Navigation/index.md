@@ -13,9 +13,9 @@ footer: true
 ;; Author: Hongyi Wu(吴鸿毅)
 ;; Email: wuhongyi@qq.com 
 ;; Created: 五 6月 23 20:30:32 2017 (+0800)
-;; Last-Updated: 一 1月 28 22:39:15 2019 (+0800)
+;; Last-Updated: 六 2月  9 17:11:36 2019 (+0800)
 ;;           By: Hongyi Wu(吴鸿毅)
-;;     Update #: 57
+;;     Update #: 58
 ;; URL: http://wuhongyi.cn -->
 
 
@@ -80,7 +80,7 @@ footer: true
 
 [GRIFFIN](https://griffin.triumf.ca/index.html)  [GO4](https://www.gsi.de/en/work/research/experiment_electronics/data_processing/data_analysis/the_go4_home_page.htm)
 
-[glances](https://nicolargo.github.io/glances/)
+[glances](https://nicolargo.github.io/glances/)  [Dash](https://plot.ly/products/dash/)
 
 ----
 
