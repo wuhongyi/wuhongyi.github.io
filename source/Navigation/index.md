@@ -13,9 +13,9 @@ footer: true
 ;; Author: Hongyi Wu(吴鸿毅)
 ;; Email: wuhongyi@qq.com 
 ;; Created: 五 6月 23 20:30:32 2017 (+0800)
-;; Last-Updated: 六 2月  9 23:35:14 2019 (+0800)
+;; Last-Updated: 五 3月  1 21:20:55 2019 (+0800)
 ;;           By: Hongyi Wu(吴鸿毅)
-;;     Update #: 59
+;;     Update #: 60
 ;; URL: http://wuhongyi.cn -->
 
 
@@ -47,7 +47,7 @@ footer: true
 ----
 
 **FPGA**
-[fpga4student](http://www.fpga4student.com/)   [opencores](https://opencores.org/)   [SILICON](https://www.silabs.com)   [XILLYBUS](http://xillybus.com/)
+[fpga4student](http://www.fpga4student.com/)   [opencores](https://opencores.org/)   [SILICON](https://www.silabs.com)   [XILLYBUS](http://xillybus.com/)   [zedboard](http://zedboard.org/)
 
 ----
 
