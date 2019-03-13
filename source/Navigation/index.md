@@ -13,9 +13,9 @@ footer: true
 ;; Author: Hongyi Wu(吴鸿毅)
 ;; Email: wuhongyi@qq.com 
 ;; Created: 五 6月 23 20:30:32 2017 (+0800)
-;; Last-Updated: 五 3月  1 21:20:55 2019 (+0800)
+;; Last-Updated: 三 3月 13 10:49:56 2019 (+0800)
 ;;           By: Hongyi Wu(吴鸿毅)
-;;     Update #: 60
+;;     Update #: 62
 ;; URL: http://wuhongyi.cn -->
 
 
@@ -57,7 +57,7 @@ footer: true
 ----
 
 **论坛**  
-[德州仪器论坛](http://www.deyisupport.com/)  [电子发烧友](http://www.elecfans.com/)  [yolinux](http://www.yolinux.com/)  [root-forum](https://root-forum.cern.ch/)
+[德州仪器论坛](http://www.deyisupport.com/)  [电子发烧友](http://www.elecfans.com/)  [yolinux](http://www.yolinux.com/)  [root-forum](https://root-forum.cern.ch/)   [XilinxWiki](https://xilinx-wiki.atlassian.net/wiki/spaces/A/overview)
 
 ----
 
@@ -80,7 +80,7 @@ footer: true
 
 [GRIFFIN](https://griffin.triumf.ca/index.html)  [GO4](https://www.gsi.de/en/work/research/experiment_electronics/data_processing/data_analysis/the_go4_home_page.htm)
 
-[glances](https://nicolargo.github.io/glances/)  [Dash](https://plot.ly/products/dash/)  [BetaShape](http://www.nucleide.org/logiciels.htm)
+[glances](https://nicolargo.github.io/glances/)  [Dash](https://plot.ly/products/dash/)  [DashDAQ](https://www.dashdaq.io/)  [BetaShape](http://www.nucleide.org/logiciels.htm)
 
 ----
 
