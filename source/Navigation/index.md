@@ -13,13 +13,13 @@ footer: true
 ;; Author: Hongyi Wu(吴鸿毅)
 ;; Email: wuhongyi@qq.com 
 ;; Created: 五 6月 23 20:30:32 2017 (+0800)
-;; Last-Updated: 六 4月 27 03:31:29 2019 (+0800)
+;; Last-Updated: 一 5月 13 14:21:32 2019 (+0800)
 ;;           By: Hongyi Wu(吴鸿毅)
-;;     Update #: 65
+;;     Update #: 66
 ;; URL: http://wuhongyi.cn -->
 
 
-[北大首页](http://www.pku.edu.cn/)   [北大图书馆](http://www.lib.pku.edu.cn/portal/)   [北大物院](http://www.phy.pku.edu.cn/)  [北京熠新科技](http://www.yixintest.cn/h-pr--0_659_5.html)
+[北大首页](http://www.pku.edu.cn/)   [北大图书馆](http://www.lib.pku.edu.cn/portal/)   [北大物院](http://www.phy.pku.edu.cn/)  [财务系统](http://cwfw.pku.edu.cn)   [北京熠新科技](http://www.yixintest.cn/h-pr--0_659_5.html)
 
 ----
 
