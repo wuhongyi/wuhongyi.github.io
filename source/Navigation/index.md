@@ -13,9 +13,9 @@ footer: true
 ;; Author: Hongyi Wu(吴鸿毅)
 ;; Email: wuhongyi@qq.com 
 ;; Created: 五 6月 23 20:30:32 2017 (+0800)
-;; Last-Updated: 二 5月 14 13:49:05 2019 (+0800)
+;; Last-Updated: 五 5月 17 15:46:39 2019 (+0800)
 ;;           By: Hongyi Wu(吴鸿毅)
-;;     Update #: 68
+;;     Update #: 69
 ;; URL: http://wuhongyi.cn -->
 
 
@@ -62,7 +62,8 @@ footer: true
 ----
 
 **教程**
-[极客学院](http://www.jikexueyuan.com/)  [latex](http://www.latextemplates.com/)  [phy410-505](http://www.physics.buffalo.edu/phy410-505/contents/index.html)  [MITG4](http://geant4.slac.stanford.edu/MIT2015/MIT2015_Agenda.html)  [SLACG4](http://geant4.slac.stanford.edu/SLACTutorial14/Agenda.html)  [菜鸟教程](http://www.runoob.com/)  [Git](http://git-scm.com/book/zh/v2)  [MQL5](https://www.mql5.com/zh/docs)  [Matlab](http://cn.mathworks.com/help/index.html)  [在线手册](http://shouce.jb51.net/)  [Citavi](http://www.citavi.com/sub/manual5/en/index.html)  [C++reference](http://naipc.uchicago.edu/2015/ref/cppreference/en/cpp.html)   [bootcss](https://v3.bootcss.com/)   [jQuery](https://www.jquery123.com/)
+[极客学院](http://www.jikexueyuan.com/)  [latex](http://www.latextemplates.com/)  [phy410-505](http://www.physics.buffalo.edu/phy410-505/contents/index.html)  [MITG4](http://geant4.slac.stanford.edu/MIT2015/MIT2015_Agenda.html)  [SLACG4](http://geant4.slac.stanford.edu/SLACTutorial14/Agenda.html)  [菜鸟教程](http://www.runoob.com/)  [Git](http://git-scm.com/book/zh/v2)  [MQL5](https://www.mql5.com/zh/docs)  [Matlab](http://cn.mathworks.com/help/index.html)  [在线手册](http://shouce.jb51.net/)  [Citavi](http://www.citavi.com/sub/manual5/en/index.html)  [C++reference](http://naipc.uchicago.edu/2015/ref/cppreference/en/cpp.html)   [bootcss](https://v3.bootcss.com/)   [jQuery](https://www.jquery123.com/)   [DataTables](http://www.datatables.club/)
+
 
 ----
 
