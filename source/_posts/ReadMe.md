@@ -36,7 +36,7 @@ tags: []
 [Neutron Simulation Note](http://wuhongyi.cn/NeutronSimulationNote/)
 [CGI Note](http://wuhongyi.cn/CGINote/)
 [TCL Note](http://wuhongyi.cn/TCLNote/)
-[HTML Note](http://wuhongyi.cn/HTMLNote)
+[Web Note](http://wuhongyi.cn/WebNote)
 [Qt Note(未更新上传)](http://wuhongyi.cn/QtNote/)
 [C++ Note(未更新上传)](http://wuhongyi.cn/CPlusPlusNote/)
 [Analysis 不公开](https://github.com/wuhongyi/AnalysisNote/)
