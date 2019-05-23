@@ -13,9 +13,9 @@ footer: true
 ;; Author: Hongyi Wu(吴鸿毅)
 ;; Email: wuhongyi@qq.com 
 ;; Created: 五 6月 23 20:30:32 2017 (+0800)
-;; Last-Updated: 六 5月 18 13:59:39 2019 (+0800)
+;; Last-Updated: 四 5月 23 13:45:55 2019 (+0800)
 ;;           By: Hongyi Wu(吴鸿毅)
-;;     Update #: 70
+;;     Update #: 71
 ;; URL: http://wuhongyi.cn -->
 
 
@@ -30,6 +30,10 @@ footer: true
 
 **文献检索**  
 [springer](http://link.springer.com/)  [arxiv](http://arxiv.org/)  [PR](http://journals.aps.org/)  [AIP](http://aip.scitation.org/)  [BOOKSC](http://zh.booksc.org/)  [ScienceDirect](http://www.sciencedirect.com/)  [IEEEXplore](http://ieeexplore.ieee.org/)  [CNKI](http://www.cnki.net/)  [WebOfScience](http://apps.webofknowledge.com/)  
+
+**期刊**
+
+[核技术](http://www.j.sinap.ac.cn/nst/EN/article/showHotArticle.do)
 
 ----
 
