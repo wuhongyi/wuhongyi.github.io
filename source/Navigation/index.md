@@ -13,9 +13,9 @@ footer: true
 ;; Author: Hongyi Wu(吴鸿毅)
 ;; Email: wuhongyi@qq.com 
 ;; Created: 五 6月 23 20:30:32 2017 (+0800)
-;; Last-Updated: 五 5月 31 16:33:50 2019 (+0800)
+;; Last-Updated: 日 7月 14 20:58:34 2019 (+0800)
 ;;           By: Hongyi Wu(吴鸿毅)
-;;     Update #: 72
+;;     Update #: 75
 ;; URL: http://wuhongyi.cn -->
 
 
@@ -51,7 +51,7 @@ footer: true
 ----
 
 **FPGA**
-[fpga4student](http://www.fpga4student.com/)   [opencores](https://opencores.org/)   [SILICON](https://www.silabs.com)   [XILLYBUS](http://xillybus.com/)   [zedboard](http://zedboard.org/)
+[fpga4student](http://www.fpga4student.com/)   [opencores](https://opencores.org/)   [SILICON](https://www.silabs.com)   [XILLYBUS](http://xillybus.com/)   [zedboard](http://zedboard.org/)   [white-rabbit](https://www.ohwr.org/projects/white-rabbit)   [OPEN HARDWARE](https://ohwr.org/welcome)
 
 ----
 
@@ -61,7 +61,7 @@ footer: true
 ----
 
 **论坛**  
-[德州仪器论坛](http://www.deyisupport.com/)  [电子发烧友](http://www.elecfans.com/)  [yolinux](http://www.yolinux.com/)  [root-forum](https://root-forum.cern.ch/)  [geant4-forum](https://geant4-forum.web.cern.ch/) [XilinxWiki](https://xilinx-wiki.atlassian.net/wiki/spaces/A/overview)
+[德州仪器论坛](http://www.deyisupport.com/)  [电子发烧友](http://www.elecfans.com/)  [yolinux](http://www.yolinux.com/)  [root-forum](https://root-forum.cern.ch/)  [geant4-forum](https://geant4-forum.web.cern.ch/) [XilinxWiki](https://xilinx-wiki.atlassian.net/wiki/spaces/A/overview)   [C语言中文网](http://c.biancheng.net/)
 
 ----
 
