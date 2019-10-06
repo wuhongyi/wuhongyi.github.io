@@ -13,9 +13,9 @@ footer: true
 ;; Author: Hongyi Wu(吴鸿毅)
 ;; Email: wuhongyi@qq.com 
 ;; Created: 五 6月 23 20:30:32 2017 (+0800)
-;; Last-Updated: 日 7月 14 20:58:34 2019 (+0800)
+;; Last-Updated: 日 10月  6 13:28:36 2019 (+0800)
 ;;           By: Hongyi Wu(吴鸿毅)
-;;     Update #: 75
+;;     Update #: 77
 ;; URL: http://wuhongyi.cn -->
 
 
@@ -46,7 +46,7 @@ footer: true
 ----
 
 **软件**
-[GEANT4](http://geant4.web.cern.ch/)  [ROOT](http://root.cern.ch/drupal/)  [VMC](https://root.cern.ch/vmc)  [C++](http://www.cplusplus.com/)  [radware](http://radware.phy.ornl.gov/)  [Garfield++](http://garfieldpp.web.cern.ch/garfieldpp/)  [FREYA](https://nuclear.llnl.gov/simulation/)  [mingw](http://www.mingw.org/)  [typora](https://www.typora.io/)  [ZeroMQ](http://zeromq.org/)  [lighttpd](http://www.lighttpd.net/)  [GoogleTest](https://github.com/google/googletest)   [DVT Eclipse](https://www.dvteclipse.com/)   [WinDriver](https://www.jungo.com/st/products/windriver/)  [QT](http://doc.qt.io/)   [CSS](http://controlsystemstudio.org/)
+[GEANT4](http://geant4.web.cern.ch/)  [ROOT](http://root.cern.ch/drupal/)  [VMC](https://root.cern.ch/vmc)  [C++](http://www.cplusplus.com/)  [radware](http://radware.phy.ornl.gov/)  [Garfield++](http://garfieldpp.web.cern.ch/garfieldpp/)  [FREYA](https://nuclear.llnl.gov/simulation/)  [mingw](http://www.mingw.org/)  [typora](https://www.typora.io/)  [ZeroMQ](http://zeromq.org/)  [lighttpd](http://www.lighttpd.net/)  [GoogleTest](https://github.com/google/googletest)   [DVT Eclipse](https://www.dvteclipse.com/)   [WinDriver](https://www.jungo.com/st/products/windriver/)  [QT](http://doc.qt.io/)   [CSS](http://controlsystemstudio.org/)   [WaveDrom](https://wavedrom.com/)
 
 ----
 
@@ -85,7 +85,7 @@ footer: true
 
 [GRIFFIN](https://griffin.triumf.ca/index.html)  [GO4](https://www.gsi.de/en/work/research/experiment_electronics/data_processing/data_analysis/the_go4_home_page.htm)
 
-[glances](https://nicolargo.github.io/glances/)  [django](https://www.djangoproject.com/)   [Dash](https://plot.ly/products/dash/)  [DashDAQ](https://www.dashdaq.io/)  [BetaShape](http://www.nucleide.org/logiciels.htm)
+[glances](https://nicolargo.github.io/glances/)  [django](https://www.djangoproject.com/)   [Dash](https://plot.ly/products/dash/)  [DashDAQ](https://www.dashdaq.io/)  [BetaShape](http://www.nucleide.org/logiciels.htm)   [BIBBASE](https://bibbase.org/)
 
 ----
 
