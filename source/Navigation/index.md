@@ -13,9 +13,9 @@ footer: true
 ;; Author: Hongyi Wu(吴鸿毅)
 ;; Email: wuhongyi@qq.com 
 ;; Created: 五 6月 23 20:30:32 2017 (+0800)
-;; Last-Updated: 四 11月 14 20:48:26 2019 (+0800)
+;; Last-Updated: 二 11月 19 22:04:29 2019 (+0800)
 ;;           By: Hongyi Wu(吴鸿毅)
-;;     Update #: 79
+;;     Update #: 80
 ;; URL: http://wuhongyi.cn -->
 
 
@@ -39,7 +39,7 @@ footer: true
 
 **插件、探测器**  
 [analog](http://www.analog.com/cn/index.html)  [TEXAS](http://www.ti.com.cn/)   [hamamatsu](http://www.hamamatsu.com/us/en/index.html)  [saint-gobain](http://www.crystals.saint-gobain.com/)  [micronsemiconductor](http://www.micronsemiconductor.co.uk/)  [microndiamond](http://www.microndiamond.co.uk/)  [CANBERRA](http://www.canberra.com/) [MIRION](https://www.mirion.com/)  [ET-Enterprises](http://www.et-enterprises.com/)  [PHOTONIS](http://www.photonis.com/)  [Cremat](http://www.cremat.com/)   [naicam-tech](http://www.naicam-tech.com/en/)   [clearpulse](http://www.clearpulse.co.jp/index.html)   [kromek](http://www.kromek.com/index.php)  [RD51](http://rd51-public.web.cern.ch/)  
-[wiener](http://www.wiener-d.com/)   [ORTEC](http://www.ortec-online.com/)  [PHILLIPS](http://www.phillipsscientific.com/)  [MESYTEC](http://www.mesytec.com/)  [TechnoAP](http://www.techno-ap.com/)  [CAEN](http://www.caen.it/) [sci-compiler](http://www.sci-compiler.com/) [XIA](http://www.xia.com/)  [XIAsupport](http://support.xia.com/)    [SkuTek](http://www.skutek.com/)
+[wiener](http://www.wiener-d.com/)   [ORTEC](http://www.ortec-online.com/)  [PHILLIPS](http://www.phillipsscientific.com/)  [MESYTEC](http://www.mesytec.com/)  [TechnoAP](http://www.techno-ap.com/)  [CAEN](http://www.caen.it/) [sci-compiler](http://www.sci-compiler.com/) [XIA](http://www.xia.com/)  [XIAsupport](http://support.xia.com/)    [XIApaper](https://www.xia.com/Papers/)    [SkuTek](http://www.skutek.com/)
 [keysight](https://www.keysight.com/)   [struck](http://www.struck.de/)  [SPDevices](https://spdevices.com/)   [ApisSys](http://www.apissys.com/)  [licel](http://licel.com/)  [北京星烁华创](http://www.fcctec.com/)   [LATTICE](http://www.latticesemi.com/)   [MICROCHIP](http://www.microchip.com/)   [labzy](http://www.labzy.com/)  [NOTICE](http://www.noticekorea.com/)  [abaco](https://www.abaco.com/)  [BRIDGEPORT](https://www.bridgeportinstruments.com/)   [fujidiamond](https://fujidiamond.jp/)   [Kaizuworks](http://www.kaizuworks.co.jp/)   [PMT](https://www.pmt-fl.com/)   [proxicision](https://www.proxivision.de/)
 [RS-online](http://china.rs-online.com/web/)   [DigiKey](https://www.digikey.com/)   [Mouser](https://www.mouser.com/)   [Newark](https://www.newark.com/)   [meritec](https://meritec.com/)    [Trenz Electronic](https://shop.trenz-electronic.de/en/)
 
