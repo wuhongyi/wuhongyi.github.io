@@ -45,16 +45,21 @@ tags: []
 **PKU DAQ源码/固件**
 
 [XIA Pixie16 DAQ](https://github.com/wuhongyi/PKUXIADAQ)
+[CAEN VME](https://github.com/wuhongyi/VMEDAQ)
+[CAEN DT5495](http://wuhongyi.cn/CAENx495/)
+[XIA MZTIO](https://github.com/wuhongyi/MZTIO)
 [XIA Pixie Net](https://github.com/wuhongyi/PKUXIAPixieNet)
 [CAEN Desktop Digitizer](https://github.com/wuhongyi/PKU_CAENDesktopDigitizer)
 [CAEN V1724 Digitizer](https://github.com/wuhongyi/CAENV1724Digitizer)
-[CAEN VME](https://github.com/wuhongyi/VMEDAQ)
-[CAEN DT5495](http://wuhongyi.cn/CAEN_DT5495/)
-[XIA MZTIO](https://github.com/wuhongyi/MZTIO)
 
-*HEU CAMAC DAQ 暂不公开* ([HEU CAMAC](https://github.com/wuhongyi/HEUCAMAC))
+
+*暂不公开* ([MZTIO firmware](https://github.com/wuhongyi/MZTIOfirmware))
+*暂不公开* ([CAEN DT5495](https://github.com/wuhongyi/CAEN_DT5495))
 *暂不公开* ([PCIE](https://github.com/wuhongyi/PCIE))
 *暂不公开* ([LUPO](https://github.com/wuhongyi/LUPO))
+*暂不公开* ([VHDL verilog 模板](https://github.com/wuhongyi/VHDLverilog))
+*暂不公开* ([HEU CAMAC DAQ](https://github.com/wuhongyi/HEUCAMAC))
+*暂不公开* ([TechnoAP APV85088104](https://github.com/wuhongyi/APV85088104))
 
 
 **其它**
