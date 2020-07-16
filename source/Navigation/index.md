@@ -13,9 +13,9 @@ footer: true
 ;; Author: Hongyi Wu(吴鸿毅)
 ;; Email: wuhongyi@qq.com 
 ;; Created: 五 6月 23 20:30:32 2017 (+0800)
-;; Last-Updated: 五 3月 20 22:09:57 2020 (+0800)
+;; Last-Updated: 四 7月 16 16:18:26 2020 (+0800)
 ;;           By: Hongyi Wu(吴鸿毅)
-;;     Update #: 83
+;;     Update #: 86
 ;; URL: http://wuhongyi.cn -->
 
 
@@ -39,7 +39,7 @@ footer: true
 
 **插件、探测器**  
 [analog](http://www.analog.com/cn/index.html)  [TEXAS](http://www.ti.com.cn/)   [hamamatsu](http://www.hamamatsu.com/us/en/index.html)  [saint-gobain](http://www.crystals.saint-gobain.com/)  [micronsemiconductor](http://www.micronsemiconductor.co.uk/)  [microndiamond](http://www.microndiamond.co.uk/)  [CANBERRA](http://www.canberra.com/) [MIRION](https://www.mirion.com/)  [ET-Enterprises](http://www.et-enterprises.com/)  [PHOTONIS](http://www.photonis.com/)  [Cremat](http://www.cremat.com/)   [naicam-tech](http://www.naicam-tech.com/en/)   [clearpulse](http://www.clearpulse.co.jp/index.html)   [kromek](http://www.kromek.com/index.php)  [RD51](http://rd51-public.web.cern.ch/)  
-[wiener](http://www.wiener-d.com/)   [ORTEC](http://www.ortec-online.com/)  [PHILLIPS](http://www.phillipsscientific.com/)  [MESYTEC](http://www.mesytec.com/)  [TechnoAP](http://www.techno-ap.com/)  [CAEN](http://www.caen.it/) [sci-compiler](http://www.sci-compiler.com/) [XIA](http://www.xia.com/)  [XIAsupport](http://support.xia.com/)    [XIApaper](https://www.xia.com/Papers/)    [SkuTek](http://www.skutek.com/)
+[wiener](http://www.wiener-d.com/)   [ORTEC](http://www.ortec-online.com/)  [PHILLIPS](http://www.phillipsscientific.com/)  [MESYTEC](http://www.mesytec.com/)  [TechnoAP](http://www.techno-ap.com/)  [CAEN](http://www.caen.it/) [sci-compiler](http://www.sci-compiler.com/) [XIA](http://www.xia.com/)  [XIAsupport](http://support.xia.com/)    [XIApaper](https://www.xia.com/Papers/)    [SITORO](https://southerninnovation.com/)    [SkuTek](http://www.skutek.com/)
 [keysight](https://www.keysight.com/)   [struck](http://www.struck.de/)  [SPDevices](https://spdevices.com/)   [ApisSys](http://www.apissys.com/)  [licel](http://licel.com/)  [北京星烁华创](http://www.fcctec.com/)   [LATTICE](http://www.latticesemi.com/)   [MICROCHIP](http://www.microchip.com/)   [labzy](http://www.labzy.com/)  [NOTICE](http://www.noticekorea.com/)  [abaco](https://www.abaco.com/)  [BRIDGEPORT](https://www.bridgeportinstruments.com/)   [fujidiamond](https://fujidiamond.jp/)   [Kaizuworks](http://www.kaizuworks.co.jp/)   [PMT](https://www.pmt-fl.com/)   [proxicision](https://www.proxivision.de/)
 [RS-online](http://china.rs-online.com/web/)   [DigiKey](https://www.digikey.com/)   [Mouser](https://www.mouser.com/)   [Newark](https://www.newark.com/)   [meritec](https://meritec.com/)    [Trenz Electronic](https://shop.trenz-electronic.de/en/)   [PHDS](http://www.phdsco.com/)
 
@@ -56,7 +56,7 @@ footer: true
 ----
 
 **数据查询**  
-[ENDFsearch](http://www.oecd-nea.org/janisweb/search/endf)  [NRV](http://nrv.jinr.ru/nrv/)  [NNDC](http://www.nndc.bnl.gov/)  [NeutronHP](https://www-nds.iaea.org/geant4/)  
+[ENDFsearch](http://www.oecd-nea.org/janisweb/search/endf)  [NRV](http://nrv.jinr.ru/nrv/)  [NNDC](http://www.nndc.bnl.gov/)  [NeutronHP](https://www-nds.iaea.org/geant4/)  [VME](http://www.interfacebus.com/Design_Connector_VME.html)   
 
 ----
 
@@ -81,7 +81,7 @@ footer: true
 **未分类**  
 [C++ shell](http://cpp.sh/)  [微云](http://www.weiyun.com/)  [github](https://github.com/)  [百度学术](http://xueshu.baidu.com/)  [pCloud](https://my.pcloud.com/)
 
-[IntenseDebate](https://intensedebate.com/)  [S. V. Paulauskas](https://www.projectscience.tech/)  [Christian](http://people.physics.tamu.edu/christian/links.html)   [TOH](https://terpconnect.umd.edu/~toh/spectrum/TOC.html)
+[IntenseDebate](https://intensedebate.com/)  [S. V. Paulauskas](https://www.projectscience.tech/)  [Christian](http://people.physics.tamu.edu/christian/links.html)   [TOH](https://terpconnect.umd.edu/~toh/spectrum/TOC.html)   [HiCARI](https://www.nishina.riken.jp/collaboration/SUNFLOWER/devices/hrarray/index.html)
 
 [GRIFFIN](https://griffin.triumf.ca/index.html)  [GO4](https://www.gsi.de/en/work/research/experiment_electronics/data_processing/data_analysis/the_go4_home_page.htm)
 

@@ -21,8 +21,9 @@ Hongyi wu(吴鸿毅)
 
 ## Education:
 
-    2011.9-2015.6 Harbin Engineering University  
-    2015.9-       Peking University
+    2011.9-2015.6 Harbin Engineering University(Bachelor of Engineering)  
+    2015.9-2020.6 Peking University(Doctor of Science)  
+	2020.7-       Peking University(postdoc)  
 
 ## Address:
 &#160; &#160; &#160; &#160;School of Physics,Peking University,Beijing,China
@@ -32,4 +33,4 @@ Hongyi wu(吴鸿毅)
 
 
 ----
-&#160; &#160; &#160; &#160; **Last-Modified: 2015-09-27 22:53**
+&#160; &#160; &#160; &#160; **Last-Modified: 2020-07-16 16:20**
