@@ -13,9 +13,9 @@ footer: true
 ;; Author: Hongyi Wu(吴鸿毅)
 ;; Email: wuhongyi@qq.com 
 ;; Created: 五 6月 23 20:30:32 2017 (+0800)
-;; Last-Updated: 四 7月 16 16:18:26 2020 (+0800)
+;; Last-Updated: 五 7月 31 08:59:57 2020 (+0800)
 ;;           By: Hongyi Wu(吴鸿毅)
-;;     Update #: 86
+;;     Update #: 87
 ;; URL: http://wuhongyi.cn -->
 
 
@@ -83,7 +83,7 @@ footer: true
 
 [IntenseDebate](https://intensedebate.com/)  [S. V. Paulauskas](https://www.projectscience.tech/)  [Christian](http://people.physics.tamu.edu/christian/links.html)   [TOH](https://terpconnect.umd.edu/~toh/spectrum/TOC.html)   [HiCARI](https://www.nishina.riken.jp/collaboration/SUNFLOWER/devices/hrarray/index.html)
 
-[GRIFFIN](https://griffin.triumf.ca/index.html)  [GO4](https://www.gsi.de/en/work/research/experiment_electronics/data_processing/data_analysis/the_go4_home_page.htm)
+[GRIFFIN](https://griffin.triumf.ca/index.html)  [GO4](https://www.gsi.de/en/work/research/experiment_electronics/data_processing/data_analysis/the_go4_home_page.htm)   [GS](https://wiki.anl.gov/gsdaq/)
 
 [glances](https://nicolargo.github.io/glances/)  [django](https://www.djangoproject.com/)   [Dash](https://plot.ly/products/dash/)  [DashDAQ](https://www.dashdaq.io/)  [BetaShape](http://www.nucleide.org/logiciels.htm)   [BIBBASE](https://bibbase.org/)
 
