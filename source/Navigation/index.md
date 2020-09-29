@@ -13,9 +13,9 @@ footer: true
 ;; Author: Hongyi Wu(吴鸿毅)
 ;; Email: wuhongyi@qq.com 
 ;; Created: 五 6月 23 20:30:32 2017 (+0800)
-;; Last-Updated: 五 7月 31 08:59:57 2020 (+0800)
+;; Last-Updated: 二 9月 29 17:10:08 2020 (+0800)
 ;;           By: Hongyi Wu(吴鸿毅)
-;;     Update #: 87
+;;     Update #: 88
 ;; URL: http://wuhongyi.cn -->
 
 
@@ -46,7 +46,7 @@ footer: true
 ----
 
 **软件**
-[GEANT4](http://geant4.web.cern.ch/)  [ROOT](http://root.cern.ch/drupal/)  [VMC](https://root.cern.ch/vmc)  [C++](http://www.cplusplus.com/)  [radware](http://radware.phy.ornl.gov/)  [Garfield++](http://garfieldpp.web.cern.ch/garfieldpp/)  [FREYA](https://nuclear.llnl.gov/simulation/)  [mingw](http://www.mingw.org/)  [typora](https://www.typora.io/)  [ZeroMQ](http://zeromq.org/)  [lighttpd](http://www.lighttpd.net/)  [GoogleTest](https://github.com/google/googletest)   [DVT Eclipse](https://www.dvteclipse.com/)   [WinDriver](https://www.jungo.com/st/products/windriver/)  [QT](http://doc.qt.io/)   [CSS](http://controlsystemstudio.org/)   [WaveDrom](https://wavedrom.com/)
+[GEANT4](http://geant4.web.cern.ch/)  [ROOT](http://root.cern.ch/drupal/)  [VMC](https://root.cern.ch/vmc)  [C++](http://www.cplusplus.com/)  [radware](http://radware.phy.ornl.gov/)  [Garfield++](http://garfieldpp.web.cern.ch/garfieldpp/)  [FREYA](https://nuclear.llnl.gov/simulation/)  [mingw](http://www.mingw.org/)  [typora](https://www.typora.io/)  [ZeroMQ](http://zeromq.org/)  [lighttpd](http://www.lighttpd.net/)  [GoogleTest](https://github.com/google/googletest)   [DVT Eclipse](https://www.dvteclipse.com/)   [WinDriver](https://www.jungo.com/st/products/windriver/)  [QT](http://doc.qt.io/)   [CSS](http://controlsystemstudio.org/)   [WaveDrom](https://wavedrom.com/)   [Geant4VirtualMachine](https://geant4.cenbg.in2p3.fr/)
 
 ----
 

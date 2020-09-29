@@ -27,15 +27,17 @@ tags: []
 **我的笔记**
 
 [Code Project And Tool](http://wuhongyi.cn/CodeProject)
-[DAQ Note](http://wuhongyi.cn/DAQNote)
-[Hardware Note](http://wuhongyi.cn/HardwareNote)
+[FPGA 在中低能实验核物理中的应用](http://wuhongyi.cn/FPGAinENP/)
 [ROOT Note](http://wuhongyi.cn/ROOTNote)
 [Geant4 Note](http://wuhongyi.cn/Geant4Note/)
+[C/C++ Note](http://wuhongyi.cn/c_cppNote/)
+
+[DAQ Note](http://wuhongyi.cn/DAQNote)
+[Hardware Note](http://wuhongyi.cn/HardwareNote)
 [Python Note](http://wuhongyi.cn/PythonNote)
 [FPGA Note](http://wuhongyi.cn/FPGANote/)
 [Neutron Simulation Note](http://wuhongyi.cn/NeutronSimulationNote/)
 [CGI Note](http://wuhongyi.cn/CGINote/)
-[C/C++ Note](http://wuhongyi.cn/c_cppNote/)
 [TCL Note](http://wuhongyi.cn/TCLNote/)
 [Web Note](http://wuhongyi.cn/WebNote)
 [Qt Note(未更新上传)](http://wuhongyi.cn/QtNote/)
